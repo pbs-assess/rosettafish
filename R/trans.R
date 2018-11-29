@@ -1,6 +1,8 @@
-data <- data.frame(english = c("A","B","C","D","E","F"),
+data.test <- data.frame(english = c("A","B","C","D","E","F"),
                    french = c("AA", "BB", "CC", "DD", "EE", "FF"),
                    stringsAsFactors = FALSE)
+
+data <- read.csv("data/terms.csv", header = TRUE, stringsAsFactors = FALSE)
 
 en <- function(txt, translate = TRUE){
   if(!translate)

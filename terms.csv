@@ -9,8 +9,8 @@ Mar,mar
 Apr,avr
 May,mai
 Jun,juin
-Jul,jui
-Aug,aout
+Jul,juil
+Aug,août
 Sep,sep
 Oct,oct
 Nov,nov
@@ -23,3 +23,20 @@ MSY,RMS
 BT,CF
 MW,CP
 GMA,ZGPF
+sex,sexe
+male,mâle
+female,femelle
+mean,moyenne
+median,médian
+equipment,équipement
+gear,engin
+fishing gear,engin peche
+year,annee
+spawn index,indice d'oeuf
+Reference point,
+Catch,Prise
+Catch,Capture
+CPUE,PUE
+weight-at-age,poids a l'age
+weight at age,poids a l'age
+age,age

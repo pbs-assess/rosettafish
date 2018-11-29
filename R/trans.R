@@ -1,5 +1,6 @@
-data <- tibble(english = c("A","B","C","D","E","F"),
-               french = c("AA", "BB", "CC", "DD", "EE", "FF"))
+data <- data.frame(english = c("A","B","C","D","E","F"),
+                   french = c("AA", "BB", "CC", "DD", "EE", "FF"),
+                   stringsAsFactors = FALSE)
 
 en <- function(txt, translate = TRUE){
   if(!translate)
@@ -10,7 +11,7 @@ en <- function(txt, translate = TRUE){
 fr <- function(txt, translate = TRUE){
   if(!translate)
     return(txt)
-  trans(txt, TRUE)
+  trans(txt, FALSE)
 }
 
 trans <- function(x, french = FALSE){

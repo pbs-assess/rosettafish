@@ -9,5 +9,8 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
-Suggests: 
+Suggests:
     testthat
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

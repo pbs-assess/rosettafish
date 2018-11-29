@@ -1,13 +1,13 @@
 context("trans.R")
 
 test_that("translate 3 from en to fr in data", {
-  expect_equal(trans(c("A","B","C")),
-               c("AA", "BB", "CC"))
+  expect_equal(trans(c("spawning biomass","male","equipment")),
+               c("biomasse reproductrice", "mâle", "équipement"))
 })
 
 test_that("translate 3 from en to fr in data, one missing", {
-  expect_equal(trans(c("A","B","X")),
-               c("AA", "BB", "X"))
+  expect_equal(trans(c("spawning biomass","male","X")),
+               c("biomasse reproductrice", "mâle", "X"))
 })
 
 test_that("translate 3 from en to fr in data in data, all missing", {
@@ -16,6 +16,6 @@ test_that("translate 3 from en to fr in data in data, all missing", {
 })
 
 test_that("translate 3 from en to fr in data in data, with an NA", {
-  expect_equal(trans(c("A","B", NA)),
-               c("AA", "BB", NA))
+  expect_equal(trans(c("spawning biomass","male", NA)),
+               c("biomasse reproductrice", "mâle", NA))
 })

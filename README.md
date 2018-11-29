@@ -20,23 +20,25 @@ plot(years,
      biomass,
      type = "o"
      xlab = trans("Year"),
-     ylab = trans("Biomass (t)")
+     ylab = trans("Biomass")
 )
 
 plot(years,
      biomass,
      type = "o"
      xlab = trans("Année"),
-     ylab = trans("Biomasse (t)")
+     ylab = trans("Biomasse")
 )
 
 plot(years,
      biomass,
      type = "o"
      xlab = trans("Année"),
-     ylab = paste("Biomass (t); ", trans("Biomass (t)"))
+     ylab = paste("Biomass; ", trans("Biomass"))
 )
 ```
+
+Should add units into that.
 
 ## Instructions for updating the list of translated scientific terms
 

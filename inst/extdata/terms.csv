@@ -1,42 +1,42 @@
-english,french
-age,âge
-Apr,avr
-Aug,août
-biomass,biomasse
-BT,CF
-Catch,Prise
-Catch,Capture
-CPUE,PUE
-Dec,dec
-equipment,équipement
-Feb,fev
-female,femelle
-fish,poisson
-fishing gear,engin peche
-gear,engin
-GMA,ZGPF
-herring,hareng
-Jan,jan
-Jul,juil
-Jun,juin
-male,mâle
-Mar,mar
-May,mai
-MCMC,MCCM
-mean,moyenne
-median,médiane
-MSY,RMS
-MW,CP
-Nov,nov
-Oct,oct
-Reference point,Point de référence
-Sep,sep
-sex,sexe
-spawn index,indice d'oeuf
-spawning biomass,biomasse reproductrice
-spawning stock biomass,biomasse reproductrice
-temperature,temperature
-vulnerable biomass,biomasse vulnerable
-weight-at-age,poids à l'âge
-weight at age,poids à l'âge
-year,année
+"english","french"
+"age","âge"
+"Apr","avr"
+"Aug","août"
+"biomass","biomasse"
+"BT","CF"
+"Catch","Prise"
+"Catch","Capture"
+"CPUE","PUE"
+"Dec","dec"
+"equipment","équipement"
+"Feb","fev"
+"female","femelle"
+"fish","poisson"
+"fishing gear","engin peche"
+"gear","engin"
+"GMA","ZGPF"
+"herring","hareng"
+"Jan","jan"
+"Jul","juil"
+"Jun","juin"
+"male","mâle"
+"Mar","mar"
+"May","mai"
+"MCMC","MCCM"
+"mean","moyenne"
+"median","médiane"
+"MSY","RMS"
+"MW","CP"
+"Nov","nov"
+"Oct","oct"
+"Reference point","Point de référence"
+"Sep","sep"
+"sex","sexe"
+"spawn index","indice d'oeuf"
+"spawning biomass","biomasse reproductrice"
+"spawning stock biomass","biomasse reproductrice"
+"temperature","temperature"
+"vulnerable biomass","biomasse vulnerable"
+"weight at age","poids à l'âge"
+"weight-at-age","poids à l'âge"
+"year","année"

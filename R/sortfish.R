@@ -18,12 +18,11 @@
 #' terms_En <- sortfish("En")
 #' terms_Fr <- sortfish("Fr")
 sortfish <- function(language) {
-  terms <- readr::read_csv("data/terms.csv")
   if (language == "En") {
-    dplyr::arrange(terms, english)
+    dplyr::arrange(data, english)
   }
   else {
-    dplyr::arrange(terms, french)
+    dplyr::arrange(data, french)
   }
 }
 

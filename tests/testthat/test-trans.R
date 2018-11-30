@@ -28,6 +28,21 @@ test_that("translate 3 from en to fr in data in data, with an NA", {
                c("biomasse reproductrice", "mâle", NA))
 })
 
+test_that("translate into 2 languages from en", {
+  expect_equal(trans("male",
+                     to = c("english", "french"),
+                     from = "english"),
+      "male;mâle")
+})
+  
+test_that("translate into 2 languages from en, values don't exist in data", {
+  expect_equal(trans(x = c("xxx", "yyy"),
+                     to = c("english", "french"),
+                     from = "english"),
+               c("xxx;xxx", "yyy;yyy"))
+})
+
+
 # data.test <- data.frame(english = c("A","B","C","D","E","F"),
 #                    french = c("AA", "BB", "CC", "DD", "EE", "FF"),
 #                    stringsAsFactors = FALSE)

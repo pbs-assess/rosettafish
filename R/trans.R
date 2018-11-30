@@ -4,7 +4,6 @@
 #' @param translate logical
 #'
 #' @export
-#' @rdname trans
 en2fr <- function(x, translate = TRUE) {
   if (!translate) {
     return(x)
@@ -18,7 +17,6 @@ en2fr <- function(x, translate = TRUE) {
 #' @param translate logical
 #'
 #' @export
-#' @rdname trans
 fr2en <- function(x, translate = TRUE) {
   if (!translate) {
     return(x)
@@ -31,16 +29,20 @@ fr2en <- function(x, translate = TRUE) {
 #' @param x text
 #' @param to language to translate to
 #' @param from language to translate from
+#' @param sep seperator between multiple 'to' languages
 #'
 #' @export
-#' @rdname trans
-trans <- function(x, to = "english", from = "french") {
+trans <- function(x, to = "english", from = "french", sep = ";") {
 
-  to.vec <- rosetta_terms[, to, drop = TRUE]
   from.vec <- rosetta_terms[, from, drop = TRUE]
+  
+  to.df <- rosetta_terms[, to, drop = FALSE]
 
   j <- match(x, from.vec)
-  v <- to.vec[j]
+  v <- to.df[j,]
   v[is.na(j)] <- x[is.na(j)]
+  if(class(v) == "data.frame"){
+   v <- as.character(apply(v, 1, function(x){ paste0(x, collapse = sep)}))
+  }
   v
 }

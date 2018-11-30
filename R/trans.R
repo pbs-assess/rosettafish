@@ -1,9 +1,10 @@
-#' English to French
+#' Translation
 #'
 #' @param x text
 #' @param translate logical
 #'
 #' @export
+#' @rdname trans
 en2fr <- function(x, translate = TRUE) {
   if (!translate) {
     return(x)
@@ -11,12 +12,8 @@ en2fr <- function(x, translate = TRUE) {
   trans(x, from = "english", to = "french")
 }
 
-#' French to English
-#' 
-#' @param x text
-#' @param translate logical
-#'
 #' @export
+#' @rdname trans
 fr2en <- function(x, translate = TRUE) {
   if (!translate) {
     return(x)
@@ -24,14 +21,12 @@ fr2en <- function(x, translate = TRUE) {
   trans(x, from = "french", to = "english")
 }
 
-#' Translate from one language to another
-#' 
-#' @param x text
 #' @param from language to translate from
 #' @param to language to translate to
 #' @param sep seperator between multiple 'to' languages
 #'
 #' @export
+#' @rdname trans
 trans <- function(x, from = "french", to = "english", sep = ";") {
 
   from.vec <- rosetta_terms[, from, drop = TRUE]

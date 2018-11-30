@@ -13,7 +13,8 @@ Depends:
 Suggests:
     knitr,
     rmarkdown,
-    testthat
+    testthat,
+    readr
 VignetteBuilder: 
     knitr
 ByteCompile: true

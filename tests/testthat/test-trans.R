@@ -47,7 +47,7 @@ test_that("translate into 2 languages from en. French and inuktitut.", {
   expect_equal(trans(x = "depth",
                      to = c("french", "inuktitut"),
                      from = "english"),
-               c("profondeur", "ᐃᑎᔪᖅ"))
+               "profondeur;ᐃᑎᔪᖅ")
 })
 
 

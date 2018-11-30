@@ -1,93 +1,93 @@
-english,french,inuktitut
-A27,Z27,NA
-A2W,Z2O,NA
-age,âge,NA
-Age,Âge,NA
-Apr,avr,NA
-Area 2 West,Zone 2 ouest,NA
-Area 27,Zone 27,NA
-Aug,août,NA
-biomass,biomasse,NA
-British Columbia,Colombie-Britannique,NA
-BT,CF,NA
-Catch,Prise,NA
-Catch,Capture,NA
-CC,CC,NA
-Central Coast,Côte centrale,NA
-CPUE,PUE,NA
-Dec,dec,NA
-Density,Densité,NA
-depth,profondeur,ᐃᑎᔪᖅ
-Dive,Plongée,NA
-Eastings,Abscisses,NA
-Effective harvest rate,Taux de récolte effectif,NA
-equipment,équipement,NA
-Feb,fev,NA
-female,femelle,NA
-fish,poisson,NA
-fishing gear,engin peche,NA
-gear,engin,NA
-GMA,ZGPF,NA
-GMA,ZGPF,NA
-GMU,GGPF,NA
-Haida Gwaii,Haida Gwaii,NA
-herring,hareng,NA
-HG,HG,NA
-Instantaneous natural mortality,Mortalité naturelle instantanée,NA
-Jan,jan,NA
-Jul,juil,NA
-Jun,juin,NA
-Log recruitment deviations,Log des écarts du recrutement,NA
-male,mâle,NA
-Mar,mar,NA
-May,mai,NA
-MCMC,MCCM,NA
-mean,moyenne,NA
-median,médiane,NA
-MSY,RMS,NA
-MSY,RMS,NA
-MW,CP,NA
-Northings,Ordonnées,NA
-Nov,nov,NA
-Number of age-2 recruits,Nombre de recrues d’âge 2,NA
-Oct,oct,NA
-Other,Autre,NA
-Pacific Ocean,Océan Pacifique,NA
-Pacific Ocean Perch,sébaste à longue mâchoire,NA
-PRD,DPR,NA
-Prince Rupert District,District de Prince Rupert,NA
-Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983),NA
-Proportion,Proportion,NA
-Redbanded Rockfish,sébaste bandes rouges,NA
-Redstripe Rockfish,sébaste à raie rouge,NA
-Reference point,Point de référence,NA
-RoeGN,RogueFM,NA
-RoeSN,RogueSN,NA
-SB,BSR,NA
-Scaled abundance,Abondance mise à l’échelle,NA
-Sep,sep,NA
-sex,sexe,NA
-Shortspine Thornyhead,sébastolobe à courtes épines,NA
-SoG,DG,NA
-spawn index,indice du frai,NA
-spawning biomass,biomasse reproductrice,NA
-Spawning biomass,Biomasse du stock reproducteur,NA
-Spawning biomass,Biomasse du stock reproducteur,NA
-Spawning biomass production,Production de la biomasse du stock reproducteur,NA
-spawning stock biomass,biomasse reproductrice,NA
-Strait of Georgia,Détroit de Georgie,NA
-Surface,Surface,NA
-Survey period,Période du relevé,NA
-temperature,temperature,NA
-vulnerable biomass,biomasse vulnerable,NA
-Walleye Pollock,goberge,NA
-WCBI,COIV,NA
-weight-at-age,poids à l'âge,NA
-Weight-at-age (kg),Poids à l’âge (kg),NA
-weight at age,poids à l'âge,NA
-West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA
-Widow Rockfish,veuve,NA
-year,année,NA
-Year,Année,NA
-Yelloweye Rockfish,sébastes aux yeux jaunes,NA
-Yellowmouth Rockfish,sébaste à bouche jaune,NA
+english,french,inuktitut,emoji
+A27,Z27,NA,NA
+A2W,Z2O,NA,NA
+age,âge,NA,NA
+Age,Âge,NA,NA
+Apr,avr,NA,NA
+Area 2 West,Zone 2 ouest,NA,NA
+Area 27,Zone 27,NA,NA
+Aug,août,NA,NA
+biomass,biomasse,NA,NA
+British Columbia,Colombie-Britannique,NA,NA
+BT,CF,NA,NA
+Catch,Prise,NA,NA
+Catch,Capture,NA,NA
+CC,CC,NA,NA
+Central Coast,Côte centrale,NA,NA
+CPUE,PUE,NA,NA
+Dec,dec,NA,NA
+Density,Densité,NA,NA
+depth,profondeur,ᐃᑎᔪᖅ,NA
+Dive,Plongée,NA,NA
+Eastings,Abscisses,NA,NA
+Effective harvest rate,Taux de récolte effectif,NA,NA
+equipment,équipement,NA,NA
+Feb,fev,NA,NA
+female,femelle,NA,NA
+fish,poisson,NA,NA
+fishing gear,engin peche,NA,NA
+gear,engin,NA,NA
+GMA,ZGPF,NA,NA
+GMA,ZGPF,NA,NA
+GMU,GGPF,NA,NA
+Haida Gwaii,Haida Gwaii,NA,NA
+herring,hareng,NA,NA
+HG,HG,NA,NA
+Instantaneous natural mortality,Mortalité naturelle instantanée,NA,NA
+Jan,jan,NA,NA
+Jul,juil,NA,NA
+Jun,juin,NA,NA
+Log recruitment deviations,Log des écarts du recrutement,NA,NA
+male,mâle,NA,NA
+Mar,mar,NA,NA
+May,mai,NA,NA
+MCMC,MCCM,NA,NA
+mean,moyenne,NA,NA
+median,médiane,NA,NA
+MSY,RMS,NA,NA
+MSY,RMS,NA,NA
+MW,CP,NA,NA
+Northings,Ordonnées,NA,NA
+Nov,nov,NA,NA
+Number of age-2 recruits,Nombre de recrues d’âge 2,NA,NA
+Oct,oct,NA,NA
+Other,Autre,NA,NA
+Pacific Ocean,Océan Pacifique,NA,NA
+Pacific Ocean Perch,sébaste à longue mâchoire,NA,NA
+PRD,DPR,NA,NA
+Prince Rupert District,District de Prince Rupert,NA,NA
+Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983),NA,NA
+Proportion,Proportion,NA,NA
+Redbanded Rockfish,sébaste bandes rouges,NA,NA
+Redstripe Rockfish,sébaste à raie rouge,NA,NA
+Reference point,Point de référence,NA,NA
+RoeGN,RogueFM,NA,NA
+RoeSN,RogueSN,NA,NA
+SB,BSR,NA,NA
+Scaled abundance,Abondance mise à l’échelle,NA,NA
+Sep,sep,NA,NA
+sex,sexe,NA,NA
+Shortspine Thornyhead,sébastolobe à courtes épines,NA,NA
+SoG,DG,NA,NA
+spawn index,indice du frai,NA,NA
+spawning biomass,biomasse reproductrice,NA,NA
+Spawning biomass,Biomasse du stock reproducteur,NA,NA
+Spawning biomass,Biomasse du stock reproducteur,NA,NA
+Spawning biomass production,Production de la biomasse du stock reproducteur,NA,NA
+spawning stock biomass,biomasse reproductrice,NA,NA
+Strait of Georgia,Détroit de Georgie,NA,NA
+Surface,Surface,NA,NA
+Survey period,Période du relevé,NA,NA
+temperature,temperature,NA,NA
+vulnerable biomass,biomasse vulnerable,NA,NA
+Walleye Pollock,goberge,NA,NA
+WCBI,COIV,NA,NA
+weight-at-age,poids à l'âge,NA,NA
+Weight-at-age (kg),Poids à l’âge (kg),NA,NA
+weight at age,poids à l'âge,NA,NA
+West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA,NA
+Widow Rockfish,veuve,NA,NA
+year,année,NA,NA
+Year,Année,NA,NA
+Yelloweye Rockfish,sébastes aux yeux jaunes,NA,NA
+Yellowmouth Rockfish,sébaste à bouche jaune,NA,NA

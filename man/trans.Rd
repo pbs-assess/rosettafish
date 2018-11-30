@@ -4,14 +4,14 @@
 \alias{trans}
 \title{Translate from one language to another}
 \usage{
-trans(x, to = "english", from = "french", sep = ";")
+trans(x, from = "french", to = "english", sep = ";")
 }
 \arguments{
 \item{x}{text}
 
-\item{to}{language to translate to}
-
 \item{from}{language to translate from}
+
+\item{to}{language to translate to}
 
 \item{sep}{seperator between multiple 'to' languages}
 }

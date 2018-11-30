@@ -1,37 +1,44 @@
-data.test <- data.frame(english = c("A","B","C","D","E","F"),
-                   french = c("AA", "BB", "CC", "DD", "EE", "FF"),
-                   stringsAsFactors = FALSE)
-
-data <- read.csv("data/terms.csv", header = TRUE, stringsAsFactors = FALSE)
-
-en2fr <- function(x, translate = TRUE){
-  if(!translate)
+#' Title here
+#'
+#' @param x text
+#' @param translate logical
+#' @param from_french logical
+#'
+#' @export
+#' @rdname trans
+en2fr <- function(x, translate = TRUE) {
+  if (!translate) {
     return(x)
-  trans(x, FALSE)
+  }
+  trans(x, from_french = FALSE)
 }
 
-fr2en <- function(x, translate = TRUE){
-  if(!translate)
+#' @export
+#' @rdname trans
+fr2en <- function(x, translate = TRUE) {
+  if (!translate) {
     return(x)
-  trans(x, TRUE)
+  }
+  trans(x, from_french = TRUE)
 }
 
-trans <- function(x, from.french = FALSE){
-  if(from.french){
+#' @export
+#' @rdname trans
+trans <- function(x, from_french = FALSE) {
+  
+  if (from_french) {
     col <- "french"
     col2 <- "english"
-  }else{
+  } else {
     col <- "english"
     col2 <- "french"
   }
-  
-  from <- data[,col, drop = TRUE]
-  to <- data[,col2, drop = TRUE]
+
+  from <- rosetta_terms[, col, drop = TRUE]
+  to <- rosetta_terms[, col2, drop = TRUE]
 
   j <- match(x, from)
   v <- to[j]
   v[is.na(j)] <- x[is.na(j)]
   v
 }
-
-

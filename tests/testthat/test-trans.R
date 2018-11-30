@@ -19,3 +19,7 @@ test_that("translate 3 from en to fr in data in data, with an NA", {
   expect_equal(trans(c("spawning biomass","male", NA)),
                c("biomasse reproductrice", "mâle", NA))
 })
+
+# data.test <- data.frame(english = c("A","B","C","D","E","F"),
+#                    french = c("AA", "BB", "CC", "DD", "EE", "FF"),
+#                    stringsAsFactors = FALSE)

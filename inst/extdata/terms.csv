@@ -32,7 +32,7 @@
 "Reference point","Point de référence"
 "Sep","sep"
 "sex","sexe"
-"spawn index","indice d'oeuf"
+"spawn index","indice du frai"
 "spawning biomass","biomasse reproductrice"
 "spawning stock biomass","biomasse reproductrice"
 "temperature","temperature"
@@ -40,3 +40,42 @@
 "weight at age","poids à l'âge"
 "weight-at-age","poids à l'âge"
 "year","année"
+Northings,Ordonnées
+Eastings,Abscisses
+Pacific Ocean,Océan Pacifique
+British Columbia,Colombie-Britannique
+A2W,Z2O
+HG,HG
+PRD,DPR
+CC,CC
+A27,Z27
+WCBI,COIV
+SoG,DG
+Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983)
+Other,Autre
+RoeGN,RogueFM
+RoeSN,RogueSN
+Haida Gwaii,Haida Gwaii
+Strait of Georgia,Détroit de Georgie
+Prince Rupert District,District de Prince Rupert
+West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
+Central Coast,Côte centrale
+Weight-at-age (kg),Poids à l’âge (kg)
+Year,Année
+Age,Âge
+Survey period,Période du relevé 
+Surface,Surface
+Dive,Plongée
+Scaled abundance,Abondance mise à l’échelle
+Instantaneous natural mortality	Mortalité naturelle instantanée
+Number of age-2 recruits,Nombre de recrues d’âge 2
+Spawning biomass,Biomasse du stock reproducteur
+Log recruitment deviations,Log des écarts du recrutement
+Spawning biomass production,Production de la biomasse du stock reproducteur
+Spawning biomass,Biomasse du stock reproducteur
+Effective harvest rate,Taux de récolte effectif
+SB,BSR
+Density,Densité
+Area 27,Zone 27
+Area 2 West,Zone 2 ouest
+

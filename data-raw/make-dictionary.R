@@ -1,5 +1,6 @@
-rosetta_terms <- read.csv("inst/extdata/terms.csv", stringsAsFactors = FALSE, 
-  strip.white = TRUE, fileEncoding = "utf8")
+rosetta_terms <- read.csv("inst/extdata/terms.csv", stringsAsFactors = FALSE,
+                          strip.white = TRUE, fileEncoding = "utf8",
+                          comment.char = "#")
 
 language <- "english"
 rosetta_terms <- rosetta_terms[order(rosetta_terms[[language]]), , drop = FALSE]

@@ -3,6 +3,8 @@ A27,Z27,NA
 A2W,Z2O,NA
 age,âge,NA
 Age,Âge,NA
+Age at maturity,Âge à maturité,NA
+Age frequencies,Fréquences d'âge,NA
 Apr,avr,NA
 Area 2 West,Zone 2 ouest,NA
 Area 27,Zone 27,NA
@@ -14,6 +16,10 @@ Catch,Prise,NA
 Catch,Capture,NA
 CC,CC,NA
 Central Coast,Côte centrale,NA
+Commercial catch,Prises commerciales,NA
+Commercial H & L CPUE,PUE commercial H & L,NA
+Commercial specimen counts,Décompte des spécimens du commercial,NA
+Commercial trawl CPUE,PUE chalut commercial,NA
 CPUE,PUE,NA
 Dec,dec,NA
 Density,Densité,NA
@@ -30,16 +36,26 @@ gear,engin,NA
 GMA,ZGPF,NA
 GMA,ZGPF,NA
 GMU,GGPF,NA
+Growth,Croissance,NA
 Haida Gwaii,Haida Gwaii,NA
+HBLL OUT survey biomass,Biomasse du relevé HBLL OUT,NA
 herring,hareng,NA
 HG,HG,NA
+Immature,Immature,NA
 Instantaneous natural mortality,Mortalité naturelle instantanée,NA
+IPHC survey catch rate,Taux de capture du relevé IPHC,NA
 Jan,jan,NA
 Jul,juil,NA
 Jun,juin,NA
+Lenght-weight relationship,Relation longueur-poids,NA
+Length at maturity,Longueur à maturité,NA
+Length frequencies,Fréquences de longueur,NA
 Log recruitment deviations,Log des écarts du recrutement,NA
 male,mâle,NA
 Mar,mar,NA
+Mature,Mature,NA
+Maturing,En maturation,NA
+Maturity frequencies,Fréquences de maturité,NA
 May,mai,NA
 MCMC,MCCM,NA
 mean,moyenne,NA
@@ -56,11 +72,14 @@ Pacific Ocean,Océan Pacifique,NA
 Pacific Ocean Perch,sébaste à longue mâchoire,NA
 PRD,DPR,NA
 Prince Rupert District,District de Prince Rupert,NA
+Probability mature,Probabilité mature,NA
 Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983),NA
 Proportion,Proportion,NA
 Redbanded Rockfish,sébaste bandes rouges,NA
 Redstripe Rockfish,sébaste à raie rouge,NA
 Reference point,Point de référence,NA
+Relative length frequency,Fréquence relative de longueur,NA
+Ripe,Mûr,NA
 RoeGN,RogueFM,NA
 RoeSN,RogueSN,NA
 SB,BSR,NA
@@ -78,38 +97,19 @@ spawning stock biomass,biomasse reproductrice,NA
 Strait of Georgia,Détroit de Georgie,NA
 Surface,Surface,NA
 Survey period,Période du relevé,NA
+Survey relative biomass indices,Indice de biomasse relative du relevé,NA
+Survey specimen counts,Décompte des spécimens du relevé,NA
+Synoptic survey biomass,Biomasse du relevé synoptique,NA
 temperature,temperature,NA
 vulnerable biomass,biomasse vulnerable,NA
 Walleye Pollock,goberge,NA
 WCBI,COIV,NA
+weight at age,poids à l'âge,NA
 weight-at-age,poids à l'âge,NA
 Weight-at-age (kg),Poids à l’âge (kg),NA
-weight at age,poids à l'âge,NA
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA
 Widow Rockfish,veuve,NA
 year,année,NA
 Year,Année,NA
 Yelloweye Rockfish,sébastes aux yeux jaunes,NA
 Yellowmouth Rockfish,sébaste à bouche jaune,NA
-Survey relative biomass indices,Indice de biomasse relative du relevé,NA
-Commercial catch,Prises commerciales,NA
-Commercial trawl CPUE,PUE chalut commercial,NA
-Synoptic survey biomass,Biomasse du relevé synoptique,NA
-HBLL OUT survey biomass,Biomasse du relevé HBLL OUT,NA
-IPHC survey catch rate,Taux de capture du relevé IPHC,NA
-Commercial H & L CPUE,PUE commercial H & L,NA
-Length frequencies,Fréquences de longueur,NA
-Growth,Croissance,NA
-Lenght-weight relationship,Relation longueur-poids,NA
-Age frequencies,Fréquences d'âge,NA
-Age at maturity,Âge à maturité,NA
-Length at maturity,Longueur à maturité,NA
-Maturity frequencies,Fréquences de maturité,NA
-Survey specimen counts,Décompte des spécimens du relevé,NA
-Commercial specimen counts,Décompte des spécimens du commercial,NA
-Probability mature,Probabilité mature,NA
-Immature,Immature,NA
-Maturing,En maturation,NA
-Mature,Mature,NA
-Ripe,Mûr,NA
-Relative length frequency,Fréquence relative de longueur,NA

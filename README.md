@@ -18,23 +18,23 @@ years <- 1980:2018
 biomass <- 2000 * rlnorm(length(years), 0, 1)
 plot(years,
      biomass,
-     type = "o"
-     xlab = en2fr("Year", TRUE),
-     ylab = en2fr("Biomass", TRUE)
+     type = "o",
+     xlab = en2fr("year", TRUE),
+     ylab = en2fr("biomass", TRUE)
 )
 
 plot(years,
      biomass,
-     type = "o"
-     xlab = trans("Année"),
-     ylab = trans("Biomasse")
+     type = "o",
+     xlab = fr2en("année"),
+     ylab = fr2en("biomasse")
 )
 
 plot(years,
      biomass,
-     type = "o"
-     xlab = trans("Année"),
-     ylab = paste("Biomass; ", trans("Biomass"))
+     type = "o",
+     xlab = paste("year; ", en2fr("year")),
+     ylab = paste("biomass; ", en2fr("biomass"))
 )
 ```
 

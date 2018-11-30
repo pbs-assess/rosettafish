@@ -19,8 +19,8 @@ biomass <- 2000 * rlnorm(length(years), 0, 1)
 plot(years,
      biomass,
      type = "o"
-     xlab = trans("Year"),
-     ylab = trans("Biomass")
+     xlab = en2fr("Year", TRUE),
+     ylab = en2fr("Biomass", TRUE)
 )
 
 plot(years,

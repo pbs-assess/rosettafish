@@ -17,6 +17,7 @@
 "CPUE","PUE",
 "Dec","dec",
 "Density","Densité",
+"depth","profondeur","ᐃᑎᔪᖅ"
 "Dive","Plongée",
 "Eastings","Abscisses",
 "Effective harvest rate","Taux de récolte effectif",
@@ -32,7 +33,7 @@
 "Haida Gwaii","Haida Gwaii",
 "herring","hareng",
 "HG","HG",
-"Instantaneous natural mortality	Mortalité naturelle instantanée","",
+"Instantaneous natural mortality","Mortalité naturelle instantanée",
 "Jan","jan",
 "Jul","juil",
 "Jun","juin",

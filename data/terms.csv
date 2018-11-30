@@ -1,42 +1,42 @@
 english,french
-fish,poisson
-spawning biomass,biomasse reproductrice
-herring,hareng
-spawning stock biomass,biomasse reproductrice
-Jan,jan
-Feb,fev
-Mar,mar
+age,Ã¢ge
 Apr,avr
-May,mai
-Jun,juin
-Jul,juil
-Aug,août
-Sep,sep
-Oct,oct
-Nov,nov
-Dec,dec
+Aug,aoÃ»t
 biomass,biomasse
-temperature,temperature
-vulnerable biomass,biomasse vulnerable
-MCMC,MCCM
-MSY,RMS
 BT,CF
-MW,CP
-GMA,ZGPF
-sex,sexe
-male,mâle
-female,femelle
-mean,moyenne
-median,médiane
-equipment,équipement
-gear,engin
-fishing gear,engin peche
-year,année
-spawn index,indice d'oeuf
-Reference point,Point de référence
 Catch,Prise
 Catch,Capture
 CPUE,PUE
-weight-at-age,poids à l'âge
-weight at age,poids à l'âge
-age,âge
+Dec,dec
+equipment,Ã©quipement
+Feb,fev
+female,femelle
+fish,poisson
+fishing gear,engin peche
+gear,engin
+GMA,ZGPF
+herring,hareng
+Jan,jan
+Jul,juil
+Jun,juin
+male,mÃ¢le
+Mar,mar
+May,mai
+MCMC,MCCM
+mean,moyenne
+median,mÃ©diane
+MSY,RMS
+MW,CP
+Nov,nov
+Oct,oct
+Reference point,Point de rÃ©fÃ©rence
+Sep,sep
+sex,sexe
+spawn index,indice d'oeuf
+spawning biomass,biomasse reproductrice
+spawning stock biomass,biomasse reproductrice
+temperature,temperature
+vulnerable biomass,biomasse vulnerable
+weight-at-age,poids Ã  l'Ã¢ge
+weight at age,poids Ã  l'Ã¢ge
+year,annÃ©e

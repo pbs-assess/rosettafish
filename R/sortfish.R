@@ -20,11 +20,10 @@
 sortfish <- function(language) {
   if (language == "En") {
   data <- dplyr::arrange(data, english)
-  readr::write_csv(data, "data/terms_En.csv")
-}
+  }
   if (language == "Fr") {
   data <- dplyr::arrange(data, french)
-  readr::write_csv(data, "data/terms_Fr.csv")
   }
+  readr::write_csv(data, "data/terms.csv")
 }
 

@@ -4,20 +4,20 @@ data.test <- data.frame(english = c("A","B","C","D","E","F"),
 
 data <- read.csv("data/terms.csv", header = TRUE, stringsAsFactors = FALSE)
 
-en <- function(txt, translate = TRUE){
+en2fr <- function(x, translate = TRUE){
   if(!translate)
-    return(txt)
-  trans(txt, TRUE)
+    return(x)
+  trans(x, FALSE)
 }
 
-fr <- function(txt, translate = TRUE){
+fr2en <- function(x, translate = TRUE){
   if(!translate)
-    return(txt)
-  trans(txt, FALSE)
+    return(x)
+  trans(x, TRUE)
 }
 
-trans <- function(x, french = FALSE){
-  if(french){
+trans <- function(x, from.french = FALSE){
+  if(from.french){
     col <- "french"
     col2 <- "english"
   }else{

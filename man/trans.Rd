@@ -4,21 +4,33 @@
 \alias{en2fr}
 \alias{fr2en}
 \alias{trans}
-\title{Title here}
+\title{English to French}
 \usage{
 en2fr(x, translate = TRUE)
 
 fr2en(x, translate = TRUE)
 
-trans(x, from_french = FALSE)
+trans(x, to = "english", from = "french")
 }
 \arguments{
 \item{x}{text}
 
 \item{translate}{logical}
 
-\item{from_french}{logical}
+\item{to}{language to translate to}
+
+\item{from}{language to translate from}
+
+\item{x}{text}
+
+\item{translate}{logical}
+
+\item{x}{text}
 }
 \description{
-Title here
+English to French
+
+French to English
+
+Translate from one language to another
 }

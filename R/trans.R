@@ -1,8 +1,7 @@
-#' Title here
+#' English to French
 #'
 #' @param x text
 #' @param translate logical
-#' @param from_french logical
 #'
 #' @export
 #' @rdname trans
@@ -10,35 +9,38 @@ en2fr <- function(x, translate = TRUE) {
   if (!translate) {
     return(x)
   }
-  trans(x, from_french = FALSE)
+  trans(x, to = "french", from = "english")
 }
 
+#' French to English
+#' 
+#' @param x text
+#' @param translate logical
+#'
 #' @export
 #' @rdname trans
 fr2en <- function(x, translate = TRUE) {
   if (!translate) {
     return(x)
   }
-  trans(x, from_french = TRUE)
+  trans(x, to = "english", from = "french")
 }
 
+#' Translate from one language to another
+#' 
+#' @param x text
+#' @param to language to translate to
+#' @param from language to translate from
+#'
 #' @export
 #' @rdname trans
-trans <- function(x, from_french = FALSE) {
-  
-  if (from_french) {
-    col <- "french"
-    col2 <- "english"
-  } else {
-    col <- "english"
-    col2 <- "french"
-  }
+trans <- function(x, to = "english", from = "french") {
 
-  from <- rosetta_terms[, col, drop = TRUE]
-  to <- rosetta_terms[, col2, drop = TRUE]
+  to.vec <- rosetta_terms[, to, drop = TRUE]
+  from.vec <- rosetta_terms[, from, drop = TRUE]
 
-  j <- match(x, from)
-  v <- to[j]
+  j <- match(x, from.vec)
+  v <- to.vec[j]
   v[is.na(j)] <- x[is.na(j)]
   v
 }

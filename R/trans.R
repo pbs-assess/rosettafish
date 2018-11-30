@@ -35,7 +35,7 @@ fr2en <- function(x, translate = TRUE) {
 trans <- function(x, to = "english", from = "french", sep = ";") {
 
   from.vec <- rosetta_terms[, from, drop = TRUE]
-  
+  browser()
   to.df <- rosetta_terms[, to, drop = FALSE]
 
   j <- match(x, from.vec)

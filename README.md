@@ -4,7 +4,7 @@
 # rosettafish
 
 [![Travis build
-status](https://travis-ci.org/pbs-assess/rosettafish?branch=master)](https://travis-ci.org/pbs-assess/rosettafish)
+status](https://travis-ci.org/pbs-assess/rosettafish.svg?branch=master)](https://travis-ci.org/pbs-assess/rosettafish)
 
 rosettafish is an R package to translate fish- and fisheries-related
 words or short phrases between languages (e.g. French to English,

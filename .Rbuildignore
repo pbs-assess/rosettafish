@@ -1,0 +1,8 @@
+^\.travis\.yml$
+^\.github$
+^CODE_OF_CONDUCT\.md$
+^README\.Rmd$
+^data-raw$
+^.*\.Rproj$
+^\.Rproj\.user$
+^rosettafish.Rproj$

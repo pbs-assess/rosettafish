@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 [![Travis build status](https://travis-ci.org/pbs-assess/rosettafish.svg?branch=master)](https://travis-ci.org/pbs-assess/rosettafish)
 
-rosettafish is an R package to translate fish- and fisheries-related words or short phrases between languages (e.g. French to English, English to French).
+rosettafish is an R package to translate fish- and fisheries-related words or short phrases between languages (e.g. French to English, English to French, English to Inuktitut).
 
 This would apply to figure labels to produce separate figures in two languages, or a single figure with labels in two languages. It can also be used for other text (such as table headings), but is not intended for translation of complete sentences.
 
@@ -28,7 +28,7 @@ In particular, it should be useful for automatically producing translated techni
 
 The package has a built-in .csv file of English-French translations of common technical fisheries terms (that are often incorrectly translated by generic automatic translators). Users can add to this or use their own file, and are encouraged to add to the ever-expanding list of common terms using the instructions below.
 
-This is currently implemented for French-English translations but could be expanded to other languages (e.g. Inuktitut).
+This is currently implemented for French-English translations with some Inuktitut, but could be expanded to other languages.
 
 ## Installation
 
@@ -81,17 +81,17 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 
 *If you're comfortable with Git and file encodings:*
 
-1. Fork and clone this repoisitory.
-2. Add the terms to the end of the file `inst/extdata/terms.csv` with a text editor. Please ensure your editor is saving in UTF-8 format. [Help with UTF-8 file encoding and RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding). 
+1. Fork and clone this repository.
+2. Add the terms to the end of the file `inst/extdata/terms.csv` with a text editor. Please ensure your editor is saving in UTF-8 format. [Help with UTF-8 file encoding and RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding).
 3. Push to GitHub and submit a pull request.
 
 *If you'd rather a quick way to edit without worrying about Git or file encodings*:
 
-1. [Edit the file direct only on GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv). 
+1. [Edit the file direct only on GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv).
 2. Add the terms to the end of the file.
 3. Click the button to create a pull request.
 
-If both of those options are confusing, just 
+If both of those options are confusing, just
 [create an Issue](https://github.com/pbs-assess/rosettafish/issues/new)
 on the GitHub site and give us your new translated terms.
 

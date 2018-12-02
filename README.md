@@ -8,7 +8,7 @@ status](https://travis-ci.org/pbs-assess/rosettafish.svg?branch=master)](https:/
 
 rosettafish is an R package to translate fish- and fisheries-related
 words or short phrases between languages (e.g. French to English,
-English to French).
+English to French, English to Inuktitut).
 
 This would apply to figure labels to produce separate figures in two
 languages, or a single figure with labels in two languages. It can also
@@ -30,8 +30,8 @@ by generic automatic translators). Users can add to this or use their
 own file, and are encouraged to add to the ever-expanding list of common
 terms using the instructions below.
 
-This is currently implemented for French-English translations but could
-be expanded to other languages (e.g. Inuktitut).
+This is currently implemented for French-English translations with some
+Inuktitut, but could be expanded to other languages.
 
 ## Installation
 
@@ -95,7 +95,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 
 *If you’re comfortable with Git and file encodings:*
 
-1.  Fork and clone this repoisitory.
+1.  Fork and clone this repository.
 2.  Add the terms to the end of the file `inst/extdata/terms.csv` with a
     text editor. Please ensure your editor is saving in UTF-8 format.
     [Help with UTF-8 file encoding and

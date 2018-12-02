@@ -88,13 +88,14 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 *If you're comfortable with Git and file encodings:*
 
 1. Fork and clone this repoisitory.
-2. Add the terms to the end of the file `inst/extdata/terms.csv`. Please ensure your editor is saving in UTF-8 format.
-3. Push to GitHub and submit a pull request. 
+2. Add the terms to the end of the file `inst/extdata/terms.csv` with a text editor. Please ensure your editor is saving in UTF-8 format. [Help with UTF-8 file encoding and RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding). 
+3. Push to GitHub and submit a pull request.
 
 *If you'd rather a quick way to edit without worrying about Git or file encodings*:
 
-1. [Edit the file direct only on GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv). Add the terms to the end of the file.
-2. Click the button to create a pull request.
+1. [Edit the file direct only on GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv). 
+2. Add the terms to the end of the file.
+3. Click the button to create a pull request.
 
 If both of those options are confusing, just 
 [create an Issue](https://github.com/pbs-assess/rosettafish/issues/new)

@@ -10,7 +10,7 @@ en2fr(x, translate = TRUE)
 
 fr2en(x, translate = TRUE)
 
-trans(x, from = "french", to = "english", sep = ";")
+trans(x, from = "french", to = "english", sep = "; ")
 }
 \arguments{
 \item{x}{text}

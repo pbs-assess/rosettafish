@@ -31,23 +31,23 @@ test_that("translate 3 from en to fr in data in data, with an NA", {
 test_that("translate into 2 languages from en", {
   expect_equal(trans("male",
                      to = c("english", "french"),
-                     from = "english"),
-      "male;mâle")
+                     from = "english", sep = "; "),
+      "male; mâle")
 })
   
 test_that("translate into 2 languages from en, values don't exist in data", {
   expect_equal(trans(x = c("xxx", "yyy"),
                      to = c("english", "french"),
-                     from = "english"),
-               c("xxx;xxx", "yyy;yyy"))
+                     from = "english", sep = "; "),
+               c("xxx; xxx", "yyy; yyy"))
 })
 
 
 test_that("translate into 2 languages from en. French and inuktitut.", {
   expect_equal(trans(x = "depth",
                      to = c("french", "inuktitut"),
-                     from = "english"),
-               "profondeur;ᐃᑎᔪᖅ")
+                     from = "english", sep = "; "),
+               "profondeur; ᐃᑎᔪᖅ")
 })
 
 

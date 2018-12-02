@@ -34,7 +34,7 @@ test_that("translate into 2 languages from en", {
                      from = "english", sep = "; "),
       "male; mâle")
 })
-  
+
 test_that("translate into 2 languages from en, values don't exist in data", {
   expect_equal(trans(x = c("xxx", "yyy"),
                      to = c("english", "french"),
@@ -50,7 +50,9 @@ test_that("translate into 2 languages from en. French and inuktitut.", {
                "profondeur; ᐃᑎᔪᖅ")
 })
 
-
-# data.test <- data.frame(english = c("A","B","C","D","E","F"),
-#                    french = c("AA", "BB", "CC", "DD", "EE", "FF"),
-#                    stringsAsFactors = FALSE)
+test_that("en2fr and fr2en work as expected", {
+  expect_equal(en2fr("depth", TRUE), "profondeur")
+  expect_equal(en2fr("depth", FALSE), "depth")
+  expect_equal(fr2en("profondeur", TRUE), "depth")
+  expect_equal(fr2en("profondeur", FALSE), "profondeur")
+})

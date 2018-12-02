@@ -14,7 +14,8 @@ Suggests:
     knitr,
     rmarkdown,
     testthat,
-    readr
+    readr,
+    covr
 VignetteBuilder: 
     knitr
 ByteCompile: true

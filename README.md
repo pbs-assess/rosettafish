@@ -118,5 +118,4 @@ GitHub site and give us your new translated terms.
 
 Please note that the ‘rosettafish’ project is released with a
 [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By
-contributing to this project, you agree to abide by its terms. \#\#
-Instructions for updating the list of translated scientific terms
+contributing to this project, you agree to abide by its terms.

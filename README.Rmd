@@ -70,8 +70,31 @@ ggplot(df, aes(years, biomass)) + geom_line() +
   ylab(fr2en("biomasse"))
 ```
 
+```{r gg-figs-both}
+ggplot(df, aes(years, biomass)) + geom_line() +
+  xlab(trans("year", from = "english", to = c("english", "french"))) +
+  ylab(trans("biomass", from = "english", to = c("english", "french")))
+```
+
+## Updating the list of translated scientific terms
+
+*If you're comfortable with Git and file encodings:*
+
+1. Fork and clone this repoisitory.
+2. Add the terms to the end of the file `inst/extdata/terms.csv` with a text editor. Please ensure your editor is saving in UTF-8 format. [Help with UTF-8 file encoding and RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding). 
+3. Push to GitHub and submit a pull request.
+
+*If you'd rather a quick way to edit without worrying about Git or file encodings*:
+
+1. [Edit the file direct only on GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv). 
+2. Add the terms to the end of the file.
+3. Click the button to create a pull request.
+
+If both of those options are confusing, just 
+[create an Issue](https://github.com/pbs-assess/rosettafish/issues/new)
+on the GitHub site and give us your new translated terms.
+
+Please note that the ‘rosettafish’ project is released with a
+[Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By
+contributing to this project, you agree to abide by its terms.
 ## Instructions for updating the list of translated scientific terms
-
-Fork and clone this repoisitory. Add the English and French terms to the end of the file `inst/extdata/terms.csv`, push to GitHub and submit a pull request. If you do not know what that means, just create an Issue on the GitHub site and give us your new translated terms.
-
-Please note that the 'rosettafish' project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.

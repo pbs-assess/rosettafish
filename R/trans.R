@@ -27,7 +27,7 @@ fr2en <- function(x, translate = TRUE) {
 #'
 #' @export
 #' @rdname trans
-trans <- function(x, from = "french", to = "english", sep = ";") {
+trans <- function(x, from = "french", to = "english", sep = "; ") {
 
   from.vec <- rosetta_terms[, from, drop = TRUE]
   to.df <- rosetta_terms[, to, drop = FALSE]

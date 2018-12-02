@@ -83,11 +83,21 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 
 <img src="man/figures/README-gg-figs-1.png" width="70%" />
 
-## Instructions for updating the list of translated scientific terms
+## Updating the list of translated scientific terms
 
-Fork and clone this repoisitory. Add the English and French terms to the
-end of the file `inst/extdata/terms.csv`, push to GitHub and submit a
-pull request. If you do not know what that means, just create an Issue
+*If you're comfortable with Git and file encodings:*
+
+1. Fork and clone this repoisitory.
+2. Add the terms to the end of the file `inst/extdata/terms.csv`. Please ensure your editor is saving in UTF-8 format.
+3. Push to GitHub and submit a pull request. 
+
+*If you'd rather a quick way to edit without worrying about Git or file encodings*:
+
+1. [Edit the file direct only on GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv). Add the terms to the end of the file.
+2. Click the button to create a pull request.
+
+If both of those options are confusing, just 
+[create an Issue](https://github.com/pbs-assess/rosettafish/issues/new)
 on the GitHub site and give us your new translated terms.
 
 Please note that the ‘rosettafish’ project is released with a

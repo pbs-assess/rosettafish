@@ -107,7 +107,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 *If you’d rather a quick way to edit without worrying about Git or file
 encodings*:
 
-1.  [Edit the file direct only on
+1.  [Edit the file directly on
     GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv).
 2.  Add the terms to the end of the file.
 3.  Click the button to create a pull request.

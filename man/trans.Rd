@@ -10,7 +10,8 @@ en2fr(x, translate = TRUE)
 
 fr2en(x, translate = TRUE)
 
-trans(x, from = "french", to = "english", sep = "; ")
+trans(x, from = "french", to = "english", sep = "; ",
+  allow_missing = TRUE)
 }
 \arguments{
 \item{x}{text}
@@ -22,6 +23,10 @@ trans(x, from = "french", to = "english", sep = "; ")
 \item{to}{language to translate to}
 
 \item{sep}{seperator between multiple 'to' languages}
+
+\item{allow_missing}{Should the function return the input value if the term
+is missing from the dictionary? If \code{FALSE} then the function will issue a
+stop statement if anything is missing.}
 }
 \description{
 Translation

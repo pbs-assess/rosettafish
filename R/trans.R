@@ -12,6 +12,18 @@ en2fr <- function(x, translate = TRUE) {
   trans(x, from = "english", to = "french")
 }
 
+#' @param x text
+#' @param translate logical
+#'
+#' @export
+#' @rdname trans
+en2sp <- function(x, translate = TRUE) {
+  if (!translate) {
+    return(x)
+  }
+  trans(x, from = "english", to = "spanish")
+}
+
 #' @export
 #' @rdname trans
 fr2en <- function(x, translate = TRUE) {
@@ -19,6 +31,15 @@ fr2en <- function(x, translate = TRUE) {
     return(x)
   }
   trans(x, from = "french", to = "english")
+}
+
+#' @export
+#' @rdname trans
+sp2en <- function(x, translate = TRUE) {
+  if (!translate) {
+    return(x)
+  }
+  trans(x, from = "spanish", to = "english")
 }
 
 #' @param from language to translate from

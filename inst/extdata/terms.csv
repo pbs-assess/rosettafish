@@ -2,7 +2,6 @@ english,french,inuktitut
 A27,Z27,NA
 A2W,Z2O,NA
 age,âge,NA
-Age,Âge,NA
 Age at maturity,Âge à maturité,NA
 Age frequencies,Fréquences d'âge,NA
 Apr,avr,NA
@@ -12,7 +11,6 @@ Aug,août,NA
 biomass,biomasse,NA
 British Columbia,Colombie-Britannique,NA
 BT,CF,NA
-Catch,Prise,NA
 Catch,Capture,NA
 CC,CC,NA
 Central Coast,Côte centrale,NA
@@ -25,7 +23,7 @@ Dec,dec,NA
 Density,Densité,NA
 depth,profondeur,ᐃᑎᔪᖅ
 Dive,Plongée,NA
-Eastings,Abscisses,NA
+Easting,Abscisse,NA
 Effective harvest rate,Taux de récolte effectif,NA
 equipment,équipement,NA
 Feb,fev,NA
@@ -33,7 +31,6 @@ female,femelle,NA
 fish,poisson,NA
 fishing gear,engin peche,NA
 gear,engin,NA
-GMA,ZGPF,NA
 GMA,ZGPF,NA
 GMU,GGPF,NA
 Growth,Croissance,NA
@@ -61,9 +58,8 @@ MCMC,MCCM,NA
 mean,moyenne,NA
 median,médiane,NA
 MSY,RMS,NA
-MSY,RMS,NA
 MW,CP,NA
-Northings,Ordonnées,NA
+Northing,Ordonnée,NA
 Nov,nov,NA
 Number of age-2 recruits,Nombre de recrues d’âge 2,NA
 Oct,oct,NA
@@ -90,8 +86,6 @@ Shortspine Thornyhead,sébastolobe à courtes épines,NA
 SoG,DG,NA
 spawn index,indice du frai,NA
 spawning biomass,biomasse reproductrice,NA
-Spawning biomass,Biomasse du stock reproducteur,NA
-Spawning biomass,Biomasse du stock reproducteur,NA
 Spawning biomass production,Production de la biomasse du stock reproducteur,NA
 spawning stock biomass,biomasse reproductrice,NA
 Strait of Georgia,Détroit de Georgie,NA
@@ -104,12 +98,10 @@ temperature,temperature,NA
 vulnerable biomass,biomasse vulnerable,NA
 Walleye Pollock,goberge,NA
 WCBI,COIV,NA
+weight-at-age,poids-à-l'âge,NA
 weight at age,poids à l'âge,NA
-weight-at-age,poids à l'âge,NA
-Weight-at-age (kg),Poids à l’âge (kg),NA
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA
 Widow Rockfish,veuve,NA
-year,année,NA
 Year,Année,NA
 Yelloweye Rockfish,sébastes aux yeux jaunes,NA
 Yellowmouth Rockfish,sébaste à bouche jaune,NA

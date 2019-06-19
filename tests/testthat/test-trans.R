@@ -10,21 +10,21 @@ test_that("translate 3 from en to fr in data", {
 test_that("translate 3 from en to fr in data, one missing", {
   expect_equal(trans(c("spawning biomass","male","X"),
                      to = "french",
-                     from = "english"),
+                     from = "english", allow_missing = TRUE),
                c("biomasse reproductrice", "mâle", "X"))
 })
 
 test_that("translate 3 from en to fr in data in data, all missing", {
   expect_equal(trans(c("X","Y","Z"),
                      to = "french",
-                     from = "english"),
+                     from = "english", allow_missing = TRUE),
                c("X", "Y", "Z"))
 })
 
 test_that("translate 3 from en to fr in data in data, with an NA", {
   expect_equal(trans(c("spawning biomass","male", NA),
                      to = "french",
-                     from = "english"),
+                     from = "english", allow_missing = TRUE),
                c("biomasse reproductrice", "mâle", NA))
 })
 
@@ -38,7 +38,7 @@ test_that("translate into 2 languages from en", {
 test_that("translate into 2 languages from en, values don't exist in data", {
   expect_equal(trans(x = c("xxx", "yyy"),
                      to = c("english", "french"),
-                     from = "english", sep = "; "),
+                     from = "english", sep = "; ", allow_missing = TRUE),
                c("xxx; xxx", "yyy; yyy"))
 })
 

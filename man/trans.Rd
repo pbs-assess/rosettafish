@@ -4,21 +4,21 @@
 \alias{en2fr}
 \alias{fr2en}
 \alias{trans}
-\title{Translation from English to French}
+\title{Translation between languages}
 \usage{
 en2fr(x, translate = TRUE, sep = "; ")
 
 fr2en(x, translate = TRUE, sep = "; ")
 
 trans(x, from = "french", to = "english", sep = "; ",
-  allow_missing = TRUE)
+  allow_missing = FALSE)
 }
 \arguments{
 \item{x}{text}
 
 \item{translate}{logical}
 
-\item{sep}{As defined in \code{\link[rosettafish:trans]{rosettafish::trans()}}}
+\item{sep}{seperator between multiple 'to' languages}
 
 \item{from}{language to translate from}
 
@@ -27,17 +27,7 @@ trans(x, from = "french", to = "english", sep = "; ",
 \item{allow_missing}{Should the function return the input value if the term
 is missing from the dictionary? If \code{FALSE} then the function will issue a
 stop statement if anything is missing.}
-
-\item{x}{text}
-
-\item{translate}{logical}
-
-\item{sep}{As defined in \code{\link[rosettafish:trans]{rosettafish::trans()}}}
-
-\item{sep}{seperator between multiple 'to' languages}
 }
 \description{
-Translation from English to French
-
-Translation from French to English
+Translation between languages
 }

@@ -1,8 +1,7 @@
-#' Translation from English to French
+#' Translation between languages
 #'
 #' @param x text
 #' @param translate logical
-#' @param sep As defined in [rosettafish::trans()]
 #'
 #' @export
 #' @rdname trans
@@ -13,12 +12,6 @@ en2fr <- function(x, translate = TRUE, sep = "; ") {
   trans(x, from = "english", to = "french", sep = sep)
 }
 
-#' Translation from French to English
-#'
-#' @param x text
-#' @param translate logical
-#' @param sep As defined in [rosettafish::trans()]
-#'
 #' @export
 #' @rdname trans
 fr2en <- function(x, translate = TRUE, sep = "; ") {
@@ -37,7 +30,7 @@ fr2en <- function(x, translate = TRUE, sep = "; ") {
 #'
 #' @export
 #' @rdname trans
-trans <- function(x, from = "french", to = "english", sep = "; ", allow_missing = TRUE) {
+trans <- function(x, from = "french", to = "english", sep = "; ", allow_missing = FALSE) {
 
   from.vec <- rosetta_terms[, from, drop = TRUE]
   to.df <- rosetta_terms[, to, drop = FALSE]

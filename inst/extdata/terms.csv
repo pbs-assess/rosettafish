@@ -120,10 +120,10 @@ Jan,jan,NA
 Jul,juil,NA
 Jun,juin,NA
 kelp greenling,sourcil de varech,NA
-Last Research Document(s),Plus récent(s) document(s) de recherche,NA
-Last Science Advisory Report(s),Dernier(s) avis scientifique(s),NA
+Last Research Document,Plus récent document de recherche,NA
+Last Science Advisory Report,Dernier avis scientifique,NA
+Length,Longueur,NA
 Length-weight relationship,Relation longueur-poids,NA
-Length (cm),Longueur (cm),NA
 Length at maturity,Longueur à maturité,NA
 Length frequencies,Fréquences de longueur,NA
 lingcod,morue-lingue,NA
@@ -278,8 +278,8 @@ vulnerable biomass,biomasse vulnerable,NA
 Walleye Pollock,goberge,NA
 wattled eelpout,lycode tressée,NA
 WCVI,COIV,NA
+Weight,Poids,NA
 weight-at-age,poids-à-l'âge,NA
-Weight (kg),Poids (kg),NA
 weight at age,poids à l'âge,NA
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA
 whitebait smelt,éperlan blanchaille,NA

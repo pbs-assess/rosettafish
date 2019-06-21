@@ -26,7 +26,7 @@ Black Rockfish,sébaste noir,NA
 Blackbelly Eelpout,lycode à ventre noir,NA
 Blackfin Sculpin,chabot à nageoires noires,NA
 Blackgill Rockfish,sébaste blackgill,NA
-Blacktail snailfish,limace à queue noire,NA
+Blacktail Snailfish,limace à queue noire,NA
 Blue Shark,requin bleu,NA
 Bluntnose sixgill Shark,requin griset,NA
 Bocaccio,Sébaste bocace,NA
@@ -38,6 +38,7 @@ BT,CF,NA
 Buffalo Sculpin,chabot-bison,NA
 Butter Sole,plie à écailles régulières,NA
 C-O Sole,C-O Sole,NA
+C O Sole,C O Sole,NA
 Cabezon,chabot marbré,NA
 California Grenadier,grenadier de Californie,NA
 Canary Rockfish,sébaste canari,NA
@@ -85,7 +86,7 @@ English Sole,carlottin anglais,NA
 Equipment,équipement,NA
 Family,Famille,NA
 Feb,fev,NA
-female,femelle,NA
+Female,Femelle,NA
 fish,poisson,NA
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels,NA
 fishing gear,engin peche,NA
@@ -151,9 +152,6 @@ No Status,Sans statut,NA
 North Pacific Spiny Dogfish,aiguillat commun du Pacifique Nord,NA
 Northing,Ordonnée,NA
 Not at Risk,Non en péril,NA
-Note that Pacific Hake undergoes a directed annual join Canada-US coastwide survey and assessment which are not included in this report. The most recent stock assessment should be consulted for details on stock status.,"Il est à noter que le merlu du Chili fait l’objet d’un relevé et d’une évaluation annuels ciblés menés conjointement par le Canada et les É.-U. à l'échelle de la côte, qui ne sont pas compris dans le présent rapport. L’évaluation la plus récente des stocks doit être consultée pour obtenir des détails sur l’état des stocks.",NA
-Note that Pacific Halibut undergoes thorough assessment by the International Pacific Halibut Commission based on an annual standardized setline survey. The most recent stock assessment should be consulted for details on stock status.,Il est à noter que le flétan du Pacifique fait l’objet d’une évaluation approfondie par la Commission internationale du flétan du Pacifique qui se fonde sur un relevé annuel normalisé en fonction de la ligne de référence. L’évaluation la plus récente des stocks doit être consultée pour obtenir des détails sur l’état des stocks.,NA
-Note that Sablefish undergoes directed annual trap surveys which are used for stock assessment and are not included in this report. The most recent stock assessment should be consulted for details on stock status.,Il est à noter que la morue charbonnière fait l’objet de relevés annuels au casier ciblés qui servent à l’évaluation des stocks et qui ne sont pas compris dans le présent rapport. L’évaluation la plus récente des stocks doit être consultée pour obtenir des détails sur l’état des stocks.,NA
 Nov,nov,NA
 Number of age-2 recruits,Nombre de recrues d’âge 2,NA
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année,NA
@@ -168,7 +166,7 @@ Pacific Hake,merlu du Chili,NA
 Pacific Halibut,flétan du Pacifique,NA
 Pacific Ocean,Océan Pacifique,NA
 Pacific Ocean Perch,sébaste à longue mâchoire,NA
-Pacific Sand lance,lançon du Pacifique,NA
+Pacific Sand Lance,lançon du Pacifique,NA
 Pacific Sanddab,limande sordide,NA
 Pacific Scientific Advice Review Committee (PSARC) assessment,Évaluation du Comité d'examen des évaluations scientifiques du Pacifique (CEESP),NA
 Pacific Sleeper Shark,laimargue du Pacifique,NA
@@ -206,7 +204,8 @@ Rockfish Conservation Areas,Aires de conservation des sébastes,NA
 RoeGN,RogueFM,NA
 RoeSN,RogueSN,NA
 Rosethorn Rockfish,sébaste rosacé,NA
-Rougheye/blackspotted Rockfish Complex,complexe du sébaste à œil épineux et du sébaste à taches noires,NA
+Rougheye Blackspotted Rockfish Complex,complexe du sébaste à œil épineux et du sébaste à taches noires,NA
+Rougheye/Blackspotted Rockfish Complex,complexe du sébaste à œil épineux et du sébaste à taches noires,NA
 Roughtail Skate,raie à queue rude,NA
 Sablefish,morue charbonnière,NA
 Salmon Shark,taupe du Pacifique,NA
@@ -255,12 +254,13 @@ Strait of Georgia/Howe Sound Sponge Reef Closures,Fermeture des pêches dans les
 Stripetail Rockfish,sébaste à queue rayée,NA
 Sturgeon Poacher,agone-esturgeon,NA
 Surface,Surface,NA
-Survey biomass density (kg/km^2),Densité de la biomasse du relevé (kg/km2),NA
+Survey,Relevé,NA
+Survey biomass density,Densité de la biomasse du relevé,NA
 Survey density (1000 fish/km^2),Densité du relevé (1 000 poissons/km2),NA
 Survey period,Période du relevé,NA
 Survey relative biomass indices,Indices de la biomasse du relevés,NA
 Survey specimen counts,Décompte des spécimens du relevé,NA
-Synoptic survey biomass,Biomasse du relevé synoptique,NA
+Synoptic Survey Biomass,Biomasse du relevé synoptique,NA
 Technical Report,Rapport technique,NA
 Temperature,Temperature,NA
 Thornback Sculpin,chabot à dos épineux,NA

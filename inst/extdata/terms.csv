@@ -21,6 +21,7 @@ Bigfin Eelpout,lycode à grandes nageoires,NA
 Bigmouth Sculpin,hémitriptère à grande bouche,NA
 Biomass,Biomasse,NA
 Biomass estimate (kg/km^2),Estimation de la biomasse (kg/km2),NA
+Biomass estimate divided by geometric mean,Estimation de la biomasse/moyenne géométrique,NA
 Black Eelpout,lycode noire,NA
 Black Rockfish,sébaste noir,NA
 Blackbelly Eelpout,lycode à ventre noir,NA
@@ -130,6 +131,7 @@ Length at maturity,Longueur à maturité,NA
 Length frequencies,Fréquences de longueur,NA
 Lingcod,morue-lingue,NA
 Link,Lien,NA
+Log of standardized CPUE,Log de CPUE standardisé,NA
 Log recruitment deviations,Log des écarts du recrutement,NA
 Longnose Skate,pocheteau long-nez,NA
 Longspine Thornyhead,sébastolobe à longues épines,NA
@@ -143,6 +145,7 @@ May,mai,NA
 MCMC,MCCM,NA
 Mean,Moyenne,NA
 Mean coefficient of variance,Coefficient moyen de variance,NA
+Mean estimate (kg/km^2),Estimation moyenne (kg/km^2),NA
 Mean positive sets,Moyenne des ensembles positifs,NA
 Median,Médiane,NA
 Midwater trawl,Chalutage pélagique,NA
@@ -177,8 +180,10 @@ Petrale Sole,plie de Californie,NA
 PRD,DPR,NA
 Pre-COSEWIC Review,Examen pré-COSEPAC,NA
 Predicted biomass density (kg/m2),Densité prévue de la biomasse (kg/m2),NA
+Prediction (depth effects + spatial random effects),Prédiction (effets de profondeur + effets aléatoires spatiaux),NA
 Prediction (depth effects only),Prédiction (effets de profondeur seulement),NA
 Prediction (fixed effects + all random effects),Prédiction (effets fixes + tous les effets aléatoires),NA
+Prediction (fixed effects only),Prédiction (effets fixes seulement),NA
 Primary age (years),Âge primaire (ans),NA
 Prince Rupert District,District de Prince Rupert,NA
 Probability mature,Probabilité de maturité,NA
@@ -274,6 +279,7 @@ Trap,Casier,NA
 Twoline Eelpout,lycode à deux lignes,NA
 Type,Type,NA
 Unknown/trawl,Inconnu/chalut,NA
+Value,Valeur,NA
 Vermilion Rockfish,sébaste vermillon,NA
 Vulnerable biomass,Biomasse vulnerable,NA
 Walleye Pollock,goberge,NA

@@ -7,6 +7,7 @@ Age (years),Âge (années),NA
 Age at maturity,Âge à maturité,NA
 Age frequencies,Fréquences d'âge,NA
 Age structures,Structure par âge,NA
+Ageing precision,Précision de al détermination de l'âge,NA
 Alaska Skate,raie de l’Alaska,NA
 Aleutian Skate,raie aléoutienne,NA
 Apr,avr,NA
@@ -29,8 +30,8 @@ Blackfin Sculpin,chabot à nageoires noires,NA
 Blackgill Rockfish,sébaste blackgill,NA
 Blacktail Snailfish,limace à queue noire,NA
 Blue Shark,requin bleu,NA
-Bluntnose sixgill Shark,requin griset,NA
-Bocaccio,Sébaste bocace,NA
+Bluntnose Sixgill Shark,requin griset,NA
+Bocaccio,sébaste bocace,NA
 Bottom trawl,Chalut de fond,NA
 British Columbia,Colombie-Britannique,NA
 Broad Skate,raie large,NA
@@ -38,8 +39,8 @@ Brown Cat Shark,holbiche brune,NA
 BT,CF,NA
 Buffalo Sculpin,chabot-bison,NA
 Butter Sole,plie à écailles régulières,NA
-C-O Sole,C-O Sole,NA
-C O Sole,C O Sole,NA
+C-O Sole,C-O sole,NA
+C O Sole,C O sole,NA
 Cabezon,chabot marbré,NA
 California Grenadier,grenadier de Californie,NA
 Canary Rockfish,sébaste canari,NA
@@ -76,7 +77,7 @@ Deviation from expected biomass in log space,Écart par rapport à la biomasse p
 Discarded,Rejetées,NA
 Distance,Distance,NA
 Dive,Plongée,NA
-Dover Sole,limande Sole du Pacifique,NA
+Dover Sole,limande sole du Pacifique,NA
 Dusky Rockfish,sébaste cilié,NA
 Dwarf Wrymouth,terrassier nain,NA
 Easting,Abscisse,NA
@@ -97,7 +98,7 @@ Gear,engin,NA
 Geometric mean of hook and line CPUE (fish/set),Moyenne géométrique des CPUE à l’hameçon et à la ligne (poisson/ensemble),NA
 Geometric mean of trawl CPUE (kg/hr),Moyenne géométrique des CPUE du chalut (kg/h),NA
 Geostatistical,Géostatique,NA
-Giant Blob Sculpin,chabot maculé,NA
+Giant Blobsculpin,chabot maculé,NA
 Giant Grenadier,grenadier géant,NA
 Giant Wrymouth,terrassier géant,NA
 GMA,ZGPF,NA
@@ -214,7 +215,7 @@ Rougheye/Blackspotted Rockfish Complex,complexe du sébaste à œil épineux et 
 Roughtail Skate,raie à queue rude,NA
 Sablefish,morue charbonnière,NA
 Salmon Shark,taupe du Pacifique,NA
-Sand Sole,Sole-pole,NA
+Sand Sole,sole-pole,NA
 Sandpaper Skate,raie rugueuse,NA
 SARA status,Statut en vertu de la LEP,NA
 SB,BSR,NA
@@ -240,6 +241,7 @@ Snake Prickleback,lompénie-serpent,NA
 SoG,DG,NA
 Southern Rock Sole,fausse limande du Pacifique sud,NA
 Spatial random effects,Effets aléatoires spatiaux,NA
+Spatial random effects only,Effets aléatoires spatiaux seulement,NA
 Spatiotemporal random effects only,Effets aléatoires spatio-temporels seulement,NA
 Spawn index,indice du frai,NA
 Spawning biomass,biomasse reproductrice,NA

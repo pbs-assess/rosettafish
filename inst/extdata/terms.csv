@@ -45,7 +45,7 @@ Cabezon,chabot marbré,NA
 California Grenadier,grenadier de Californie,NA
 Canary Rockfish,sébaste canari,NA
 Catch,Prise,NA
-Catch rate (fish/effective Skate),Taux de prise (poisson/raie réelle),NA
+Catch rate (fish/effective skate),Taux de prise (poisson/raie réelle),NA
 CC,CC,NA
 Central Coast,Côte centrale,NA
 Chilipepper,sébaste de Goode,NA
@@ -56,14 +56,15 @@ Commercial bottom trawl CPUE,PUE chalut de fond commercial,NA
 Commercial catch,Prises commerciales,NA
 Commercial H & L CPUE,PUE commercial H & L,NA
 Commercial hook and line CPUE,PUE des pêches commerciales à l'hameçon et à la ligne,NA
+Commercial samples,Échantillons commerciaux,NA
 Commercial specimen counts,Décompte des spécimens du commercial,NA
 Commercial trawl catch per unit effort (CPUE),Captures par unité d’effort (CPUE) du chalutage commercial,NA
 Commercial trawl CPUE,PUE chalut commercial,NA
 Common name,Nom commun,NA
 Copper Rockfish,sébaste cuivré,NA
 Correlation,Corrélation,NA
-COSEWIC status,Désignation du COSEPAC,NA
-COSEWIC status report,Rapports de situation du COSEPAC,NA
+COSEWIC Status,Désignation du COSEPAC,NA
+COSEWIC Status Report,Rapports de situation du COSEPAC,NA
 CPUE,PUE,NA
 Curlfin Sole,plie à nageoires frisées,NA
 Darkblotched Rockfish,sébaste tacheté,NA
@@ -90,6 +91,7 @@ Family,Famille,NA
 Feb,fev,NA
 Female,Femelle,NA
 fish,poisson,NA
+fish/skate,poisson/raie,NA
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels,NA
 fishing gear,engin peche,NA
 Flathead Sole,balai du Japon,NA
@@ -217,7 +219,7 @@ Sablefish,morue charbonnière,NA
 Salmon Shark,taupe du Pacifique,NA
 Sand Sole,sole-pole,NA
 Sandpaper Skate,raie rugueuse,NA
-SARA status,Statut en vertu de la LEP,NA
+SARA Status,Statut en vertu de la LEP,NA
 SB,BSR,NA
 Scaled abundance,Abondance mise à l’échelle,NA
 Scientific name,Nom scientifique,NA
@@ -266,8 +268,9 @@ Survey biomass density,Densité de la biomasse du relevé,NA
 Survey density (1000 fish/km^2),Densité du relevé (1 000 poissons/km2),NA
 Survey period,Période du relevé,NA
 Survey relative biomass indices,Indices de la biomasse du relevés,NA
+Survey samples,Échantillons de relevé,NA
 Survey specimen counts,Décompte des spécimens du relevé,NA
-Synoptic Survey Biomass,Biomasse du relevé synoptique,NA
+Synoptic survey biomass,Biomasse du relevé synoptique,NA
 Technical Report,Rapport technique,NA
 Temperature,Temperature,NA
 Thornback Sculpin,chabot à dos épineux,NA

@@ -2,23 +2,24 @@
 #'
 #' @param x text
 #' @param translate logical
+#' @param ... arguments passed to [translate()]
 #'
 #' @export
 #' @rdname trans
-en2fr <- function(x, translate = TRUE, sep = "; ") {
+en2fr <- function(x, translate = TRUE, ...) {
   if (!translate) {
     return(x)
   }
-  trans(x, from = "english", to = "french", sep = sep)
+  trans(x, from = "english", to = "french", ...)
 }
 
 #' @export
 #' @rdname trans
-fr2en <- function(x, translate = TRUE, sep = "; ") {
+fr2en <- function(x, translate = TRUE, ...) {
   if (!translate) {
     return(x)
   }
-  trans(x, from = "french", to = "english", sep = sep)
+  trans(x, from = "french", to = "english", ...)
 }
 
 #' @param from language to translate from

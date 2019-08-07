@@ -1,6 +1,7 @@
 english,french,inuktitut
 A27,Z27,NA
 A2W,Z2O,NA
+Abundance,Abondance,NA
 Abyssal Skate,raie abyssale,NA
 Age,Âge,NA
 Age (years),Âge (années),NA
@@ -20,6 +21,7 @@ Basking Shark,requin-pèlerin,NA
 Big Skate,raie biocellée,NA
 Bigfin Eelpout,lycode à grandes nageoires,NA
 Bigmouth Sculpin,hémitriptère à grande bouche,NA
+Biological,Biologique,NA
 Biomass,Biomasse,NA
 Biomass estimate (kg/km^2),Estimation de la biomasse (kg/km2),NA
 Biomass estimate divided by geometric mean,Estimation de la biomasse/moyenne géométrique,NA
@@ -66,8 +68,10 @@ Correlation,Corrélation,NA
 COSEWIC Status,Désignation du COSEPAC,NA
 COSEWIC Status Report,Rapports de situation du COSEPAC,NA
 CPUE,PUE,NA
+Cumulative Effects Assessment Steps,Étapes de l’évaluation des effets cumulatifs,NA
 Curlfin Sole,plie à nageoires frisées,NA
 Darkblotched Rockfish,sébaste tacheté,NA
+Data,Données,NA
 Deacon Rockfish,sébaste Deacon,NA
 Dec,dec,NA
 Deepsea Sole,plie de profondeur,NA
@@ -78,6 +82,7 @@ Deviation from expected biomass in log space,Écart par rapport à la biomasse p
 Discarded,Rejetées,NA
 Distance,Distance,NA
 Dive,Plongée,NA
+Dive survey,Relevé de plongée,NA
 Dover Sole,limande sole du Pacifique,NA
 Dusky Rockfish,sébaste cilié,NA
 Dwarf Wrymouth,terrassier nain,NA
@@ -160,12 +165,15 @@ North Pacific Spiny Dogfish,aiguillat commun du Pacifique Nord,NA
 Northing,Ordonnée,NA
 Not at Risk,Non en péril,NA
 Nov,nov,NA
+Number-at-age,Nombre selon l’âge,NA
+Number at age,Nombre selon l’âge,NA
 Number of age-2 recruits,Nombre de recrues d’âge 2,NA
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année,NA
 Oct,oct,NA
 Order,Ordre,NA
 Original,Version originale,NA
 Other,Autre,NA
+Other fisheries,Autres pêches,NA
 Pacific Cod,morue du Pacifique,NA
 Pacific Flatnose,antimore à petites écailles,NA
 Pacific Grenadier,grenadier du Pacifique,NA
@@ -210,6 +218,8 @@ Resting,Au repos,NA
 Rex Sole,plie cynoglosse royale,NA
 Ripe,Mûrs,NA
 Rockfish Conservation Areas,Aires de conservation des sébastes,NA
+Roe gillnet fishery,Pêche au hareng rogué au filet maillant,NA
+Roe seine fishery,Pêche au hareng rogué à la senne,NA
 RoeGN,RogueFM,NA
 RoeSN,RogueSN,NA
 Rosethorn Rockfish,sébaste rosacé,NA
@@ -227,6 +237,7 @@ Scientific name,Nom scientifique,NA
 Scott Islands Marine National Wildlife Area,Réserve nationale de faune en milieu marin des îles Scott,NA
 Secondary age (years),Âge secondaire (ans),NA
 Section,Section,NA
+Seine,Senne,NA
 Sep,sep,NA
 Series,Séries,NA
 Sex,Sexe,NA
@@ -242,11 +253,12 @@ Slim Sculpin,chabot élancé,NA
 Smootheye Poacher,agone à nageoire coupée,NA
 Snake Prickleback,lompénie-serpent,NA
 SoG,DG,NA
+Source,Source,NA
 Southern Rock Sole,fausse limande du Pacifique sud,NA
 Spatial random effects,Effets aléatoires spatiaux,NA
 Spatial random effects only,Effets aléatoires spatiaux seulement,NA
 Spatiotemporal random effects only,Effets aléatoires spatio-temporels seulement,NA
-Spawn index,indice du frai,NA
+Spawn index,Indice du frai,NA
 Spawning biomass,biomasse reproductrice,NA
 Spawning biomass production,Production de la biomasse du stock reproducteur,NA
 Spawning stock biomass,Biomasse reproductrice,NA
@@ -264,6 +276,7 @@ Strait of Georgia/Howe Sound Sponge Reef Closures,Fermeture des pêches dans les
 Stripetail Rockfish,sébaste à queue rayée,NA
 Sturgeon Poacher,agone-esturgeon,NA
 Surface,Surface,NA
+Surface survey,Relevé en surface,NA
 Survey,Relevé,NA
 Survey biomass density,Densité de la biomasse du relevé,NA
 Survey density (1000 fish/km^2),Densité du relevé (1 000 poissons/km2),NA
@@ -274,6 +287,7 @@ Survey specimen counts,Décompte des spécimens du relevé,NA
 Synoptic survey biomass,Biomasse du relevé synoptique,NA
 Technical Report,Rapport technique,NA
 Temperature,Temperature,NA
+Test fishery,Pêche d'essai,NA
 Thornback Sculpin,chabot à dos épineux,NA
 Threadfin Grenadier,grenadier à filaments,NA
 Threadfin Sculpin,icéline filamenteuse,NA
@@ -292,8 +306,8 @@ Walleye Pollock,goberge,NA
 Wattled Eelpout,lycode tressée,NA
 WCVI,COIV,NA
 Weight,Poids,NA
-Weight-at-age,Poids-à-l'âge,NA
-Weight at age,Poids à l'âge,NA
+Weight-at-age,Poids selon l’âge,NA
+Weight at age,Poids selon l’âge,NA
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA
 Whitebait Smelt,éperlan blanchaille,NA
 Whitebarred Prickleback,lompénie à barres blanches,NA
@@ -301,7 +315,7 @@ Whitespotted Greenling,sourcil à taches blanches,NA
 Widow Rockfish,sébaste veuve,NA
 Wolf Eel,loup ocellé,NA
 Year,Année,NA
+Years,Années,NA
 Yelloweye Rockfish,sébastes aux yeux jaunes,NA
 Yellowmouth Rockfish,sébaste à bouche jaune,NA
 Yellowtail Rockfish,sébaste à queue jaune,NA
-Cumulative Effects Assessment Steps,Étapes de l’évaluation des effets cumulatifs,NA

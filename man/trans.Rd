@@ -6,9 +6,9 @@
 \alias{trans}
 \title{Translation between languages}
 \usage{
-en2fr(x, translate = TRUE, sep = "; ")
+en2fr(x, translate = TRUE, ...)
 
-fr2en(x, translate = TRUE, sep = "; ")
+fr2en(x, translate = TRUE, ...)
 
 trans(x, from = "french", to = "english", sep = "; ",
   allow_missing = FALSE)
@@ -18,11 +18,13 @@ trans(x, from = "french", to = "english", sep = "; ",
 
 \item{translate}{logical}
 
-\item{sep}{seperator between multiple 'to' languages}
+\item{...}{arguments passed to \code{\link[=translate]{translate()}}}
 
 \item{from}{language to translate from}
 
 \item{to}{language to translate to}
+
+\item{sep}{seperator between multiple 'to' languages}
 
 \item{allow_missing}{Should the function return the input value if the term
 is missing from the dictionary? If \code{FALSE} then the function will issue a

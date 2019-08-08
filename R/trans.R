@@ -1,9 +1,3 @@
-#' Translation between languages
-#'
-#' @param x text
-#' @param translate logical
-#' @param ... arguments passed to [translate()]
-#'
 #' @export
 #' @rdname trans
 en2fr <- function(x, translate = TRUE, ...) {
@@ -22,12 +16,17 @@ fr2en <- function(x, translate = TRUE, ...) {
   trans(x, from = "french", to = "english", ...)
 }
 
+#' Translate a word or phrase from one language to another
+#'
 #' @param from language to translate from
 #' @param to language to translate to
 #' @param sep seperator between multiple 'to' languages
 #' @param allow_missing Should the function return the input value if the term
 #'   is missing from the dictionary? If `FALSE` then the function will issue a
 #'   stop statement if anything is missing.
+#' @param x word or phrase to translate
+#' @param translate Logical. Perform the translation if TRUE.
+#' @param ... arguments passed to [trans()]
 #'
 #' @export
 #' @rdname trans

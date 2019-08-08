@@ -4,7 +4,7 @@
 \alias{en2fr}
 \alias{fr2en}
 \alias{trans}
-\title{Translation between languages}
+\title{Translate a word or phrase from one language to another}
 \usage{
 en2fr(x, translate = TRUE, ...)
 
@@ -14,11 +14,11 @@ trans(x, from = "french", to = "english", sep = "; ",
   allow_missing = FALSE)
 }
 \arguments{
-\item{x}{text}
+\item{x}{word or phrase to translate}
 
-\item{translate}{logical}
+\item{translate}{Logical. Perform the translation if TRUE.}
 
-\item{...}{arguments passed to \code{\link[=translate]{translate()}}}
+\item{...}{arguments passed to \code{\link[=trans]{trans()}}}
 
 \item{from}{language to translate from}
 
@@ -31,5 +31,5 @@ is missing from the dictionary? If \code{FALSE} then the function will issue a
 stop statement if anything is missing.}
 }
 \description{
-Translation between languages
+Translate a word or phrase from one language to another
 }

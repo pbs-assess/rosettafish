@@ -41,8 +41,8 @@ Brown Cat Shark,holbiche brune,NA
 BT,CF,NA
 Buffalo Sculpin,chabot-bison,NA
 Butter Sole,plie à écailles régulières,NA
-C-O Sole,C-O sole,NA
 C O Sole,C O sole,NA
+C-O Sole,C-O sole,NA
 Cabezon,chabot marbré,NA
 California Grenadier,grenadier de Californie,NA
 Canary Rockfish,sébaste canari,NA
@@ -88,6 +88,7 @@ Dusky Rockfish,sébaste cilié,NA
 Dwarf Wrymouth,terrassier nain,NA
 Easting,Abscisse,NA
 Effective harvest rate,Taux de récolte effectif,NA
+Embryos,Des embryons,NA
 Endangered,En voie de disparition,NA
 Endeavour Hydrothermal Vents Marine Protected Area,Zone de protection marine du champ hydrothermal Endeavour,NA
 English Sole,carlottin anglais,NA
@@ -134,9 +135,9 @@ Kelp Greenling,sourcil de varech,NA
 Last Research Document,Plus récent document de recherche,NA
 Last Science Advisory Report,Dernier avis scientifique,NA
 Length,Longueur,NA
-Length-weight relationship,Relation longueur-poids,NA
 Length at maturity,Longueur à maturité,NA
 Length frequencies,Fréquences de longueur,NA
+Length-weight relationship,Relation longueur-poids,NA
 Lingcod,morue-lingue,NA
 Link,Lien,NA
 Log of standardized CPUE,Log de CPUE standardisé,NA
@@ -165,10 +166,10 @@ North Pacific Spiny Dogfish,aiguillat commun du Pacifique Nord,NA
 Northing,Ordonnée,NA
 Not at Risk,Non en péril,NA
 Nov,nov,NA
-Number-at-age,Nombre selon l’âge,NA
 Number at age,Nombre selon l’âge,NA
 Number of age-2 recruits,Nombre de recrues d’âge 2,NA
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année,NA
+Number-at-age,Nombre selon l’âge,NA
 Oct,oct,NA
 Order,Ordre,NA
 Original,Version originale,NA
@@ -226,6 +227,7 @@ Rosethorn Rockfish,sébaste rosacé,NA
 Rougheye Blackspotted Rockfish Complex,complexe du sébaste à œil épineux et du sébaste à taches noires,NA
 Rougheye/Blackspotted Rockfish Complex,complexe du sébaste à œil épineux et du sébaste à taches noires,NA
 Roughtail Skate,raie à queue rude,NA
+Running ripe,TODO,NA
 Sablefish,morue charbonnière,NA
 Salmon Shark,taupe du Pacifique,NA
 Sand Sole,sole-pole,NA
@@ -287,6 +289,7 @@ Survey specimen counts,Décompte des spécimens du relevé,NA
 Synoptic survey biomass,Biomasse du relevé synoptique,NA
 Technical Report,Rapport technique,NA
 Temperature,Temperature,NA
+Term pups,TODO,NA
 Test fishery,Pêche d'essai,NA
 Thornback Sculpin,chabot à dos épineux,NA
 Threadfin Grenadier,grenadier à filaments,NA
@@ -299,6 +302,7 @@ Trap,Casier,NA
 Twoline Eelpout,lycode à deux lignes,NA
 Type,Type,NA
 Unknown/trawl,Inconnu/chalut,NA
+Uterine eggs,Oeufs utérins,NA
 Value,Valeur,NA
 Vermilion Rockfish,sébaste vermillon,NA
 Vulnerable biomass,Biomasse vulnerable,NA
@@ -306,8 +310,8 @@ Walleye Pollock,goberge,NA
 Wattled Eelpout,lycode tressée,NA
 WCVI,COIV,NA
 Weight,Poids,NA
-Weight-at-age,Poids selon l’âge,NA
 Weight at age,Poids selon l’âge,NA
+Weight-at-age,Poids selon l’âge,NA
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA
 Whitebait Smelt,éperlan blanchaille,NA
 Whitebarred Prickleback,lompénie à barres blanches,NA
@@ -319,3 +323,4 @@ Years,Années,NA
 Yelloweye Rockfish,sébastes aux yeux jaunes,NA
 Yellowmouth Rockfish,sébaste à bouche jaune,NA
 Yellowtail Rockfish,sébaste à queue jaune,NA
+Yolk sac pups,TODO,NA

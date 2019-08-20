@@ -8,6 +8,7 @@ Age (years),Âge (années),NA
 Age at maturity,Âge à maturité,NA
 Age frequencies,Fréquences d'âge,NA
 Age structures,Structure par âge,NA
+Ageing codes,Codes de vieillissement,NA
 Ageing precision,Précision de al détermination de l'âge,NA
 Alaska Skate,raie de l’Alaska,NA
 Aleutian Skate,raie aléoutienne,NA
@@ -226,8 +227,9 @@ Roe seine fishery,Pêche au hareng rogué à la senne,NA
 RoeGN,RogueFM,NA
 RoeSN,RogueSN,NA
 Rosethorn Rockfish,sébaste rosacé,NA
-Rougheye Blackspotted Rockfish Complex,complexe du sébaste à œil épineux et du sébaste à taches noires,NA
-Rougheye/Blackspotted Rockfish Complex,complexe du sébaste à œil épineux et du sébaste à taches noires,NA
+Rougheye Blackspotted Rockfish Complex,complexe du sébaste à œil épineux/sébaste à taches noires,NA
+Rougheye/Blackspotted,œil épineux/taches noires,NA
+Rougheye/Blackspotted Rockfish Complex,complexe du sébaste à œil épineux/sébaste à taches noires,NA
 Roughtail Skate,raie à queue rude,NA
 Running Ripe,Courir Mûr,NA
 Sablefish,morue charbonnière,NA
@@ -238,7 +240,7 @@ SARA Status,Statut en vertu de la LEP,NA
 SB,BSR,NA
 Scaled abundance,Abondance mise à l’échelle,NA
 Scientific name,Nom scientifique,NA
-Scott Islands Marine National Wildlife Area,Réserve nationale de faune en milieu marin des îles Scott,NA
+Scott Islands Marine National Wildlife Area,Réserve nationale de faune en milieu marin des îles Scott,NA
 Secondary age (years),Âge secondaire (ans),NA
 Section,Section,NA
 Seine,Senne,NA
@@ -269,6 +271,7 @@ Spawning stock biomass,Biomasse reproductrice,NA
 Special Concern,Espèce préoccupante,NA
 Species at Risk Act Management Plan Series,Série des plans de gestion de la Loi sur les espèces en péril.,NA
 Species at Risk Act Recovery Strategy,Série de programmes de rétablissement de la Loi sur les espèces en péril,NA
+Species code,Code d'espèce,NA
 Spent,Dépensé,NA
 Spinyhead Sculpin,chabot à tête épineuse,NA
 Splitnose Rockfish,bec-de-lièvre,NA

@@ -18,6 +18,8 @@ Area 27,Zone 27,NA
 Arrowtooth Flounder,plie à grande bouche,NA
 Aug,août,NA
 Aurora Rockfish,sébaste aurore,NA
+Average F,F moyen,NA
+Average M,M moyen,NA
 Basking Shark,requin-pèlerin,NA
 Big Skate,raie biocellée,NA
 Bigfin Eelpout,lycode à grandes nageoires,NA
@@ -49,6 +51,7 @@ California Grenadier,grenadier de Californie,NA
 Canary Rockfish,sébaste canari,NA
 Catch,Prise,NA
 Catch rate (fish/effective skate),Taux de prise (poisson/raie réelle),NA
+Cautious zone,Zone de prudence,NA
 CC,CC,NA
 Central Coast,Côte centrale,NA
 Chilipepper,sébaste de Goode,NA
@@ -69,6 +72,7 @@ Correlation,Corrélation,NA
 COSEWIC Status,Désignation du COSEPAC,NA
 COSEWIC Status Report,Rapports de situation du COSEPAC,NA
 CPUE,PUE,NA
+Critical zone,Zone critique,NA
 Cumulative Effects Assessment Steps,Étapes de l’évaluation des effets cumulatifs,NA
 Curlfin Sole,plie à nageoires frisées,NA
 Darkblotched Rockfish,sébaste tacheté,NA
@@ -122,6 +126,7 @@ Gwaii Haanas National Marine Conservation Area,Aire marine nationale de conserva
 Haida Gwaii,Haida Gwaii,NA
 Harlequin Rockfish,sébaste arlequin,NA
 HBLL OUT survey biomass,Biomasse du relevé HBLL OUT,NA
+Healthy zone,Zone saine,NA
 Hecate Strait/Queen Charlotte Sound Sponge Reef Closures,Fermeture des récifs d'éponges siliceuses du détroit d'Hecate et du détroit de la Reine Charlotte,NA
 Herring,hareng,NA
 HG,HG,NA
@@ -210,6 +215,7 @@ Puget Sound Rockfish,sébaste paradeur,NA
 Pygmy Rockfish,sébaste pygmée,NA
 Quillback Rockfish,sébaste à dos épineux,NA
 Ragfish,torchon mou,NA
+Recruitment,Recrutement,NA
 Red Irish Lord,chabot trilobé rouge,NA
 Redbanded Rockfish,sébaste bandes rouges,NA
 Redstripe Rockfish,sébaste à raie rouge,NA
@@ -277,6 +283,8 @@ Spinyhead Sculpin,chabot à tête épineuse,NA
 Splitnose Rockfish,bec-de-lièvre,NA
 Spotfin Sculpin,icéline à nageoires tachetées,NA
 Spotted Ratfish,chimère d'Amérique,NA
+SSB,BSR,NA
+SSB/Blim,BSR/Blim,NA
 Starry Flounder,flet étoilé,NA
 Strait of Georgia,Détroit de Georgie,NA
 Strait of Georgia/Howe Sound Sponge Reef Closures,Fermeture des pêches dans les récifs d'éponges du détroit de Georgie et de la baie Howe,NA

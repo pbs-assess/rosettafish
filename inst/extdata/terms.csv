@@ -44,6 +44,7 @@ Brown Cat Shark,holbiche brune,NA
 BT,CF,NA
 Buffalo Sculpin,chabot-bison,NA
 Butter Sole,plie à écailles régulières,NA
+by,par,NA
 C-O Sole,C-O sole,NA
 C O Sole,C O sole,NA
 Cabezon,chabot marbré,NA
@@ -67,11 +68,13 @@ Commercial specimen counts,Décompte des spécimens du commercial,NA
 Commercial trawl catch per unit effort (CPUE),Captures par unité d’effort (CPUE) du chalutage commercial,NA
 Commercial trawl CPUE,PUE chalut commercial,NA
 Common name,Nom commun,NA
+Conservation,Conservation,NA
 Copper Rockfish,sébaste cuivré,NA
 Correlation,Corrélation,NA
 COSEWIC Status,Désignation du COSEPAC,NA
 COSEWIC Status Report,Rapports de situation du COSEPAC,NA
 CPUE,PUE,NA
+Criterion,Critère,NA
 Critical zone,Zone critique,NA
 Cumulative Effects Assessment Steps,Étapes de l’évaluation des effets cumulatifs,NA
 Curlfin Sole,plie à nageoires frisées,NA
@@ -139,6 +142,7 @@ Jan,jan,NA
 Jul,juil,NA
 Jun,juin,NA
 Kelp Greenling,sourcil de varech,NA
+Label,Étiquette,NA
 Last Research Document,Plus récent document de recherche,NA
 Last Science Advisory Report,Dernier avis scientifique,NA
 Length,Longueur,NA
@@ -151,6 +155,7 @@ Log of standardized CPUE,Log de CPUE standardisé,NA
 Log recruitment deviations,Log des écarts du recrutement,NA
 Longnose Skate,pocheteau long-nez,NA
 Longspine Thornyhead,sébastolobe à longues épines,NA
+LRP,PRL,NA
 Male,Mâle,NA
 Males,Mâles,NA
 Mar,mar,NA
@@ -167,6 +172,7 @@ Mean estimate (kg/km^2),Estimation moyenne (kg/km^2),NA
 Mean positive sets,Moyenne des ensembles positifs,NA
 Median,Médiane,NA
 Midwater trawl,Chalutage pélagique,NA
+MP,PG,NA
 MSY,RMS,NA
 MW,CP,NA
 No Status,Sans statut,NA
@@ -178,6 +184,7 @@ Number-at-age,Nombre selon l’âge,NA
 Number at age,Nombre selon l’âge,NA
 Number of age-2 recruits,Nombre de recrues d’âge 2,NA
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année,NA
+Objective,Objectif,NA
 Oct,oct,NA
 Order,Ordre,NA
 Original,Version originale,NA
@@ -245,6 +252,7 @@ Sandpaper Skate,raie rugueuse,NA
 SARA Status,Statut en vertu de la LEP,NA
 SB,BSR,NA
 Scaled abundance,Abondance mise à l’échelle,NA
+Scenario,Scénario,NA
 Scientific name,Nom scientifique,NA
 Scott Islands Marine National Wildlife Area,Réserve nationale de faune en milieu marin des îles Scott,NA
 Secondary age (years),Âge secondaire (ans),NA
@@ -315,6 +323,7 @@ Trap,Casier,NA
 Twoline Eelpout,lycode à deux lignes,NA
 Type,Type,NA
 Unknown/trawl,Inconnu/chalut,NA
+USR,RSS,NA
 Uterine Eggs,Oeufs utérins,NA
 Value,Valeur,NA
 Vermilion Rockfish,sébaste vermillon,NA
@@ -336,4 +345,5 @@ Years,Années,NA
 Yelloweye Rockfish,sébastes aux yeux jaunes,NA
 Yellowmouth Rockfish,sébaste à bouche jaune,NA
 Yellowtail Rockfish,sébaste à queue jaune,NA
+Yield,Rendement,NA
 Yolk Sac Pups,Petits avec sac vitellus,NA

@@ -104,7 +104,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
     [Help with UTF-8 file encoding and
     RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding).
 3.  Source the file data/make-dictionary.R to include data in the
-    package.
+    package (see the more detailed instructions in the next section).
 4.  Push to GitHub and submit a pull request.
 
 *If you’d rather a quick way to edit without worrying about Git or file

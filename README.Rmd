@@ -85,7 +85,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 
 1. Fork and clone this repository.
 2. Add the terms to the end of the file `inst/extdata/terms.csv` with a text editor. Please ensure your editor is saving in UTF-8 format. [Help with UTF-8 file encoding and RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding).
-3. Source the file data/make-dictionary.R to include data in the package.
+3. Source the file data/make-dictionary.R to include data in the package (see the more detailed instructions in the next section).
 4. Push to GitHub and submit a pull request.
 
 *If you'd rather a quick way to edit without worrying about Git or file encodings*:

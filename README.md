@@ -60,8 +60,8 @@ df <- data.frame(years, biomass = 2000 * rlnorm(length(years), 0, 1))
 ``` r
 make_plot <- function(french = FALSE) {
   ggplot(df, aes(years, biomass)) + geom_line() +
-    xlab(en2fr("year", french)) +
-    ylab(en2fr("biomass", french))
+    xlab(en2fr("Year", french)) +
+    ylab(en2fr("Biomass", french))
 }
 ```
 
@@ -78,17 +78,18 @@ make_plot(french = TRUE)
 <img src="man/figures/README-func-figs-2.png" width="70%" />
 
 ``` r
+english <- TRUE
 ggplot(df, aes(years, biomass)) + geom_line() +
-  xlab(fr2en("année")) +
-  ylab(fr2en("biomasse"))
+  xlab(fr2en("Année", english)) +
+  ylab(fr2en("Biomasse", english))
 ```
 
 <img src="man/figures/README-gg-figs-1.png" width="70%" />
 
 ``` r
 ggplot(df, aes(years, biomass)) + geom_line() +
-  xlab(trans("year", from = "english", to = c("english", "french"))) +
-  ylab(trans("biomass", from = "english", to = c("english", "french")))
+  xlab(trans("Year", from = "english", to = c("english", "french"))) +
+  ylab(trans("Biomass", from = "english", to = c("english", "french")))
 ```
 
 <img src="man/figures/README-gg-figs-both-1.png" width="70%" />
@@ -102,7 +103,9 @@ ggplot(df, aes(years, biomass)) + geom_line() +
     text editor. Please ensure your editor is saving in UTF-8 format.
     [Help with UTF-8 file encoding and
     RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding).
-3.  Push to GitHub and submit a pull request.
+3.  Source the file data/make-dictionary.R to include data in the
+    package.
+4.  Push to GitHub and submit a pull request.
 
 *If you’d rather a quick way to edit without worrying about Git or file
 encodings*:
@@ -115,6 +118,32 @@ encodings*:
 If both of those options are confusing, just [create an
 Issue](https://github.com/pbs-assess/rosettafish/issues/new) on the
 GitHub site and give us your new translated terms.
+
+## Updating the list and reloading the package to use your terms
+
+The above instructions are fine if you’re willing to wait for us to
+merge your pull request. If instead you want to update the terms and use
+the package immediately, follow the above instructions to add your terms
+and then open `data-raw/make-dictionary.R` and source it in R. This
+will:
+
+  - sort the `inst/extdata/terms.csv` dictionary file alphabetically
+  - stop you if there are any duplicates (fix them\!)
+  - save the data into the package data so it can be used
+
+After sourcing this file, you can reinstall the package to use it. For
+example, with your working directory set to the rosettafish folder:
+
+``` r
+devtools::install(quick = TRUE, dependencies = FALSE)
+```
+
+Or open the project in RStudio and run Build `->` Install and Restart.
+
+You will need to restart any other R sessions to be able to use the
+newly installed package.
+
+## Code of conduct
 
 Please note that the ‘rosettafish’ project is released with a
 [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By

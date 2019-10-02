@@ -47,8 +47,8 @@ BT,CF,NA
 Buffalo Sculpin,chabot-bison,NA
 Butter Sole,plie à écailles régulières,NA
 by,par,NA
-C O Sole,C O sole,NA
 C-O Sole,C-O sole,NA
+C O Sole,C O sole,NA
 Cabezon,chabot marbré,NA
 California Grenadier,grenadier de Californie,NA
 Canary Rockfish,sébaste canari,NA
@@ -150,9 +150,9 @@ Label,Étiquette,NA
 Last Research Document,Plus récent document de recherche,NA
 Last Science Advisory Report,Dernier avis scientifique,NA
 Length,Longueur,NA
+Length-weight relationship,Relation longueur-poids,NA
 Length at maturity,Longueur à maturité,NA
 Length frequencies,Fréquences de longueur,NA
-Length-weight relationship,Relation longueur-poids,NA
 Lingcod,morue-lingue,NA
 Link,Lien,NA
 Log of standardized CPUE,Log de CPUE standardisé,NA
@@ -184,12 +184,14 @@ North Pacific Spiny Dogfish,aiguillat commun du Pacifique Nord,NA
 Northing,Ordonnée,NA
 Not at Risk,Non en péril,NA
 Nov,nov,NA
+Number-at-age,Nombre selon l’âge,NA
 Number at age,Nombre selon l’âge,NA
 Number of age-2 recruits,Nombre de recrues d’âge 2,NA
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année,NA
-Number-at-age,Nombre selon l’âge,NA
 Objective,Objectif,NA
 Oct,oct,NA
+OM,ME,NA
+Operating Model,Modèle d'exploitation,NA
 Order,Ordre,NA
 Original,Version originale,NA
 Other,Autre,NA
@@ -337,8 +339,8 @@ Walleye Pollock,goberge,NA
 Wattled Eelpout,lycode tressée,NA
 WCVI,COIV,NA
 Weight,Poids,NA
-Weight at age,Poids selon l’âge,NA
 Weight-at-age,Poids selon l’âge,NA
+Weight at age,Poids selon l’âge,NA
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver,NA
 Whitebait Smelt,éperlan blanchaille,NA
 Whitebarred Prickleback,lompénie à barres blanches,NA

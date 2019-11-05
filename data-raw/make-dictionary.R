@@ -18,4 +18,3 @@ if(length(dups>0)){
 }
 
 usethis::use_data(rosetta_terms, overwrite = TRUE, internal = TRUE)
-

@@ -10,24 +10,39 @@ en2fr(x, translate = TRUE, ...)
 
 fr2en(x, translate = TRUE, ...)
 
-trans(x, from = "french", to = "english", sep = "; ", allow_missing = FALSE)
+trans(
+  x,
+  from = "french",
+  to = "english",
+  sep = "; ",
+  allow_missing = FALSE,
+  custom_terms = NULL
+)
 }
 \arguments{
-\item{x}{word or phrase to translate}
+\item{x}{Word or phrase to translate.}
 
-\item{translate}{Logical. Perform the translation if TRUE.}
+\item{translate}{Logical: perform the translation if \code{TRUE}.}
 
-\item{...}{arguments passed to \code{\link[=trans]{trans()}}}
+\item{...}{Other arguments to be passed to \code{\link[=trans]{trans()}} such as
+\code{allow_missing} or \code{custom_terms}.}
 
-\item{from}{language to translate from}
+\item{from}{Language to translate from.}
 
-\item{to}{language to translate to}
+\item{to}{Language to translate to.}
 
-\item{sep}{seperator between multiple 'to' languages}
+\item{sep}{Seperator between multiple \code{to} languages}
 
 \item{allow_missing}{Should the function return the input value if the term
 is missing from the dictionary? If \code{FALSE} then the function will issue a
-stop statement if anything is missing.}
+\code{stop()} statement if anything is missing.}
+
+\item{custom_terms}{An optional data frame that contains a temporary or
+one-off translation dictionary. Must have the column names \code{"english"} and
+\code{"french"}. This can be useful if you want to quickly build up a set of
+terms to add to the dictionary before submitting them to the official
+package dictionary or if you have some one-off translation that you don't
+think would be useful to anybody else.}
 }
 \description{
 Translate a word or phrase from one language to another

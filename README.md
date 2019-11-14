@@ -9,8 +9,8 @@ status](https://travis-ci.org/pbs-assess/rosettafish.svg?branch=master)](https:/
 status](https://codecov.io/gh/pbs-assess/rosettafish/branch/master/graph/badge.svg)](https://codecov.io/github/pbs-assess/rosettafish?branch=master)
 
 rosettafish is an R package to translate fish- and fisheries-related
-words or short phrases between languages (e.g. French to English,
-English to French, English to Inuktitut).
+words or short phrases between languages (English to French or French to
+English).
 
 This would apply to figure labels to produce separate figures in two
 languages, or a single figure with labels in two languages. It can also
@@ -23,7 +23,7 @@ presentations. This is done when building the figures (in R) and saves
 someone having to manually edit the figure (in, say, Photoshop). This
 preserves the quality and the output formats of figures in both
 languages, and is especially time-saving when the same figure axes are
-used for multiple figures (e.g. a time series of biomass estimates for
+used for multiple figures (e.g., a time series of biomass estimates for
 multiple model runs of a stock assessment).
 
 The package has a built-in .csv file of English-French translations of
@@ -31,9 +31,6 @@ common technical fisheries terms (that are often incorrectly translated
 by generic automatic translators). Users can add to this or use their
 own file, and are encouraged to add to the ever-expanding list of common
 terms using the instructions below.
-
-This is currently implemented for French-English translations with some
-Inuktitut, but could be expanded to other languages.
 
 ## Installation
 
@@ -99,7 +96,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 *If you’re comfortable with Git and file encodings:*
 
 1.  Fork and clone this repository.
-2.  Add the terms to the end of the file `inst/extdata/terms.csv` with a
+2.  Add the terms to the end of the file `data-raw/terms.csv` with a
     text editor (**not Excel\!**). Ensure your editor is saving in UTF-8
     format or the French accents will be destroyed. [Help with UTF-8
     file encoding and
@@ -112,7 +109,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 encodings*:
 
 1.  [Edit the file directly on
-    GitHub](https://github.com/pbs-assess/rosettafish/edit/master/inst/extdata/terms.csv).
+    GitHub](https://github.com/pbs-assess/rosettafish/edit/master/data-raw/terms.csv).
 2.  Add the terms to the end of the file.
 3.  Click the button to create a pull request.
 
@@ -128,7 +125,7 @@ the package immediately, follow the above instructions to add your terms
 and then open `data-raw/make-dictionary.R` and source it in R. This
 will:
 
-  - sort the `inst/extdata/terms.csv` dictionary file alphabetically
+  - sort the `data-raw/terms.csv` dictionary file alphabetically
   - stop you if there are any duplicates (fix them\!)
   - save the data into the package data so it can be used
 
@@ -139,7 +136,7 @@ example, with your working directory set to the rosettafish folder:
 devtools::install(quick = TRUE, dependencies = FALSE)
 ```
 
-Or open the project in RStudio and run Build `->` Install and Restart.
+Or open the project in RStudio and run Build \> Install and Restart.
 
 You will need to restart any other R sessions to be able to use the
 newly installed package.

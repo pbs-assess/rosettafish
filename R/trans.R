@@ -18,29 +18,49 @@ fr2en <- function(x, translate = TRUE, ...) {
 
 #' Translate a word or phrase from one language to another
 #'
-#' @param from language to translate from
-#' @param to language to translate to
-#' @param sep seperator between multiple 'to' languages
+#' @param x Word or phrase to translate.
+#' @param translate Logical: perform the translation if `TRUE`.
+#' @param from Language to translate from.
+#' @param to Language to translate to.
+#' @param sep Seperator between multiple `to` languages
 #' @param allow_missing Should the function return the input value if the term
 #'   is missing from the dictionary? If `FALSE` then the function will issue a
 #'   `stop()` statement if anything is missing.
-#' @param x word or phrase to translate
-#' @param translate Logical. Perform the translation if TRUE.
-#' @param ... arguments passed to [trans()]
+#' @param custom_terms An optional data frame that contains a temporary or
+#'   one-off translation dictionary. Must have the column names `"english"` and
+#'   `"french"`. This can be useful if you want to quickly build up a set of
+#'   terms to add to the dictionary before submitting them to the official
+#'   package dictionary or if you have some one-off translation that you don't
+#'   think would be useful to anybody else.
+#' @param ... Other arguments to be passed to [trans()] such as
+#'   `allow_missing` or `custom_terms`.
 #'
 #' @export
 #' @rdname trans
 trans <- function(x, from = "french", to = "english", sep = "; ",
-                  allow_missing = FALSE) {
-  from.vec <- rosetta_terms[, from, drop = TRUE]
-  to.df <- rosetta_terms[, to, drop = FALSE]
+                  allow_missing = FALSE, custom_terms = NULL) {
+  if (!is.null(custom_terms)) {
+    if (!"data.frame" %in% class(custom_terms)) {
+      stop("`custom_terms` must be a data frame.", call. = FALSE)
+    }
+    if (!identical(sort(colnames(custom_terms)), c("english", "french"))) {
+      stop(
+        "`custom_terms` must have the column names ",
+        '`c("english", "french")`.', call. = FALSE
+      )
+    }
+  }
+  term_terms <- rbind(rosetta_terms, custom_terms)
+  from.vec <- term_terms[, from, drop = TRUE]
+  to.df <- term_terms[, to, drop = FALSE]
 
   j <- match(x, from.vec)
 
   if (!allow_missing) {
     if (any(is.na(j))) {
       if (sum(is.na(j)) == 1L) {
-        stop("The following term is not in the translation database: ", x[is.na(j)],
+        stop("The following term is not in the translation database: ",
+          x[is.na(j)],
           call. = FALSE
         )
       } else {

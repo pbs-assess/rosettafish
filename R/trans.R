@@ -22,7 +22,7 @@ fr2en <- function(x, translate = TRUE, ...) {
 #' @param translate Logical: perform the translation if `TRUE`.
 #' @param from Language to translate from.
 #' @param to Language to translate to.
-#' @param sep Seperator between multiple `to` languages
+#' @param sep Seperator between multiple `to` languages.
 #' @param allow_missing Should the function return the input value if the term
 #'   is missing from the dictionary? If `FALSE` then the function will issue a
 #'   `stop()` statement if anything is missing.
@@ -37,6 +37,15 @@ fr2en <- function(x, translate = TRUE, ...) {
 #'
 #' @export
 #' @rdname trans
+#' @examples
+#' en2fr("Depth", TRUE)
+#' en2fr("Depth", FALSE)
+#' fr2en("Profondeur", TRUE)
+#' fr2en("Profondeur", FALSE)
+#' trans("Depth", from = "english", to = c("english", "french"))
+#' df <- data.frame(english = c("aaa"), french = c("bbb"))
+#' en2fr("aaa", custom_terms = df)
+
 trans <- function(x, from = "french", to = "english", sep = "; ",
                   allow_missing = FALSE, custom_terms = NULL) {
   if (!is.null(custom_terms)) {

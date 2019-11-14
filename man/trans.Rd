@@ -31,7 +31,7 @@ trans(
 
 \item{to}{Language to translate to.}
 
-\item{sep}{Seperator between multiple \code{to} languages}
+\item{sep}{Seperator between multiple \code{to} languages.}
 
 \item{allow_missing}{Should the function return the input value if the term
 is missing from the dictionary? If \code{FALSE} then the function will issue a
@@ -46,4 +46,13 @@ think would be useful to anybody else.}
 }
 \description{
 Translate a word or phrase from one language to another
+}
+\examples{
+en2fr("Depth", TRUE)
+en2fr("Depth", FALSE)
+fr2en("Profondeur", TRUE)
+fr2en("Profondeur", FALSE)
+trans("Depth", from = "english", to = c("english", "french"))
+df <- data.frame(english = c("aaa"), french = c("bbb"))
+en2fr("aaa", custom_terms = df)
 }

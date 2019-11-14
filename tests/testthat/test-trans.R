@@ -79,6 +79,11 @@ test_that("en2fr and fr2en work as expected", {
   expect_equal(fr2en("Profondeur", FALSE), "Profondeur")
 })
 
+test_that("trans returns an error if term is missing", {
+  expect_error(en2fr("Not here!", TRUE, allow_missing = FALSE))
+  expect_error(en2fr(c("Not here!", "Nor here!"), TRUE, allow_missing = FALSE))
+})
+
 test_that("custom term data frames work", {
   df <- data.frame(english = c("aaa"), french = c("bbb"))
   expect_equal(trans("aaa",

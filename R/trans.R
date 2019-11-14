@@ -23,15 +23,15 @@ fr2en <- function(x, translate = TRUE, ...) {
 #' @param sep seperator between multiple 'to' languages
 #' @param allow_missing Should the function return the input value if the term
 #'   is missing from the dictionary? If `FALSE` then the function will issue a
-#'   stop statement if anything is missing.
+#'   `stop()` statement if anything is missing.
 #' @param x word or phrase to translate
 #' @param translate Logical. Perform the translation if TRUE.
 #' @param ... arguments passed to [trans()]
 #'
 #' @export
 #' @rdname trans
-trans <- function(x, from = "french", to = "english", sep = "; ", allow_missing = FALSE) {
-
+trans <- function(x, from = "french", to = "english", sep = "; ",
+                  allow_missing = FALSE) {
   from.vec <- rosetta_terms[, from, drop = TRUE]
   to.df <- rosetta_terms[, to, drop = FALSE]
 
@@ -39,18 +39,24 @@ trans <- function(x, from = "french", to = "english", sep = "; ", allow_missing 
 
   if (!allow_missing) {
     if (any(is.na(j))) {
-      if (sum(is.na(j)) == 1L)
+      if (sum(is.na(j)) == 1L) {
         stop("The following term is not in the translation database: ", x[is.na(j)],
-          call. = FALSE)
-      else
+          call. = FALSE
+        )
+      } else {
         stop("The following terms are not in the translation database: ",
-          paste(x[is.na(j)], collapse = ", "), call. = FALSE)
+          paste(x[is.na(j)], collapse = ", "),
+          call. = FALSE
+        )
+      }
     }
   }
-  v <- to.df[j,]
+  v <- to.df[j, ]
   v[is.na(j)] <- x[is.na(j)]
-  if(class(v) == "data.frame"){
-    v <- as.character(apply(v, 1, function(x){ paste0(x, collapse = sep)}))
+  if (class(v) == "data.frame") {
+    v <- as.character(apply(v, 1, function(x) {
+      paste0(x, collapse = sep)
+    }))
   }
   v
 }

@@ -1,25 +1,60 @@
 Package: rosettafish
-Title: What the Package Does (One Line, Title Case)
+Title: Automatic Translation of Fish and Fisheries Terms
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+Authors@R:
+    c(person(given = c("Sean", "C."),
+             family = "Anderson",
+             role = c("aut", "cre"),
+             email = "sean.anderson@dfo-mpo.gc.ca",
+             comment = c(ORCID = "0000-0001-9563-1937")),
+      person(given = "Chris",
+             family = "Grandin",
+             role = "aut"),
+      person(given = "Andrew",
+             family = "Edwards",
+             role = "aut"),
+      person(given = "Jaclyn",
+             family = "Cleary",
+             role = "aut"),
+      person(given = "Mathieu",
+             family = "Desgagnes",
+             role = "aut"),
+      person(given = "Matt",
+             family = "Grinnell",
+             role = "aut"),
+      person(given = "Elise",
+             family = "Keppel",
+             role = "aut"),
+      person(given = "Ann",
+             family = "Mariscak",
+             role = "ctb"),
+      person(given = "Paul",
+             family = "Regular",
+             role = "ctb"),
+      person(given = "Daniel",
+             family = "Ricard",
+             role = "ctb"))
+Description: 'rosettafish' translates fish- and
+    fisheries-related words or short phrases between languages (mainly
+    French to English or English to French, presently). The package has a
+    built-in .csv file of English-French translations of common technical
+    fisheries terms that are often incorrectly translated by generic
+    automatic translators. Users can add to this or use their own file,
+    and are encouraged to add to the ever-expanding list of common terms
+    using the instructions in the README.md file.
 License: GPL (>=2)
-Depends: 
+Depends:
     R (>= 3.3.0)
 Suggests:
+    covr,
     knitr,
-    rmarkdown,
-    testthat,
     readr,
-    covr
-VignetteBuilder: 
+    rmarkdown,
+    testthat
+VignetteBuilder:
     knitr
 ByteCompile: true
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.0

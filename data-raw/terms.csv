@@ -47,8 +47,8 @@ BT,CF
 Buffalo Sculpin,chabot-bison
 Butter Sole,plie à écailles régulières
 by,par
-C O Sole,C O sole
 C-O Sole,C-O sole
+C O Sole,C O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
@@ -155,9 +155,9 @@ Label,Étiquette
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
+Length-weight relationship,Relation longueur-poids
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
-Length-weight relationship,Relation longueur-poids
 Lingcod,morue-lingue
 Link,Lien
 Log of standardized CPUE,Log de CPUE standardisé
@@ -190,10 +190,10 @@ North Pacific Spiny Dogfish,aiguillat commun du Pacifique Nord
 Northing,Ordonnée
 Not at Risk,Non en péril
 Nov,nov
+Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
-Number-at-age,Nombre selon l’âge
 Objective,Objectif
 Oct,oct
 OM,ME
@@ -324,6 +324,7 @@ Survey relative biomass indices,Indices de la biomasse du relevés
 Survey samples,Échantillons de relevé
 Survey specimen counts,Décompte des spécimens du relevé
 Synoptic survey biomass,Biomasse du relevé synoptique
+Tables,Tableaux
 Technical Report,Rapport technique
 Temperature,Temperature
 Term Pups,Petits à la taille du terme
@@ -348,8 +349,8 @@ Walleye Pollock,goberge
 Wattled Eelpout,lycode tressée
 WCVI,COIV
 Weight,Poids
-Weight at age,Poids selon l’âge
 Weight-at-age,Poids selon l’âge
+Weight at age,Poids selon l’âge
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
 Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches

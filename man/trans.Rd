@@ -10,14 +10,8 @@ en2fr(x, translate = TRUE, ...)
 
 fr2en(x, translate = TRUE, ...)
 
-trans(
-  x,
-  from = "french",
-  to = "english",
-  sep = "; ",
-  allow_missing = FALSE,
-  custom_terms = NULL
-)
+trans(x, from = "french", to = "english", sep = "; ",
+  allow_missing = FALSE, custom_terms = NULL)
 }
 \arguments{
 \item{x}{Word or phrase to translate.}

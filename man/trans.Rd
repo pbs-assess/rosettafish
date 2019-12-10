@@ -6,18 +6,37 @@
 \alias{trans}
 \title{Translate a word or phrase from one language to another}
 \usage{
-en2fr(x, translate = TRUE, ...)
+en2fr(
+  x,
+  translate = TRUE,
+  case = c("none", "sentence", "lower", "upper", "title"),
+  ...
+)
 
-fr2en(x, translate = TRUE, ...)
+fr2en(
+  x,
+  translate = TRUE,
+  case = c("none", "sentence", "lower", "upper", "title"),
+  ...
+)
 
-trans(x, from = "english", to = "french", case = c("none",
-  "sentence", "lower", "upper", "title"), sep = "; ",
-  allow_missing = FALSE, custom_terms = NULL)
+trans(
+  x,
+  from = "english",
+  to = "french",
+  case = c("none", "sentence", "lower", "upper", "title"),
+  sep = "; ",
+  allow_missing = FALSE,
+  custom_terms = NULL
+)
 }
 \arguments{
 \item{x}{Word or phrase to translate.}
 
 \item{translate}{Logical: perform the translation if \code{TRUE}.}
+
+\item{case}{Text case. \code{"none"} uses the value in the built-in dictionary
+verbatim.}
 
 \item{...}{Other arguments to be passed to \code{\link[=trans]{trans()}} such as
 \code{allow_missing} or \code{custom_terms}.}
@@ -25,9 +44,6 @@ trans(x, from = "english", to = "french", case = c("none",
 \item{from}{Language to translate from.}
 
 \item{to}{Language to translate to.}
-
-\item{case}{Text case. \code{"none"} uses the value in the built-in dictionary
-verbatim.}
 
 \item{sep}{Seperator between multiple \code{to} languages.}
 

@@ -22,6 +22,8 @@ fr2en <- function(x, translate = TRUE, ...) {
 #' @param translate Logical: perform the translation if `TRUE`.
 #' @param from Language to translate from.
 #' @param to Language to translate to.
+#' @param case Text case. `"none"` uses the value in the built-in dictionary
+#'   verbatim.
 #' @param sep Seperator between multiple `to` languages.
 #' @param allow_missing Should the function return the input value if the term
 #'   is missing from the dictionary? If `FALSE` then the function will issue a
@@ -46,8 +48,9 @@ fr2en <- function(x, translate = TRUE, ...) {
 #' df <- data.frame(english = c("aaa"), french = c("bbb"))
 #' en2fr("aaa", custom_terms = df)
 
-trans <- function(x, from = "french", to = "english", sep = "; ",
-                  allow_missing = FALSE, custom_terms = NULL) {
+trans <- function(x, from = "english", to = "french",
+                  case = c("none", "sentence", "lower", "upper", "title"),
+                  sep = "; ", allow_missing = FALSE, custom_terms = NULL) {
   if (!is.null(custom_terms)) {
     if (!"data.frame" %in% class(custom_terms)) {
       stop("`custom_terms` must be a data frame.", call. = FALSE)
@@ -59,7 +62,13 @@ trans <- function(x, from = "french", to = "english", sep = "; ",
       )
     }
   }
-  term_terms <- rbind(rosetta_terms, custom_terms)
+
+  .rosetta_terms <- rosetta_terms
+  dups <- match(custom_terms[[from]], rosetta_terms[[from]])
+  if (sum(stats::na.omit(dups)) > 0L) {
+    .rosetta_terms <- .rosetta_terms[-dups,,drop=FALSE]
+  }
+  term_terms <- rbind(.rosetta_terms, custom_terms)
   from.vec <- term_terms[, from, drop = TRUE]
   to.df <- term_terms[, to, drop = FALSE]
 
@@ -80,12 +89,38 @@ trans <- function(x, from = "french", to = "english", sep = "; ",
       }
     }
   }
-  v <- to.df[j, ]
+  if (length(to) == 1L) {
+    v <- to.df[j, , drop = TRUE]
+  } else {
+    v <- to.df[j, , drop = FALSE]
+  }
   v[is.na(j)] <- x[is.na(j)]
-  if (class(v) == "data.frame") {
+
+  case <- match.arg(case)
+
+  if (length(to) == 1L)
+  v <- caseify(v, case = case)
+
+  if (length(to) > 1L) {
+    v[] <- lapply(v, caseify, case = case)
     v <- as.character(apply(v, 1, function(x) {
       paste0(x, collapse = sep)
     }))
   }
   v
+}
+
+caseify <- function(x, case) {
+  if (case == "lower") {
+    x <- stringr::str_to_lower(x)
+  } else if (case == "upper") {
+    x <- stringr::str_to_upper(x)
+  } else if (case == "sentence") {
+    x <- stringr::str_to_sentence(x)
+  } else if (case == "title") {
+    x <- stringr::str_to_title(x)
+  } else if (case == "none") {
+    # nothing!
+  }
+  x
 }

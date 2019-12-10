@@ -85,35 +85,46 @@ test_that("trans returns an error if term is missing", {
 })
 
 test_that("custom term data frames work", {
-  df <- data.frame(english = c("aaa"), french = c("bbb"))
-  expect_equal(trans("aaa",
+  df <- data.frame(english = c("Aaa"), french = c("Bbb"))
+  expect_equal(trans("Aaa",
     from = "english", to = "french",
-    custom_terms = df
-  ), "bbb")
-  expect_equal(en2fr("aaa", custom_terms = df), "bbb")
-  expect_error(en2fr("aaa", custom_terms = "not a data frame"))
+    custom_terms = df,
+  ), "Bbb")
+  expect_equal(en2fr("Aaa", custom_terms = df), "Bbb")
+  expect_error(en2fr("Aaa", custom_terms = "not a data frame"))
 
-  df <- data.frame(english = c("aaa"), not_french = c("bbb"))
-  expect_error(en2fr("aaa", custom_terms = df))
+  df <- data.frame(english = c("Aaa"), not_french = c("Bbb"))
+  expect_error(en2fr("Aaa", custom_terms = df))
 
-  df <- data.frame(french = c("bbb"), english = c("aaa"))
-  expect_equal(en2fr("aaa", custom_terms = df), "bbb")
+  df <- data.frame(french = c("Bbb"), english = c("Aaa"))
+  expect_equal(en2fr("Aaa", custom_terms = df), "Bbb")
 
   df <- data.frame(
-    english = c("spawning biomass"),
-    french = c("biomasse reproductrice")
+    english = c("Spawning biomass"),
+    french = c("Biomasse reproductrice")
   )
   expect_equal(
-    en2fr("spawning biomass", custom_terms = df),
-    "biomasse reproductrice"
+    en2fr("Spawning biomass", custom_terms = df),
+    "Biomasse reproductrice"
   )
 
   df <- data.frame(
-    english = c("spawning biomass"),
+    english = c("Spawning biomass"),
     french = c("TEST biomasse reproductrice")
   )
   expect_equal(
-    en2fr("spawning biomass", custom_terms = df),
+    en2fr("Spawning biomass", custom_terms = df),
     "TEST biomasse reproductrice"
   )
+})
+
+test_that("cases work", {
+  df <- data.frame(english = c("aaa aaa"), french = c("bbb bbb"))
+  expect_equal(en2fr("aaa aaa", custom_terms = df, case = "none"), "bbb bbb")
+  expect_equal(en2fr("aaa aaa", custom_terms = df, case = "sentence"), "Bbb bbb")
+  expect_equal(en2fr("aaa aaa", custom_terms = df, case = "lower"), "bbb bbb")
+  expect_equal(en2fr("aaa aaa", custom_terms = df, case = "upper"), "BBB BBB")
+  expect_equal(en2fr("aaa aaa", custom_terms = df, case = "title"), "Bbb Bbb")
+  expect_equal(trans("aaa aaa", to = c("english", "french"),
+    custom_terms = df, case = "title"), "Aaa Aaa; Bbb Bbb")
 })

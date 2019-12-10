@@ -51,6 +51,8 @@ Suggests:
     readr,
     rmarkdown,
     testthat
+Imports:
+    stringr
 VignetteBuilder:
     knitr
 ByteCompile: true

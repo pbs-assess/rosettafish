@@ -10,8 +10,15 @@ en2fr(x, translate = TRUE, ...)
 
 fr2en(x, translate = TRUE, ...)
 
-trans(x, from = "french", to = "english", sep = "; ",
-  allow_missing = FALSE, custom_terms = NULL)
+trans(
+  x,
+  from = "english",
+  to = "french",
+  case = c("none", "sentence", "lower", "upper", "title"),
+  sep = "; ",
+  allow_missing = FALSE,
+  custom_terms = NULL
+)
 }
 \arguments{
 \item{x}{Word or phrase to translate.}
@@ -24,6 +31,9 @@ trans(x, from = "french", to = "english", sep = "; ",
 \item{from}{Language to translate from.}
 
 \item{to}{Language to translate to.}
+
+\item{case}{Text case. \code{"none"} uses the value in the built-in dictionary
+verbatim.}
 
 \item{sep}{Seperator between multiple \code{to} languages.}
 

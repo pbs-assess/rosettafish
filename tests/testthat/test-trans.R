@@ -127,4 +127,5 @@ test_that("cases work", {
   expect_equal(en2fr("aaa aaa", custom_terms = df, case = "title"), "Bbb Bbb")
   expect_equal(trans("aaa aaa", to = c("english", "french"),
     custom_terms = df, case = "title"), "Aaa Aaa; Bbb Bbb")
+  expect_equal(en2fr("aaa aaa", translate = FALSE, custom_terms = df, case = "upper"), "AAA AAA")
 })

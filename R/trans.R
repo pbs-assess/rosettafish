@@ -1,19 +1,23 @@
 #' @export
 #' @rdname trans
-en2fr <- function(x, translate = TRUE, ...) {
+en2fr <- function(x, translate = TRUE,
+                  case = c("none", "sentence", "lower", "upper", "title"),
+                  ...) {
   if (!translate) {
-    return(x)
+    return(caseify(x, match.arg(case)))
   }
-  trans(x, from = "english", to = "french", ...)
+  trans(x, from = "english", to = "french", case = case, ...)
 }
 
 #' @export
 #' @rdname trans
-fr2en <- function(x, translate = TRUE, ...) {
+fr2en <- function(x, translate = TRUE,
+                  case = c("none", "sentence", "lower", "upper", "title"),
+                  ...) {
   if (!translate) {
-    return(x)
+    return(caseify(x, match.arg(case)))
   }
-  trans(x, from = "french", to = "english", ...)
+  trans(x, from = "french", to = "english", case = case, ...)
 }
 
 #' Translate a word or phrase from one language to another
@@ -47,7 +51,6 @@ fr2en <- function(x, translate = TRUE, ...) {
 #' trans("Depth", from = "english", to = c("english", "french"))
 #' df <- data.frame(english = c("aaa"), french = c("bbb"))
 #' en2fr("aaa", custom_terms = df)
-
 trans <- function(x, from = "english", to = "french",
                   case = c("none", "sentence", "lower", "upper", "title"),
                   sep = "; ", allow_missing = FALSE, custom_terms = NULL) {
@@ -58,7 +61,8 @@ trans <- function(x, from = "english", to = "french",
     if (!identical(sort(colnames(custom_terms)), c("english", "french"))) {
       stop(
         "`custom_terms` must have the column names ",
-        '`c("english", "french")`.', call. = FALSE
+        '`c("english", "french")`.',
+        call. = FALSE
       )
     }
   }
@@ -66,7 +70,7 @@ trans <- function(x, from = "english", to = "french",
   .rosetta_terms <- rosetta_terms
   dups <- match(custom_terms[[from]], rosetta_terms[[from]])
   if (sum(stats::na.omit(dups)) > 0L) {
-    .rosetta_terms <- .rosetta_terms[-dups,,drop=FALSE]
+    .rosetta_terms <- .rosetta_terms[-dups, , drop = FALSE]
   }
   term_terms <- rbind(.rosetta_terms, custom_terms)
   from.vec <- term_terms[, from, drop = TRUE]
@@ -98,8 +102,9 @@ trans <- function(x, from = "english", to = "french",
 
   case <- match.arg(case)
 
-  if (length(to) == 1L)
-  v <- caseify(v, case = case)
+  if (length(to) == 1L) {
+    v <- caseify(v, case = case)
+  }
 
   if (length(to) > 1L) {
     v[] <- lapply(v, caseify, case = case)

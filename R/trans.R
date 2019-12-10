@@ -22,6 +22,11 @@ fr2en <- function(x, translate = TRUE,
 
 #' Translate a word or phrase from one language to another
 #'
+#' These functions facilitate translation of fish and fisheries related terms
+#' between English and French. `trans()` does all the work, but the helper
+#' functions `en2fr()` and `fr2en()` are probably the easiest to work with in
+#' practice.
+#'
 #' @param x Word or phrase to translate.
 #' @param translate Logical: perform the translation if `TRUE`.
 #' @param from Language to translate from.
@@ -51,6 +56,10 @@ fr2en <- function(x, translate = TRUE,
 #' trans("Depth", from = "english", to = c("english", "french"))
 #' df <- data.frame(english = c("aaa"), french = c("bbb"))
 #' en2fr("aaa", custom_terms = df)
+#' en2fr("Depth", TRUE, case = "none")
+#' en2fr("Depth", TRUE, case = "upper")
+#' en2fr("Depth", TRUE, case = "lower")
+#' en2fr("Depth", TRUE, case = "sentence")
 trans <- function(x, from = "english", to = "french",
                   case = c("none", "sentence", "lower", "upper", "title"),
                   sep = "; ", allow_missing = FALSE, custom_terms = NULL) {

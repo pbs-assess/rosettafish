@@ -59,7 +59,10 @@ package dictionary or if you have some one-off translation that you don't
 think would be useful to anybody else.}
 }
 \description{
-Translate a word or phrase from one language to another
+These functions facilitate translation of fish and fisheries related terms
+between English and French. \code{trans()} does all the work, but the helper
+functions \code{en2fr()} and \code{fr2en()} are probably the easiest to work with in
+practice.
 }
 \examples{
 en2fr("Depth", TRUE)
@@ -69,4 +72,8 @@ fr2en("Profondeur", FALSE)
 trans("Depth", from = "english", to = c("english", "french"))
 df <- data.frame(english = c("aaa"), french = c("bbb"))
 en2fr("aaa", custom_terms = df)
+en2fr("Depth", TRUE, case = "none")
+en2fr("Depth", TRUE, case = "upper")
+en2fr("Depth", TRUE, case = "lower")
+en2fr("Depth", TRUE, case = "sentence")
 }

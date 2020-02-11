@@ -78,7 +78,8 @@ trans <- function(x, from = "english", to = "french",
 
   .rosetta_terms <- rosetta_terms
   dups <- match(custom_terms[[from]], rosetta_terms[[from]])
-  if (sum(stats::na.omit(dups)) > 0L) {
+  dups <- stats::na.omit(dups)
+  if (sum(dups) > 0L) {
     .rosetta_terms <- .rosetta_terms[-dups, , drop = FALSE]
   }
   term_terms <- rbind(.rosetta_terms, custom_terms)

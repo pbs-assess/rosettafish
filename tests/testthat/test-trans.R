@@ -10,6 +10,17 @@ test_that("translate 3 from en to fr in data", {
   )
 })
 
+test_that("translate from en to fr without matching case", {
+  expect_equal(
+    trans(c("Spawning biomass", "spawning biomass"),
+      to = "french",
+      from = "english",
+      case = "lower"
+    ),
+    c("biomasse reproductrice", "biomasse reproductrice")
+  )
+})
+
 test_that("translate 3 from en to fr in data, one missing", {
   expect_equal(
     tolower(trans(c("Spawning biomass", "Male", "X"),
@@ -129,3 +140,4 @@ test_that("cases work", {
     custom_terms = df, case = "title"), "Aaa Aaa; Bbb Bbb")
   expect_equal(en2fr("aaa aaa", translate = FALSE, custom_terms = df, case = "upper"), "AAA AAA")
 })
+

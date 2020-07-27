@@ -86,7 +86,7 @@ trans <- function(x, from = "english", to = "french",
   from.vec <- term_terms[, from, drop = TRUE]
   to.df <- term_terms[, to, drop = FALSE]
 
-  j <- match(x, from.vec)
+  j <- match(tolower(x), tolower(from.vec))
 
   if (!allow_missing) {
     if (any(is.na(j))) {

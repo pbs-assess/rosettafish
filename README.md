@@ -17,10 +17,10 @@ languages, or a single figure with labels in two languages. It can also
 be used for other text (such as table headings), but is not intended for
 translation of complete sentences.
 
-In particular, it should be useful for automatically producing
-translated technical figures to go into Research Documents and
+In particular, it is useful for automatically producing
+translated technical figures to go into Research Documents, Science Responses, and Technical Reports and
 presentations. This is done when building the figures (in R) and saves
-someone having to manually edit the figure (in, say, Photoshop). This
+someone having to manually edit the figure (in, say, Illustrator). This
 preserves the quality and the output formats of figures in both
 languages, and is especially time-saving when the same figure axes are
 used for multiple figures (e.g., a time series of biomass estimates for
@@ -37,8 +37,8 @@ terms using the instructions below.
 You can install rosettafish with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("pbs-assess/rosettafish")
+# install.packages("remotes")
+remotes::install_github("pbs-assess/rosettafish")
 ```
 
 ## Examples

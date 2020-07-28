@@ -37,8 +37,8 @@ terms using the instructions below.
 You can install rosettafish with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("pbs-assess/rosettafish")
+# install.packages("remotes")
+remotes::install_github("pbs-assess/rosettafish")
 ```
 
 ## Examples

@@ -58,6 +58,7 @@ California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
 Catch,Prise
 Catch rate (fish/effective skate),Taux de prise (poisson/raie réelle)
+Catchability,La capturabilité
 Cautious zone,Zone de prudence
 CC,CC
 Central and Arctic Region,Région du Centre et de l'Arctique
@@ -124,8 +125,12 @@ Female,Femelle
 Females,Femelles
 fish,poisson
 fish/skate,poisson/raie
+Fishery,Pêche
+Fishery catchability,La capturabilité�dans le pêche
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels
 fishing gear,engin peche
+Fishing mortality,Mortalité par pêche
+Fixed,Fixe
 Flathead Sole,balai du Japon
 Frequency,Fréquence
 Gear,Engin
@@ -209,6 +214,7 @@ National Capital Region,Région de la capitale nationale
 Natural mortality,Mortalité naturelle
 Newfoundland and Labrador Region,Région de Terre-Neuve et Labrador
 No Status,Sans statut
+Normal,Normale
 North Pacific Spiny Dogfish,aiguillat commun du Pacifique Nord
 Northing,Ordonnée
 Not at Risk,Non en péril
@@ -265,6 +271,7 @@ Quebec Region,Région du Québec
 Quillback Rockfish,sébaste à dos épineux
 Ragfish,torchon mou
 Recruitment,Recrutement
+Recruitment deviations,des écarts de recrutement
 Red Irish Lord,chabot trilobé rouge
 Redbanded Rockfish,sébaste bandes rouges
 Redstripe Rockfish,sébaste à raie rouge
@@ -354,6 +361,7 @@ Survey,Relevé
 Survey biomass density,Densité de la biomasse du relevé
 Survey biomass index,Indice de la biomasse
 Survey biomass indices,Indices de la biomasse
+Survey catchability,La capturabilité dans les relevés
 Survey density (1000 fish/km^2),Densité du relevé (1 000 poissons/km2)
 Survey period,Période du relevé
 Survey relative biomass indices,Indices de la biomasse du relevés

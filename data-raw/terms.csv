@@ -1,4 +1,5 @@
 english,french
+"[low, high]","[inférieure,  supérieure]"
 A27,Z27
 A2W,Z2O
 AAV,VAM
@@ -13,6 +14,7 @@ Ageing codes,Codes de vieillissement
 Ageing precision,Précision de al détermination de l'âge
 Alaska Skate,raie de l’Alaska
 Aleutian Skate,raie aléoutienne
+Annual mean weight,Poids moyen annuel
 Apr,avr
 April,Avril
 Area 2 West,Zone 2 ouest
@@ -47,8 +49,9 @@ Bluntnose Sixgill Shark,requin griset
 Bocaccio,sébaste bocace
 Both sexes,les deux sexes
 Bottom trawl,Chalut de fond
-Bounds,les limites
-"Bounds [low,high]","Limites [inférieure, supérieure]"
+Bound,Limite
+Bounds,Limites
+"Bounds [low, high]","Limites [inférieure, supérieure]"
 British Columbia,Colombie-Britannique
 Broad Skate,raie large
 Brown Cat Shark,holbiche brune
@@ -110,7 +113,7 @@ Deviation from expected biomass in log space,Écart par rapport à la biomasse p
 DIM,MID
 Discarded,Rejetées
 Distance,Distance
-Distribution,la distribution
+Distribution,Distribution
 Dive,Plongée
 Dive survey,Relevé de plongée
 Dover Sole,limande sole du Pacifique
@@ -126,6 +129,7 @@ English Sole,carlottin anglais
 Equipment,équipement
 ESoG,EDG
 Estimated,Estimé
+Estimated annual mean weight,Poids moyen annuel Estimé
 Family,Famille
 Feb,fev
 February,février
@@ -139,6 +143,7 @@ Fishery catchability,La capturabilité�dans le pêche
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels
 fishing gear,engin peche
 Fishing mortality,Mortalité par pêche
+Fit,ajusté
 Fixed,Fixe
 Flathead Sole,balai du Japon
 Frequency,Fréquence
@@ -197,7 +202,8 @@ Log of standardized CPUE,Log de CPUE standardisé
 Log recruitment deviations,Log des écarts du recrutement
 Longnose Skate,pocheteau long-nez
 Longspine Thornyhead,sébastolobe à longues épines
-Lower bound,limite inférieure
+Lower,inférieure
+Lower bound,Limite inférieure
 LRP,PRL
 LRR,TEL
 Male,Mâle
@@ -218,6 +224,7 @@ Mean estimate (kg/km^2),Estimation moyenne (kg/km^2)
 Mean positive sets,Moyenne des ensembles positifs
 Median,Médiane
 Midwater trawl,Chalutage pélagique
+Millions,Millions
 MP,PG
 MPD,DPM
 MSY,RMS
@@ -242,6 +249,7 @@ Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
 Objective,Objectif
+Observed annual mean weight,Poids moyen annuel observé
 Oct,oct
 October,octobre
 OM,ME
@@ -398,20 +406,22 @@ Temperature,Temperature
 Term Pups,Petits à la taille du terme
 Test fishery,Pêche d'essai
 Thornback Sculpin,chabot à dos épineux
+Thousands,Milliers
 Threadfin Grenadier,grenadier à filaments
 Threadfin Sculpin,icéline filamenteuse
 Threatened,Menacée
 Tiger Rockfish,sébaste-tigre
 Tons,Tonnes
 Tope Shark,milandre
-Total,totale
+Total,Totale
 Total catch,Des prises totales
-Totals,totales
+Totals,Totales
 Trap,Casier
 Twoline Eelpout,lycode à deux lignes
 Type,Type
 Unknown/trawl,Inconnu/chalut
-Upper bound,limite supérieure
+Upper,supérieure
+Upper bound,Limite supérieure
 USA,les États-Unis
 USR,RSS
 Uterine Eggs,Oeufs utérins
@@ -439,3 +449,8 @@ Yes,Oui
 Yield,Rendement
 Yolk Sac Pups,Petits avec sac vitellus
 yr,an
+Minimum,Minimum
+Maximum,Maximum
+Min,Min
+Max,Max
+Relative,Relatif

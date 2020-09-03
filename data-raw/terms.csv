@@ -7,6 +7,7 @@ Abundance,Abondance
 Abyssal Skate,raie abyssale
 Age,Âge
 Age (years),Âge (années)
+Age at 50% maturity,Âge à 50% maturité
 Age at maturity,Âge à maturité
 Age frequencies,Fréquences d'âge
 Age structures,Structure par âge
@@ -17,6 +18,7 @@ Aleutian Skate,raie aléoutienne
 Annual mean weight,Poids moyen annuel
 Apr,avr
 April,Avril
+Area,Zone
 Area 2 West,Zone 2 ouest
 Area 27,Zone 27
 Arrowtooth Flounder,plie à grande bouche
@@ -74,6 +76,7 @@ Central Coast,Côte centrale
 Chilipepper,sébaste de Goode
 China Rockfish,sébaste à bandes jaunes
 Coastwide,Ensemble de la côte
+Coefficient,Coefficient
 Commercial,Commercial
 Commercial bottom trawl CPUE,PUE chalut de fond commercial
 Commercial catch,Prises commerciales
@@ -85,6 +88,9 @@ Commercial specimen counts,Décompte des spécimens du commercial
 Commercial trawl catch per unit effort (CPUE),Captures par unité d’effort (CPUE) du chalutage commercial
 Commercial trawl CPUE,PUE chalut commercial
 Common name,Nom commun
+Conf.,Conf.
+Confidence,Confiance
+Confidence interval,Intervalle de confiance
 conM,MC
 Conservation,Conservation
 Copper Rockfish,sébaste cuivré
@@ -194,6 +200,7 @@ Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
 Length-weight relationship,Relation longueur-poids
+Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
 Lingcod,morue-lingue
@@ -215,6 +222,8 @@ Mature,Matures
 Maturing,En maturation
 Maturity,Maturité
 Maturity frequencies,Fréquences de maturité
+Max,Max
+Maximum,Maximum
 May,mai
 MCMC,MCCM
 Mean,Moyenne
@@ -225,6 +234,8 @@ Mean positive sets,Moyenne des ensembles positifs
 Median,Médiane
 Midwater trawl,Chalutage pélagique
 Millions,Millions
+Min,Min
+Minimum,Minimum
 MP,PG
 MPD,DPM
 MSY,RMS
@@ -305,6 +316,7 @@ Redbanded Rockfish,sébaste bandes rouges
 Redstripe Rockfish,sébaste à raie rouge
 Reference point,Point de référence
 Reference points,Points de référence
+Relative,Relatif
 Relative biomass,Biomasse relative
 Relative catch rate index,Indice du taux de prises relatif
 Relative length frequency,Fréquence de longueur relative
@@ -403,6 +415,7 @@ Synoptic survey biomass,Biomasse du relevé synoptique
 Tables,Tableaux
 Technical Report,Rapport technique
 Temperature,Temperature
+Term,Terme
 Term Pups,Petits à la taille du terme
 Test fishery,Pêche d'essai
 Thornback Sculpin,chabot à dos épineux
@@ -419,6 +432,7 @@ Totals,Totales
 Trap,Casier
 Twoline Eelpout,lycode à deux lignes
 Type,Type
+Undetermined,Indéterminé
 Unknown/trawl,Inconnu/chalut
 Upper,supérieure
 Upper bound,Limite supérieure
@@ -449,17 +463,3 @@ Yes,Oui
 Yield,Rendement
 Yolk Sac Pups,Petits avec sac vitellus
 yr,an
-Minimum,Minimum
-Maximum,Maximum
-Min,Min
-Max,Max
-Relative,Relatif
-Undetermined,Indéterminé
-Area,Zone
-Coefficient,Coefficient
-Age at 50% maturity,Âge à 50% maturité
-Length at 50% maturity,Longueur à50% maturité
-Term,Terme
-Confidence interval,Intervalle de confiance
-Confidence,Confiance
-Conf.,Conf.

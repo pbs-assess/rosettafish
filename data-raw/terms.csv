@@ -25,6 +25,7 @@ Average Annual Variability,Variabilité annuelle moyenne
 Average F,F moyen
 Average M,M moyen
 Base model,Modèle de base
+Basis,Fondament
 Basking Shark,requin-pèlerin
 Benchmark,Point de repère
 Benchmarks,Points de repère
@@ -46,6 +47,8 @@ Bluntnose Sixgill Shark,requin griset
 Bocaccio,sébaste bocace
 Both sexes,les deux sexes
 Bottom trawl,Chalut de fond
+Bounds,les limites
+"Bounds [low,high]","Limites [inférieure, supérieure]"
 British Columbia,Colombie-Britannique
 Broad Skate,raie large
 Brown Cat Shark,holbiche brune
@@ -98,6 +101,7 @@ Deacon Rockfish,sébaste Deacon
 Dec,dec
 December,décembre
 Deepsea Sole,plie de profondeur
+Definition,Définition
 Density,Densité
 Depletion,Déplétion
 Depth,Profondeur
@@ -106,6 +110,7 @@ Deviation from expected biomass in log space,Écart par rapport à la biomasse p
 DIM,MID
 Discarded,Rejetées
 Distance,Distance
+Distribution,la distribution
 Dive,Plongée
 Dive survey,Relevé de plongée
 Dover Sole,limande sole du Pacifique
@@ -120,6 +125,7 @@ Endeavour Hydrothermal Vents Marine Protected Area,Zone de protection marine du 
 English Sole,carlottin anglais
 Equipment,équipement
 ESoG,EDG
+Estimated,Estimé
 Family,Famille
 Feb,fev
 February,février
@@ -127,6 +133,7 @@ Female,Femelle
 Females,Femelles
 fish,poisson
 fish/skate,poisson/raie
+Fisheries,Pêches
 Fishery,Pêche
 Fishery catchability,La capturabilité�dans le pêche
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels
@@ -161,9 +168,11 @@ HG,HG
 Hook and line,Hameçon et ligne
 hour,heure
 HR,TR
+IFMP,PGIP
 Immature,Immatures
 In press,Sous presse
 Instantaneous natural mortality,Mortalité naturelle instantanée
+Integrated Fishery Management Plan,Plan de gestion intégrée des pêches
 IPHC Report of Assessment and Research Activities,Rapport de la CIFP sur les activités d'évaluation et de recherche
 IPHC survey catch rate,Taux de capture du relevé IPHC
 Jan,jan
@@ -175,6 +184,7 @@ June,juin
 Kelp Greenling,sourcil de varech
 kg/hour,kg/heure
 Label,Étiquette
+Landings,Débarquements
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
@@ -187,6 +197,7 @@ Log of standardized CPUE,Log de CPUE standardisé
 Log recruitment deviations,Log des écarts du recrutement
 Longnose Skate,pocheteau long-nez
 Longspine Thornyhead,sébastolobe à longues épines
+Lower bound,limite inférieure
 LRP,PRL
 LRR,TEL
 Male,Mâle
@@ -227,6 +238,7 @@ Nov,nov
 November,novembre
 Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
+Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
 Objective,Objectif
@@ -264,6 +276,9 @@ Prediction (fixed effects + all random effects),Prédiction (effets fixes + tous
 Prediction (fixed effects only),Prédiction (effets fixes seulement)
 Primary age (years),Âge primaire (ans)
 Prince Rupert District,District de Prince Rupert
+Prior,valeur a priori
+Prior probability distribution,La distribution de la probabilité a priori
+Priors,valeurs a priori
 Probability mature,Probabilité de maturité
 Projected spawning biomass in,Projection de la biomasse reproductrice en
 Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983)
@@ -285,6 +300,7 @@ Reference points,Points de référence
 Relative biomass,Biomasse relative
 Relative catch rate index,Indice du taux de prises relatif
 Relative length frequency,Fréquence de longueur relative
+Released at sea,Rejetés en mer
 Rescaled,Indice remis à l'échelle
 Residual,Résiduels
 Resting,Au repos
@@ -295,6 +311,7 @@ Roe gillnet fishery,Pêche au hareng rogué au filet maillant
 Roe seine fishery,Pêche au hareng rogué à la senne
 RoeGN,RogueFM
 RoeSN,RogueSN
+Role,Rôle
 Rosethorn Rockfish,sébaste rosacé
 Rougheye Blackspotted Rockfish Complex,complexe du sébaste à œil épineux/sébaste à taches noires
 Rougheye/Blackspotted,œil épineux/taches noires
@@ -313,6 +330,7 @@ Scenario,Scénario
 Science Branch,Secteur des sciences
 Scientific name,Nom scientifique
 Scott Islands Marine National Wildlife Area,Réserve nationale de faune en milieu marin des îles Scott
+SD,ET
 Secondary age (years),Âge secondaire (ans)
 Section,Section
 Seine,Senne
@@ -386,10 +404,15 @@ Threatened,Menacée
 Tiger Rockfish,sébaste-tigre
 Tons,Tonnes
 Tope Shark,milandre
+Total,totale
+Total catch,Des prises totales
+Totals,totales
 Trap,Casier
 Twoline Eelpout,lycode à deux lignes
 Type,Type
 Unknown/trawl,Inconnu/chalut
+Upper bound,limite supérieure
+USA,les États-Unis
 USR,RSS
 Uterine Eggs,Oeufs utérins
 Value,Valeur

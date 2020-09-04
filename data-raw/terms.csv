@@ -156,6 +156,8 @@ Fit,ajusté
 Fixed,Fixe
 Flathead Sole,balai du Japon
 Frequency,Fréquence
+Full standardization,Normalisation complète
+Full standardization minus interactions,Normalisation complète mois les interactions
 Gear,Engin
 Geometric mean of hook and line CPUE (fish/set),Moyenne géométrique des CPUE à l’hameçon et à la ligne (poisson/ensemble)
 Geometric mean of trawl CPUE (kg/hr),Moyenne géométrique des CPUE du chalut (kg/h)
@@ -188,6 +190,7 @@ Immature,Immatures
 In press,Sous presse
 Instantaneous natural mortality,Mortalité naturelle instantanée
 Integrated Fishery Management Plan,Plan de gestion intégrée des pêches
+Interactions,Interactions
 IPHC Report of Assessment and Research Activities,Rapport de la CIFP sur les activités d'évaluation et de recherche
 IPHC survey catch rate,Taux de capture du relevé IPHC
 Jan,jan
@@ -209,6 +212,7 @@ Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
 Lingcod,morue-lingue
 Link,Lien
+Locality,Lieu
 Log of standardized CPUE,Log de CPUE standardisé
 Log recruitment deviations,Log des écarts du recrutement
 Longnose Skate,pocheteau long-nez
@@ -240,6 +244,7 @@ Midwater trawl,Chalutage pélagique
 Millions,Millions
 Min,Min
 Minimum,Minimum
+Month,Mois
 MP,PG
 MPD,DPM
 MSY,RMS
@@ -396,6 +401,8 @@ Spotfin Sculpin,icéline à nageoires tachetées
 Spotted Ratfish,chimère d'Amérique
 SSB,BSR
 SSB/Blim,BSR/Blim
+Standardization,Normalisation
+Standardized,Normalisée
 Starry Flounder,flet étoilé
 Start year,Année de début
 Steepness,La pente
@@ -441,6 +448,7 @@ Twoline Eelpout,lycode à deux lignes
 Type,Type
 Undetermined,Indéterminé
 Unknown/trawl,Inconnu/chalut
+Unstandardized,Non normalisée
 Upper,supérieure
 Upper bound,Limite supérieure
 USA,les États-Unis
@@ -448,6 +456,7 @@ USR,RSS
 Uterine Eggs,Oeufs utérins
 Value,Valeur
 Vermilion Rockfish,sébaste vermillon
+Vessel,Navire
 Vulnerable biomass,Biomasse vulnerable
 Walleye Pollock,goberge
 Wattled Eelpout,lycode tressée

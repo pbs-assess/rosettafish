@@ -97,6 +97,7 @@ Copper Rockfish,sébaste cuivré
 Correlation,Corrélation
 COSEWIC Status,Désignation du COSEPAC
 COSEWIC Status Report,Rapports de situation du COSEPAC
+Count,Compte
 CPUE,PUE
 Criterion,Critère
 Critical zone,Zone critique
@@ -146,6 +147,8 @@ fish/skate,poisson/raie
 Fisheries,Pêches
 Fishery,Pêche
 Fishery catchability,La capturabilité�dans le pêche
+Fishing event,événements de pêche
+Fishing events,événements de pêche
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels
 fishing gear,engin peche
 Fishing mortality,Mortalité par pêche
@@ -178,6 +181,7 @@ Herring,hareng
 HG,HG
 Hook and line,Hameçon et ligne
 hour,heure
+hours,heures
 HR,TR
 IFMP,PGIP
 Immature,Immatures
@@ -265,6 +269,7 @@ Oct,oct
 October,octobre
 OM,ME
 Operating Model,Modèle d'exploitation
+Or,Ou
 Order,Ordre
 Original,Version originale
 Other,Autre
@@ -429,7 +434,9 @@ Tope Shark,milandre
 Total,Totale
 Total catch,Des prises totales
 Totals,Totales
+Tow,Trait
 Trap,Casier
+Trip,Sortie
 Twoline Eelpout,lycode à deux lignes
 Type,Type
 Undetermined,Indéterminé

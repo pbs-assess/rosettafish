@@ -5,7 +5,7 @@
 \alias{rosetta_terms}
 \title{rosetta_terms}
 \format{
-An object of class \code{data.frame} with 391 rows and 2 columns.
+An object of class \code{data.frame} with 488 rows and 2 columns.
 }
 \usage{
 rosetta_terms

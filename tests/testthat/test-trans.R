@@ -33,11 +33,11 @@ test_that("translate 3 from en to fr in data, one missing", {
 
 test_that("translate 3 from en to fr in data in data, all missing", {
   expect_equal(
-    trans(c("X", "Y", "Z"),
+    trans(c("XXX", "YYY", "ZZZ"),
       to = "french",
       from = "english", allow_missing = TRUE
     ),
-    c("X", "Y", "Z")
+    c("XXX", "YYY", "ZZZ")
   )
 })
 

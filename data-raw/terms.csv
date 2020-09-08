@@ -89,6 +89,8 @@ Commercial trawl catch per unit effort (CPUE),Captures par unité d’effort (CP
 Commercial trawl CPUE,PUE chalut commercial
 Common name,Nom commun
 Conf.,Conf.
+Conf.high,Conf.sup.
+Conf.low,Conf.inf.
 Confidence,Confiance
 Confidence interval,Intervalle de confiance
 conM,MC
@@ -135,7 +137,9 @@ Endeavour Hydrothermal Vents Marine Protected Area,Zone de protection marine du 
 English Sole,carlottin anglais
 Equipment,équipement
 ESoG,EDG
+Estimate,Estimation
 Estimated,Estimé
+Estimated age at 50% maturity,Âge à 50% maturité estimé
 Estimated annual mean weight,Poids moyen annuel Estimé
 Family,Famille
 Feb,fev
@@ -222,6 +226,7 @@ Lower bound,Limite inférieure
 LRP,PRL
 LRR,TEL
 Male,Mâle
+Male and female,Mâle et femelle
 Males,Mâles
 Mar,mar
 March,mars
@@ -251,7 +256,7 @@ MSY,RMS
 MW,CP
 N female,N femelles
 N male,N  mâles
-N unsexed,N Indéterminé
+N unsexed,N indéterminé
 National Capital Region,Région de la capitale nationale
 Natural mortality,Mortalité naturelle
 Newfoundland and Labrador Region,Région de Terre-Neuve et Labrador
@@ -453,7 +458,7 @@ Unsexed,Indéterminé
 Unstandardized,Non normalisée
 Upper,supérieure
 Upper bound,Limite supérieure
-USA,les États-Unis
+USA,les états-Unis
 USR,RSS
 Uterine Eggs,Oeufs utérins
 Value,Valeur
@@ -472,6 +477,7 @@ Whitebarred Prickleback,lompénie à barres blanches
 Whitespotted Greenling,sourcil à taches blanches
 Widow Rockfish,sébaste veuve
 Wolf Eel,loup ocellé
+y,a
 Year,Année
 Years,Années
 Yelloweye Rockfish,sébastes aux yeux jaunes

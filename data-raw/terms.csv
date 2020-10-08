@@ -12,7 +12,7 @@ Age at maturity,Âge à maturité
 Age frequencies,Fréquences d'âge
 Age structures,Structure par âge
 Ageing codes,Codes de vieillissement
-Ageing precision,Précision de al détermination de l'âge
+Ageing precision,Précision de la détermination de l'âge
 Alaska Skate,raie de l’Alaska
 Aleutian Skate,raie aléoutienne
 Annual mean weight,Poids moyen annuel
@@ -25,6 +25,7 @@ Arrowtooth Flounder,plie à grande bouche
 Aug,août
 August,Aout
 Aurora Rockfish,sébaste aurore
+AVE,MOY
 Average Annual Variability,Variabilité annuelle moyenne
 Average F,F moyen
 Average M,M moyen
@@ -150,7 +151,7 @@ fish,poisson
 fish/skate,poisson/raie
 Fisheries,Pêches
 Fishery,Pêche
-Fishery catchability,La capturabilité�dans le pêche
+Fishery catchability,La capturabilité dans le pêche
 Fishing event,événements de pêche
 Fishing events,événements de pêche
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels

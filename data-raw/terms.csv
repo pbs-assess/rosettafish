@@ -3,9 +3,14 @@ english,french
 A27,Z27
 A2W,Z2O
 AAV,VAM
+absolute deviation,écart absolu
+absolute frequency,fréquence absolue
 Abundance,Abondance
+abundance class,classe d’abondance
+abundance score,cote d’abondance
 Abyssal Skate,raie abyssale
 AC (average catch),PM (prises moyennes)
+accuracy,exactitude
 Actual,Réel
 Actual (simulated),Réel (simulé)
 Adjusted count,Décompte ajusté
@@ -19,6 +24,12 @@ Ageing codes,Codes de vieillissement
 Ageing precision,Précision de la détermination de l'âge
 Alaska Skate,raie de l’Alaska
 Aleutian Skate,raie aléoutienne
+alternative hypothesis,hypothèse contraire
+analysis,analyse
+analysis of covariance,analyse de covariance
+analysis of variance,analyse de variance
+anisotropic,anisotrope
+anisotropy,anisotropie
 Annual mean weight,Poids moyen annuel
 Apr,avr
 April,Avril
@@ -28,14 +39,25 @@ Area 27,Zone 27
 Area 4B,Zone 4B
 Area in water (km2),Superficie en eau (km2)
 Arrowtooth Flounder,plie à grande bouche
+assumption,supposition
+attribute,variable qualitative
 Aug,août
 August,Aout
 Aurora Rockfish,sébaste aurore
+autocorrelated errors,erreurs autocorrélées
+autocorrelated residuals,résidus autocorrélés
+autocorrelation,autocorrélation
+autocovariance,autocovariance
+autoregression,autorégression
 AVE,MOY
 Average Annual Variability,Variabilité annuelle moyenne
+average deviation,écart moyen
 Average F,F moyen
 Average M,M moyen
 Average performance,Performance moyenne obtenue
+axis,axe
+back transformation,rétrotransformation
+backward elimination,élimination descendante
 Base model,Modèle de base
 Base OM (operating model),Modèle d’exploitation de base
 Basis,Fondament
@@ -45,10 +67,12 @@ Benchmarks,Points de repère
 Big Skate,raie biocellée
 Bigfin Eelpout,lycode à grandes nageoires
 Bigmouth Sculpin,hémitriptère à grande bouche
+binomial sample,échantillon binomial
 Biological,Biologique
 Biomass,Biomasse
 Biomass estimate (kg/km^2),Estimation de la biomasse (kg/km2)
 Biomass estimate divided by geometric mean,Estimation de la biomasse/moyenne géométrique
+bivariate,à deux variables
 Black Eelpout,lycode noire
 Black Rockfish,sébaste noir
 Blackbelly Eelpout,lycode à ventre noir
@@ -58,9 +82,12 @@ Blacktail Snailfish,limace à queue noire
 Blue Shark,requin bleu
 Bluntnose Sixgill Shark,requin griset
 Bocaccio,sébaste bocace
+Bonferroni correction,correction de Bonferroni
+bootstrap,bootstrap
 Both sexes,les deux sexes
 Bottom trawl,Chalut de fond
 Bound,Limite
+bounded,borné
 Bounds,Limites
 "Bounds [low, high]","Limites [inférieure, supérieure]"
 British Columbia,Colombie-Britannique
@@ -75,18 +102,39 @@ C-O Sole,C-O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
+canonical analysis,analyse canonique
+canonical correlation analysis,analyse des corrélations canoniques
+canonical form,forme canonique
+canonical variate,variable canonique
 Catch,Prise
 Catch rate (fish/effective skate),Taux de prise (poisson/raie réelle)
 Catchability,La capturabilité
+categorical data,variable ordinale
+causal closure,causalité fermée
+causal modelling,modélisation causale
+causal order,ordre causal
+causality,causalité
 Cautious zone,Zone de prudence
 CC,CC
 CC (constant catch),PC (prises constantes)
+cell,case
+cell frequency,fréquence ou effectif par case
 Central and Arctic Region,Région du Centre et de l'Arctique
 Central Coast,Côte centrale
+central limit theorem,théorème de la limite centrale
+central moment,moment centré
+centroid,centroïde
+chi-square,khi carré
 Chilipepper,sébaste de Goode
 China Rockfish,sébaste à bandes jaunes
+cluster analysis,analyse de groupement
+cluster sampling,échantillonnage par groupes
+clustering,groupement
 Coastwide,Ensemble de la côte
-Coefficient,Coefficient
+coding,codage
+coefficient,coefficient
+coherence,cohérence
+collinearity,colinéarité
 Commercial,Commercial
 Commercial bottom trawl CPUE,PUE chalut de fond commercial
 Commercial catch,Prises commerciales
@@ -107,6 +155,7 @@ conM,MC
 Conservation,Conservation
 Copper Rockfish,sébaste cuivré
 Correlation,Corrélation
+correlogram,corrélogramme
 COSEWIC Status,Désignation du COSEPAC
 COSEWIC Status Report,Rapports de situation du COSEPAC
 Count,Compte
@@ -437,6 +486,7 @@ Seine,Senne
 Select MP,Sélectionner la PG
 Sep,sep
 September,septembre
+serial correlation,corrélation en série
 Series,Séries
 Sex,Sexe
 SGaan Kinghlas Bowie Seamount Marine Protected Area,Zone de protection marine du mont sous-marin Bowie (SGaan Kinghlas)

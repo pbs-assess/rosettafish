@@ -3,8 +3,17 @@ english,french
 A27,Z27
 A2W,Z2O
 AAV,VAM
+absolute deviation,écart absolu
+absolute frequency,fréquence absolue
 Abundance,Abondance
+abundance class,classe d’abondance
+abundance score,cote d’abondance
 Abyssal Skate,raie abyssale
+AC (average catch),PM (prises moyennes)
+accuracy,exactitude
+Actual,Réel
+Actual (simulated),Réel (simulé)
+Adjusted count,Décompte ajusté
 Age,Âge
 Age (years),Âge (années)
 Age at 50% maturity,Âge à 50% maturité
@@ -12,23 +21,45 @@ Age at maturity,Âge à maturité
 Age frequencies,Fréquences d'âge
 Age structures,Structure par âge
 Ageing codes,Codes de vieillissement
-Ageing precision,Précision de al détermination de l'âge
+Ageing precision,Précision de la détermination de l'âge
 Alaska Skate,raie de l’Alaska
 Aleutian Skate,raie aléoutienne
+alternative hypothesis,hypothèse contraire
+analysis,analyse
+analysis of covariance,analyse de covariance
+analysis of variance,analyse de variance
+anisotropic,anisotrope
+anisotropy,anisotropie
 Annual mean weight,Poids moyen annuel
 Apr,avr
 April,Avril
 Area,Zone
 Area 2 West,Zone 2 ouest
 Area 27,Zone 27
+Area 4B,Zone 4B
+Area in water (km2),Superficie en eau (km2)
 Arrowtooth Flounder,plie à grande bouche
+assumption,supposition
+attribute,variable qualitative
 Aug,août
 August,Aout
 Aurora Rockfish,sébaste aurore
+autocorrelated errors,erreurs autocorrélées
+autocorrelated residuals,résidus autocorrélés
+autocorrelation,autocorrélation
+autocovariance,autocovariance
+autoregression,autorégression
+AVE,MOY
 Average Annual Variability,Variabilité annuelle moyenne
+average deviation,écart moyen
 Average F,F moyen
 Average M,M moyen
+Average performance,Performance moyenne obtenue
+axis,axe
+back transformation,rétrotransformation
+backward elimination,élimination descendante
 Base model,Modèle de base
+Base OM (operating model),Modèle d’exploitation de base
 Basis,Fondament
 Basking Shark,requin-pèlerin
 Benchmark,Point de repère
@@ -36,11 +67,13 @@ Benchmarks,Points de repère
 Big Skate,raie biocellée
 Bigfin Eelpout,lycode à grandes nageoires
 Bigmouth Sculpin,hémitriptère à grande bouche
+binomial sample,échantillon binomial
 Biological,Biologique
 Biomass,Biomasse
 Biomass estimate (kg/km^2),Estimation de la biomasse (kg/km2)
 Biomass estimate divided by geometric mean,Estimation de la biomasse/moyenne géométrique
 Biomass index,Indice de la biomasse
+bivariate,à deux variables
 Black Eelpout,lycode noire
 Black Rockfish,sébaste noir
 Blackbelly Eelpout,lycode à ventre noir
@@ -50,9 +83,12 @@ Blacktail Snailfish,limace à queue noire
 Blue Shark,requin bleu
 Bluntnose Sixgill Shark,requin griset
 Bocaccio,sébaste bocace
+Bonferroni correction,correction de Bonferroni
+bootstrap,bootstrap
 Both sexes,les deux sexes
 Bottom trawl,Chalut de fond
 Bound,Limite
+bounded,borné
 Bounds,Limites
 "Bounds [low, high]","Limites [inférieure, supérieure]"
 British Columbia,Colombie-Britannique
@@ -67,17 +103,39 @@ C O Sole,C O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
+canonical analysis,analyse canonique
+canonical correlation analysis,analyse des corrélations canoniques
+canonical form,forme canonique
+canonical variate,variable canonique
 Catch,Prise
 Catch rate (fish/effective skate),Taux de prise (poisson/raie réelle)
 Catchability,La capturabilité
+categorical data,variable ordinale
+causal closure,causalité fermée
+causal modelling,modélisation causale
+causal order,ordre causal
+causality,causalité
 Cautious zone,Zone de prudence
 CC,CC
+CC (constant catch),PC (prises constantes)
+cell,case
+cell frequency,fréquence ou effectif par case
 Central and Arctic Region,Région du Centre et de l'Arctique
 Central Coast,Côte centrale
+central limit theorem,théorème de la limite centrale
+central moment,moment centré
+centroid,centroïde
+chi-square,khi carré
 Chilipepper,sébaste de Goode
 China Rockfish,sébaste à bandes jaunes
+cluster analysis,analyse de groupement
+cluster sampling,échantillonnage par groupes
+clustering,groupement
 Coastwide,Ensemble de la côte
-Coefficient,Coefficient
+coding,codage
+coefficient,coefficient
+coherence,cohérence
+collinearity,colinéarité
 Commercial,Commercial
 Commercial bottom trawl CPUE,PUE chalut de fond commercial
 Commercial catch,Prises commerciales
@@ -98,16 +156,21 @@ conM,MC
 Conservation,Conservation
 Copper Rockfish,sébaste cuivré
 Correlation,Corrélation
+correlogram,corrélogramme
 COSEWIC Status,Désignation du COSEPAC
 COSEWIC Status Report,Rapports de situation du COSEPAC
 Count,Compte
 CPUE,PUE
+Creel survey: all rockfish,Enquête par interrogation des pêcheurs : ensemble du sébaste
+Creel survey: species specific,Enquête par interrogation des pêcheurs : propre à chaque espèce
 Criterion,Critère
 Critical zone,Zone critique
 Cumulative Effects Assessment Steps,Étapes de l’évaluation des effets cumulatifs
+Cumulative replicate,Répétition cumulative
 Curlfin Sole,plie à nageoires frisées
 Darkblotched Rockfish,sébaste tacheté
 Data,Données
+Data Source,Source des données
 Data type,Type de données
 DDM,MLD
 Deacon Rockfish,sébaste Deacon
@@ -126,6 +189,7 @@ Distance,Distance
 Distribution,Distribution
 Dive,Plongée
 Dive survey,Relevé de plongée
+Dogfish and Lingcod,aiguillat commun
 Dover Sole,limande sole du Pacifique
 Dusky Rockfish,sébaste cilié
 Dwarf Wrymouth,terrassier nain
@@ -136,12 +200,21 @@ End year,Fin de l'année
 Endangered,En voie de disparition
 Endeavour Hydrothermal Vents Marine Protected Area,Zone de protection marine du champ hydrothermal Endeavour
 English Sole,carlottin anglais
+Episodic recruitment,Recrutement épisodique
 Equipment,équipement
 ESoG,EDG
 Estimate,Estimation
+Estimate HBLL (hard bottom Longline survey) selectivity,Estimation de la sélectivité du RPFD (relevé à la palangre sur fond dur)
 Estimated,Estimé
+Estimated adjusted count,Décompte ajusté estimé
 Estimated age at 50% maturity,Âge à 50% maturité estimé
 Estimated annual mean weight,Poids moyen annuel Estimé
+Estimated B/B0,B/B0 estimé
+Estimated B/BMSY,B/BRMS estimé
+Estimated relative abundance,Abondance relative estimée
+Expected count,Décompte prévu
+expert judgement,jugement expert
+F/FMSY,F/FRMS
 Family,Famille
 Feb,fev
 February,février
@@ -151,7 +224,7 @@ fish,poisson
 fish/skate,poisson/raie
 Fisheries,Pêches
 Fishery,Pêche
-Fishery catchability,La capturabilité�dans le pêche
+Fishery catchability,La capturabilité dans le pêche
 Fishing event,événements de pêche
 Fishing events,événements de pêche
 Fishing events excluded due to Privacy Act,Activités de pêche exclues en raison de la Loi sur la protection des renseignements personnels
@@ -160,6 +233,10 @@ Fishing mortality,Mortalité par pêche
 Fit,ajusté
 Fixed,Fixe
 Flathead Sole,balai du Japon
+Fleet,Flotte
+Fleet dynamics model,Modèle de dynamique des flottilles
+FMP,PGP
+FMSY,FRMS
 Frequency,Fréquence
 Full standardization,Normalisation complète
 Full standardization minus interactions,Normalisation complète mois les interactions
@@ -180,23 +257,34 @@ Growth,Croissance
 Gulf Region,Région du Golfe
 Gwaii Haanas National Marine Conservation Area,Aire marine nationale de conservation Gwaii Haanas
 Haida Gwaii,Haida Gwaii
+Halibut,Flétan
 Harlequin Rockfish,sébaste arlequin
+HBLL Inside North (Hard bottom longline Survey inside north),RPFD INT N (relevé à la palangre sur fond dur dans les eaux intérieures du Nord)
+HBLL Inside South (Hard bottom longline Survey inside south),RPFD INT S (relevé à la palangre sur fond dur dans les eaux intérieures du Sud)
+HBLL OUT S (hard bottom longline survey outside south),RPFD EXT S (relevé à la palangre sur fond dur dans les eaux extérieures du Sud)
 HBLL OUT survey biomass,Biomasse du relevé HBLL OUT
 Healthy zone,Zone saine
 Hecate Strait/Queen Charlotte Sound Sponge Reef Closures,Fermeture des récifs d'éponges siliceuses du détroit d'Hecate et du détroit de la Reine Charlotte
 Herring,hareng
 HG,HG
+High HBLL CV (coefficient of variation),CV (coefficient de variation) élevé du RPFD
+Hook adjustment factor,Facteur d’ajustement des hameçons
 Hook and line,Hameçon et ligne
+Hook and line Rockfish,Sébaste à ligne et à hameçon
 hour,heure
 hours,heures
 HR,TR
 IFMP,PGIP
 Immature,Immatures
+Implementation error model,Modèle d’erreur de mise en œuvre
 In press,Sous presse
 Index,Indice
 Index of abundance,Indice de l'abondance
+Index value,Valeur de l’indice
 Indices,Indices
 Indices of abundance,Indices d'abondance
+Initial fit,Ajustement initial
+Inside yelloweye rockfish ageing precision,Précision de la détermination de l’âge du stock intérieur de sébaste aux yeux jaunes
 Instantaneous natural mortality,Mortalité naturelle instantanée
 Integrated Fishery Management Plan,Plan de gestion intégrée des pêches
 Interactions,Interactions
@@ -219,6 +307,7 @@ Length-weight relationship,Relation longueur-poids
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
+Limit reference point,Point de référence limite
 Lingcod,morue-lingue
 Link,Lien
 Locality,Lieu
@@ -226,6 +315,8 @@ Log of standardized CPUE,Log de CPUE standardisé
 Log recruitment deviations,Log des écarts du recrutement
 Longnose Skate,pocheteau long-nez
 Longspine Thornyhead,sébastolobe à longues épines
+Low catch,Faibles prises
+Low M (natural mortality),Faible M (mortalité naturelle)
 Lower,inférieure
 Lower bound,Limite inférieure
 LRP,PRL
@@ -233,6 +324,9 @@ LRR,TEL
 Male,Mâle
 Male and female,Mâle et femelle
 Males,Mâles
+Management advice,Conseil en matière de gestion
+Management procedure,Procédure de gestion
+Management strategy evaluation data,Données sur l’évaluation des stratégies de gestion
 Mar,mar
 March,mars
 Maritimes Region,Région des Maritimes
@@ -254,6 +348,7 @@ Midwater trawl,Chalutage pélagique
 Millions,Millions
 Min,Min
 Minimum,Minimum
+Minimum performance,Performances minimales
 Month,Mois
 MP,PG
 MPD,DPM
@@ -262,10 +357,12 @@ MW,CP
 N female,N femelles
 N male,N  mâles
 N unsexed,N indéterminé
+Naïve design-based,Naïf fondé sur le plan
 National Capital Region,Région de la capitale nationale
 Natural mortality,Mortalité naturelle
 Newfoundland and Labrador Region,Région de Terre-Neuve et Labrador
 No,Non
+No hook competition,Aucune concurrence à l’égard des hameçons
 No Status,Sans statut
 None,Aucun
 Normal,Normale
@@ -280,7 +377,11 @@ Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
 Objective,Objectif
+Observation model,Modèle d’observation
+Observed (dots) and estimated (colour),Observé (points) et estimé (couleur)
+Observed adjusted count,Décompte ajusté observé
 Observed annual mean weight,Poids moyen annuel observé
+Observed relative abundance,Abondance relative observée
 Oct,oct
 October,octobre
 OM,ME
@@ -305,7 +406,11 @@ Pacific Sleeper Shark,laimargue du Pacifique
 Pacific Staghorn Sculpin,chabot armé
 Pacific Tomcod,poulamon du Pacifique
 Parameter,Paramètre
+Parameter value,Valeur du paramètre
 Pearly Prickleback,stichée perlée
+Performance metric,Mesure du rendement
+Performance metric probability,Probabilité de la mesure du rendement
+Performance metrics,Mesures du rendement
 Petrale Sole,plie de Californie
 PRD,DPR
 Pre-COSEWIC Review,Examen pré-COSEPAC
@@ -319,19 +424,26 @@ Prince Rupert District,District de Prince Rupert
 Prior,valeur a priori
 Prior probability distribution,La distribution de la probabilité a priori
 Priors,valeurs a priori
+Prob. Density,Prob. de densité
+Probability,Probabilité
 Probability mature,Probabilité de maturité
 Projected spawning biomass in,Projection de la biomasse reproductrice en
 Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983)
 Proportion,Proportion
 Proportion aged,Proportion âgée de
+Proportion baited hooks,Proportion d’hameçons appâtés
 Prowfish,zaprora
 Puget Sound Rockfish,sébaste paradeur
 Pygmy Rockfish,sébaste pygmée
 Quebec Region,Région du Québec
 Quillback Rockfish,sébaste à dos épineux
+R0 (initial recruitment),R0 (recrutement initial)
 Ragfish,torchon mou
+RCA (Rockfish conservation area),ACS (aire de conservation du sébaste)
+Recreational,Récréative
 Recruitment,Recrutement
 Recruitment deviations,des écarts de recrutement
+Recruitment deviations in log space,Écarts de recrutement dans l’espace log
 Red Irish Lord,chabot trilobé rouge
 Redbanded Rockfish,sébaste bandes rouges
 Redstripe Rockfish,sébaste à raie rouge
@@ -341,9 +453,11 @@ Relative,Relative
 Relative biomass,Biomasse relative
 Relative biomass index,Indice de la biomasse relative
 Relative catch rate index,Indice du taux de prises relatif
+Relative count density,Densité relative du décompte
 Relative index of abundance,Indice de l'abondance relative
 Relative length frequency,Fréquence de longueur relative
 Released at sea,Rejetés en mer
+Removal reference,Taux d’exploitation de référence
 Rescaled,Indice remis à l'échelle
 Residual,Résiduels
 Resting,Au repos
@@ -376,9 +490,13 @@ Scott Islands Marine National Wildlife Area,Réserve nationale de faune en milie
 SD,ET
 Secondary age (years),Âge secondaire (ans)
 Section,Section
+Sector,Secteur
+see caption,voir la légende
 Seine,Senne
+Select MP,Sélectionner la PG
 Sep,sep
 September,septembre
+serial correlation,corrélation en série
 Series,Séries
 Sex,Sexe
 SGaan Kinghlas Bowie Seamount Marine Protected Area,Zone de protection marine du mont sous-marin Bowie (SGaan Kinghlas)
@@ -388,6 +506,7 @@ Shortfin Eelpout,lycode à courtes nageoires
 Shortraker Rockfish,sébaste boréal
 Shortspine Thornyhead,sébastolobe à courtes épines
 Silvergray Rockfish,sébaste argenté
+Simulated data,Données simulées
 Slender Sole,plie mince
 Slim Sculpin,chabot élancé
 Smootheye Poacher,agone à nageoire coupée
@@ -395,6 +514,7 @@ Snake Prickleback,lompénie-serpent
 SoG,DG
 Source,Source
 Sources of information,Sources de renseignements
+Southern (old),Sud (ancienne)
 Southern Rock Sole,fausse limande du Pacifique sud
 Spatial random effects,Effets aléatoires spatiaux
 Spatial random effects only,Effets aléatoires spatiaux seulement
@@ -414,11 +534,13 @@ Spotfin Sculpin,icéline à nageoires tachetées
 Spotted Ratfish,chimère d'Amérique
 SSB,BSR
 SSB/Blim,BSR/Blim
+ST AADC (short term average annual Deviation in catch),MAEP CT (moyenne annuelle de l’écart des prises à court terme)
 Standardization,Normalisation
 Standardized,Normalisée
 Starry Flounder,flet étoilé
 Start year,Année de début
 Steepness,La pente
+Stock dynamics model,Modèle de dynamique des stocks
 Strait of Georgia,Détroit de Georgie
 Strait of Georgia/Howe Sound Sponge Reef Closures,Fermeture des pêches dans les récifs d'éponges du détroit de Georgie et de la baie Howe
 Stripetail Rockfish,sébaste à queue rayée
@@ -429,6 +551,7 @@ Survey,Relevé
 Survey biomass density,Densité de la biomasse du relevé
 Survey biomass index,Indice de la biomasse du relevé
 Survey biomass indices,Indices de la biomasse
+Survey Blocks,Blocs d’étude
 Survey catchability,La capturabilité dans les relevés
 Survey density (1000 fish/km^2),Densité du relevé (1 000 poissons/km2)
 Survey period,Période du relevé
@@ -438,6 +561,9 @@ Survey specimen counts,Décompte des spécimens du relevé
 Surveys,Relevés
 Synoptic survey biomass,Biomasse du relevé synoptique
 Tables,Tableaux
+TAC,TAC
+TAC adjustment factor (proportion of MSY),Facteur d’ajustement du TAC (proportion du RMS)
+Target reference point,Point de référence cible
 Technical Report,Rapport technique
 Temperature,Temperature
 Term,Terme
@@ -452,11 +578,14 @@ Tiger Rockfish,sébaste-tigre
 Tons,Tonnes
 Tope Shark,milandre
 Total,Totale
+Total abundance,Abondance totale
 Total catch,Des prises totales
 Totals,Totales
 Tow,Trait
 Trap,Casier
+Trawl,Chalut
 Trip,Sortie
+TRUE,Vrai
 Twoline Eelpout,lycode à deux lignes
 Type,Type
 Undetermined,Indéterminé
@@ -465,9 +594,12 @@ Unsexed,Indéterminé
 Unstandardized,Non normalisée
 Upper,supérieure
 Upper bound,Limite supérieure
+Upper stock reference,Point de référence supérieur du stock
 USA,les États-Unis
 USR,RSS
 Uterine Eggs,Oeufs utérins
+UTMs East (100km),MTU est (100 km)
+UTMs West (100km),MTU ouest (100 km)
 Value,Valeur
 Vermilion Rockfish,sébaste vermillon
 Vessel,Navire
@@ -483,10 +615,12 @@ Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches
 Whitespotted Greenling,sourcil à taches blanches
 Widow Rockfish,sébaste veuve
+With depth,Avec profondeur
 Wolf Eel,loup ocellé
 y,a
 Year,Année
 Years,Années
+Years removed,Années supprimées
 Yelloweye Rockfish,sébastes aux yeux jaunes
 Yellowmouth Rockfish,sébaste à bouche jaune
 Yellowtail Rockfish,sébaste à queue jaune

@@ -40,6 +40,7 @@ Biological,Biologique
 Biomass,Biomasse
 Biomass estimate (kg/km^2),Estimation de la biomasse (kg/km2)
 Biomass estimate divided by geometric mean,Estimation de la biomasse/moyenne géométrique
+Biomass index,Indice de la biomasse
 Black Eelpout,lycode noire
 Black Rockfish,sébaste noir
 Blackbelly Eelpout,lycode à ventre noir
@@ -192,6 +193,10 @@ HR,TR
 IFMP,PGIP
 Immature,Immatures
 In press,Sous presse
+Index,Indice
+Index of abundance,Indice de l'abondance
+Indices,Indices
+Indices of abundance,Indices d'abondance
 Instantaneous natural mortality,Mortalité naturelle instantanée
 Integrated Fishery Management Plan,Plan de gestion intégrée des pêches
 Interactions,Interactions
@@ -334,7 +339,9 @@ Reference point,Point de référence
 Reference points,Points de référence
 Relative,Relative
 Relative biomass,Biomasse relative
+Relative biomass index,Indice de la biomasse relative
 Relative catch rate index,Indice du taux de prises relatif
+Relative index of abundance,Indice de l'abondance relative
 Relative length frequency,Fréquence de longueur relative
 Released at sea,Rejetés en mer
 Rescaled,Indice remis à l'échelle
@@ -420,13 +427,13 @@ Surface,Surface
 Surface survey,Relevé en surface
 Survey,Relevé
 Survey biomass density,Densité de la biomasse du relevé
-Survey biomass index,Indice de la biomasse
+Survey biomass index,Indice de la biomasse du relevé
 Survey biomass indices,Indices de la biomasse
 Survey catchability,La capturabilité dans les relevés
 Survey density (1000 fish/km^2),Densité du relevé (1 000 poissons/km2)
 Survey period,Période du relevé
 Survey relative biomass indices,Indices de la biomasse du relevés
-Survey samples,Échantillons de relevé
+Survey samples,Échantillons du relevé
 Survey specimen counts,Décompte des spécimens du relevé
 Surveys,Relevés
 Synoptic survey biomass,Biomasse du relevé synoptique

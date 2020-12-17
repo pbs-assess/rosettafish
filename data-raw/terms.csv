@@ -98,8 +98,8 @@ BT,CF
 Buffalo Sculpin,chabot-bison
 Butter Sole,plie à écailles régulières
 by,par
-C-O Sole,C-O sole
 C O Sole,C O sole
+C-O Sole,C-O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
@@ -211,11 +211,11 @@ Estimated adjusted count,Décompte ajusté estimé
 Estimated age at 50% maturity,Âge à 50% maturité estimé
 Estimated annual mean weight,Poids moyen annuel Estimé
 Estimated B/B0,B/B0 estimé
-Estimated B/BMSY,B/BRMS estimé
+Estimated B/BMSY,B/BRMD estimé
 Estimated relative abundance,Abondance relative estimée
 Expected count,Décompte prévu
 expert judgement,jugement expert
-F/FMSY,F/FRMS
+F/FMSY,F/FRMD
 Family,Famille
 Feb,fev
 February,février
@@ -237,7 +237,7 @@ Flathead Sole,balai du Japon
 Fleet,Flotte
 Fleet dynamics model,Modèle de dynamique des flottilles
 FMP,PGP
-FMSY,FRMS
+FMSY,FRMD
 Frequency,Fréquence
 Full standardization,Normalisation complète
 Full standardization minus interactions,Normalisation complète mois les interactions
@@ -304,10 +304,10 @@ Landings,Débarquements
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
-Length-weight relationship,Relation longueur-poids
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
+Length-weight relationship,Relation longueur-poids
 Limit reference point,Point de référence limite
 Lingcod,morue-lingue
 Link,Lien
@@ -353,7 +353,7 @@ Minimum performance,Performances minimales
 Month,Mois
 MP,PG
 MPD,DPM
-MSY,RMS
+MSY,RMD
 MW,CP
 N female,N femelles
 N male,N  mâles
@@ -372,11 +372,11 @@ Northing,Ordonnée
 Not at Risk,Non en péril
 Nov,nov
 November,novembre
-Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
 Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
+Number-at-age,Nombre selon l’âge
 Obj,Obj
 Objective,Objectif
 Observation model,Modèle d’observation
@@ -564,7 +564,7 @@ Surveys,Relevés
 Synoptic survey biomass,Biomasse du relevé synoptique
 Tables,Tableaux
 TAC,TAC
-TAC adjustment factor (proportion of MSY),Facteur d’ajustement du TAC (proportion du RMS)
+TAC adjustment factor (proportion of MSY),Facteur d’ajustement du TAC (proportion du RMD)
 Target reference point,Point de référence cible
 Technical Report,Rapport technique
 Temperature,Temperature
@@ -610,8 +610,8 @@ Walleye Pollock,goberge
 Wattled Eelpout,lycode tressée
 WCVI,COIV
 Weight,Poids
-Weight-at-age,Poids selon l’âge
 Weight at age,Poids selon l’âge
+Weight-at-age,Poids selon l’âge
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
 Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches

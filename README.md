@@ -3,10 +3,12 @@
 
 # rosettafish
 
-[![Travis build
-status](https://travis-ci.org/pbs-assess/rosettafish.svg?branch=master)](https://travis-ci.org/pbs-assess/rosettafish)
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/pbs-assess/rosettafish/workflows/R-CMD-check/badge.svg)](https://github.com/pbs-assess/rosettafish/actions)
 [![Coverage
 status](https://codecov.io/gh/pbs-assess/rosettafish/branch/master/graph/badge.svg)](https://codecov.io/github/pbs-assess/rosettafish?branch=master)
+<!-- badges: end -->
 
 rosettafish is an R package to translate fish- and fisheries-related
 words or short phrases between languages (English to French or French to
@@ -17,10 +19,10 @@ languages, or a single figure with labels in two languages. It can also
 be used for other text (such as table headings), but is not intended for
 translation of complete sentences.
 
-In particular, it is useful for automatically producing
-translated technical figures to go into Research Documents, Science Responses, and Technical Reports and
+In particular, it should be useful for automatically producing
+translated technical figures to go into Research Documents and
 presentations. This is done when building the figures (in R) and saves
-someone having to manually edit the figure (in, say, Illustrator). This
+someone having to manually edit the figure (in, say, Photoshop). This
 preserves the quality and the output formats of figures in both
 languages, and is especially time-saving when the same figure axes are
 used for multiple figures (e.g., a time series of biomass estimates for
@@ -37,8 +39,8 @@ terms using the instructions below.
 You can install rosettafish with:
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("pbs-assess/rosettafish")
+# install.packages("devtools")
+devtools::install_github("pbs-assess/rosettafish")
 ```
 
 ## Examples
@@ -97,7 +99,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
 
 1.  Fork and clone this repository.
 2.  Add the terms to the end of the file `data-raw/terms.csv` with a
-    text editor (**not Excel\!**). Ensure your editor is saving in UTF-8
+    text editor (**not Excel!**). Ensure your editor is saving in UTF-8
     format or the French accents will be destroyed. [Help with UTF-8
     file encoding and
     RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding).
@@ -125,9 +127,9 @@ the package immediately, follow the above instructions to add your terms
 and then open `data-raw/make-dictionary.R` and source it in R. This
 will:
 
-  - sort the `data-raw/terms.csv` dictionary file alphabetically
-  - stop you if there are any duplicates (fix them\!)
-  - save the data into the package data so it can be used
+-   sort the `data-raw/terms.csv` dictionary file alphabetically
+-   stop you if there are any duplicates (fix them!)
+-   save the data into the package data so it can be used
 
 After sourcing this file, you can reinstall the package to use it. For
 example, with your working directory set to the rosettafish folder:
@@ -136,7 +138,7 @@ example, with your working directory set to the rosettafish folder:
 devtools::install(quick = TRUE, dependencies = FALSE)
 ```
 
-Or open the project in RStudio and run Build \> Install and Restart.
+Or open the project in RStudio and run Build &gt; Install and Restart.
 
 You will need to restart any other R sessions to be able to use the
 newly installed package.

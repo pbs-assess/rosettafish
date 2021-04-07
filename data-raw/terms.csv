@@ -22,6 +22,7 @@ Age frequencies,Fréquences d'âge
 Age structures,Structure par âge
 Ageing codes,Codes de vieillissement
 Ageing precision,Précision de la détermination de l'âge
+Agree on and specify objects,Convenir des objets et les spécifier
 Alaska Skate,raie de l’Alaska
 Aleutian Skate,raie aléoutienne
 alternative hypothesis,hypothèse contraire
@@ -54,7 +55,7 @@ Average Annual Variability,Variabilité annuelle moyenne
 average deviation,écart moyen
 Average F,F moyen
 Average M,M moyen
-Average performance,Performance moyenne obtenue
+Average performance,Rendement moyen
 axis,axe
 back transformation,rétrotransformation
 backward elimination,élimination descendante
@@ -154,6 +155,7 @@ Confidence,Confiance
 Confidence interval,Intervalle de confiance
 conM,MC
 Conservation,Conservation
+Constant catch,Prises constantes
 Copper Rockfish,sébaste cuivré
 Correlation,Corrélation
 correlogram,corrélogramme
@@ -200,6 +202,7 @@ Embryos,Des embryons
 End year,Fin de l'année
 Endangered,En voie de disparition
 Endeavour Hydrothermal Vents Marine Protected Area,Zone de protection marine du champ hydrothermal Endeavour
+English,French
 English Sole,carlottin anglais
 Episodic recruitment,Recrutement épisodique
 Equipment,équipement
@@ -269,6 +272,8 @@ Hecate Strait/Queen Charlotte Sound Sponge Reef Closures,Fermeture des récifs d
 Herring,hareng
 HG,HG
 High HBLL CV (coefficient of variation),CV (coefficient de variation) élevé du RPFD
+Higher M,M plus élevée
+Higher steepness,Taux de variation plus élevé
 Hook adjustment factor,Facteur d’ajustement des hameçons
 Hook and line,Hameçon et ligne
 Hook and line Rockfish,Sébaste à ligne et à hameçon
@@ -281,6 +286,8 @@ Implementation error model,Modèle d’erreur de mise en œuvre
 In press,Sous presse
 Index,Indice
 Index of abundance,Indice de l'abondance
+Index ratio,Indice-ratio
+Index target,Indice-cible
 Index value,Valeur de l’indice
 Indices,Indices
 Indices of abundance,Indices d'abondance
@@ -304,6 +311,8 @@ Landings,Débarquements
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
+Length (cm),Longueur (cm)
+Length (m),Longueur (m)
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
@@ -322,6 +331,7 @@ Lower,inférieure
 Lower bound,Limite inférieure
 LRP,PRL
 LRR,TEL
+M increasing,M croissante
 Male,Mâle
 Male and female,Mâle et femelle
 Males,Mâles
@@ -352,6 +362,7 @@ Minimum,Minimum
 Minimum performance,Performances minimales
 Month,Mois
 MP,PG
+MP type,Type de procédure de gestion
 MPD,DPM
 MSY,RMD
 MW,CP
@@ -363,6 +374,7 @@ National Capital Region,Région de la capitale nationale
 Natural mortality,Mortalité naturelle
 Newfoundland and Labrador Region,Région de Terre-Neuve et Labrador
 No,Non
+No CPUE,Pas de CPUE
 No hook competition,Aucune concurrence à l’égard des hameçons
 No Status,Sans statut
 None,Aucun
@@ -387,7 +399,7 @@ Observed relative abundance,Abondance relative observée
 Oct,oct
 October,octobre
 OM,ME
-Operating Model,Modèle d'exploitation
+Operating model,Modèle opérationnel
 Or,Ou
 Order,Ordre
 Original,Version originale
@@ -410,7 +422,7 @@ Pacific Tomcod,poulamon du Pacifique
 Parameter,Paramètre
 Parameter value,Valeur du paramètre
 Pearly Prickleback,stichée perlée
-Performance metric,Mesure du rendement
+Performance metric,Paramètre de rendement
 Performance metric probability,Probabilité de la mesure du rendement
 Performance metrics,Mesures du rendement
 Petrale Sole,plie de Californie
@@ -449,6 +461,7 @@ Recruitment deviations in log space,Écarts de recrutement dans l’espace log
 Red Irish Lord,chabot trilobé rouge
 Redbanded Rockfish,sébaste bandes rouges
 Redstripe Rockfish,sébaste à raie rouge
+Reference,Référence
 Reference point,Point de référence
 Reference points,Points de référence
 Relative,Relative
@@ -479,12 +492,14 @@ Roughtail Skate,raie à queue rude
 Running Ripe,Pleins et actifs
 Sablefish,morue charbonnière
 Salmon Shark,taupe du Pacifique
+Samples,Échantillons
 Sand Sole,sole-pole
 Sandpaper Skate,raie rugueuse
 SAR,RES
 SARA Status,Statut en vertu de la LEP
 SB,BR
 Scaled abundance,Abondance mise à l’échelle
+Scaled index value,Valeur de l’indice à l’échelle
 Scenario,Scénario
 Science Branch,Secteur des sciences
 Scientific name,Nom scientifique
@@ -549,6 +564,7 @@ Stripetail Rockfish,sébaste à queue rayée
 Sturgeon Poacher,agone-esturgeon
 Surface,Surface
 Surface survey,Relevé en surface
+Surplus production,Production excédentaire
 Survey,Relevé
 Survey biomass density,Densité de la biomasse du relevé
 Survey biomass index,Indice de la biomasse du relevé
@@ -610,6 +626,8 @@ Walleye Pollock,goberge
 Wattled Eelpout,lycode tressée
 WCVI,COIV
 Weight,Poids
+Weight (g),Poids (g)
+Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
 Weight-at-age,Poids selon l’âge
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver

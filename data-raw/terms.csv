@@ -35,6 +35,7 @@ Annual mean weight,Poids moyen annuel
 Apr,avr
 April,Avril
 Area,Zone
+Area 10,Zone 10
 Area 2 West,Zone 2 ouest
 Area 27,Zone 27
 Area 4B,Zone 4B
@@ -99,8 +100,8 @@ BT,CF
 Buffalo Sculpin,chabot-bison
 Butter Sole,plie à écailles régulières
 by,par
-C O Sole,C O sole
 C-O Sole,C-O sole
+C O Sole,C O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
@@ -311,12 +312,12 @@ Landings,Débarquements
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
+Length-weight relationship,Relation longueur-poids
 Length (cm),Longueur (cm)
 Length (m),Longueur (m)
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
-Length-weight relationship,Relation longueur-poids
 Limit reference point,Point de référence limite
 Lingcod,morue-lingue
 Link,Lien
@@ -384,11 +385,11 @@ Northing,Ordonnée
 Not at Risk,Non en péril
 Nov,nov
 November,novembre
+Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
 Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
-Number-at-age,Nombre selon l’âge
 Obj,Obj
 Objective,Objectif
 Observation model,Modèle d’observation
@@ -626,10 +627,10 @@ Walleye Pollock,goberge
 Wattled Eelpout,lycode tressée
 WCVI,COIV
 Weight,Poids
+Weight-at-age,Poids selon l’âge
 Weight (g),Poids (g)
 Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
-Weight-at-age,Poids selon l’âge
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
 Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches

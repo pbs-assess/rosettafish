@@ -1,4 +1,4 @@
-rosetta_terms <- as.data.frame(readr::read_csv("data-raw/terms.csv"))
+rosetta_terms <- as.data.frame(readr::read_csv("data-raw/terms.csv", show_col_types = FALSE))
 
 language <- "english"
 rosetta_terms <- rosetta_terms[order(rosetta_terms[[language]]), , drop = FALSE]

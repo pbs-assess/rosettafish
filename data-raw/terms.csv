@@ -102,11 +102,12 @@ BT,CF
 Buffalo Sculpin,chabot-bison
 Butter Sole,plie à écailles régulières
 by,par
-C-O Sole,C-O sole
 C O Sole,C O sole
+C-O Sole,C-O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
+Candidate rebuilding targets,Cibles de reconstruction potentielles
 canonical analysis,analyse canonique
 canonical correlation analysis,analyse des corrélations canoniques
 canonical form,forme canonique
@@ -162,8 +163,10 @@ Constant catch,Prises constantes
 Copper Rockfish,sébaste cuivré
 Correlation,Corrélation
 correlogram,corrélogramme
+COSEWIC,COSEPAC
 COSEWIC Status,Désignation du COSEPAC
 COSEWIC Status Report,Rapports de situation du COSEPAC
+COSEWIC threshold,Seuil du COSEPAC
 Count,Compte
 CPUE,PUE
 Creel survey: all rockfish,Enquête par interrogation des pêcheurs : ensemble du sébaste
@@ -318,12 +321,12 @@ Landings,Débarquements
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
-Length-weight relationship,Relation longueur-poids
 Length (cm),Longueur (cm)
 Length (m),Longueur (m)
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
+Length-weight relationship,Relation longueur-poids
 Limit reference point,Point de référence limite
 Lingcod,morue-lingue
 Link,Lien
@@ -393,12 +396,12 @@ Not at Risk,Non en péril
 Nov,nov
 November,novembre
 Number,Nombre
-Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
 Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of fish,Nombre de poissons
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
+Number-at-age,Nombre selon l’âge
 Obj,Obj
 Objective,Objectif
 Objectives,Objectifs
@@ -465,6 +468,7 @@ Quillback Rockfish,sébaste à dos épineux
 R0 (initial recruitment),R0 (recrutement initial)
 Ragfish,torchon mou
 RCA (Rockfish conservation area),ACS (aire de conservation du sébaste)
+Rebuilding targets,Cibles de reconstruction
 Recreational,Récréative
 Recruitment,Recrutement
 Recruitment deviations,des écarts de recrutement
@@ -638,10 +642,10 @@ Walleye Pollock,goberge
 Wattled Eelpout,lycode tressée
 WCVI,COIV
 Weight,Poids
-Weight-at-age,Poids selon l’âge
 Weight (g),Poids (g)
 Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
+Weight-at-age,Poids selon l’âge
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
 Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches

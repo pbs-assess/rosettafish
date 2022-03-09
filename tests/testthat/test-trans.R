@@ -142,3 +142,12 @@ test_that("cases work", {
   ), "Aaa Aaa; Bbb Bbb")
   expect_equal(en2fr("aaa aaa", translate = FALSE, custom_terms = df, case = "upper"), "AAA AAA")
 })
+
+test_that("options french and english work", {
+  options(french = TRUE)
+  expect_equal(en2fr("Depth", FALSE), "Profondeur")
+  expect_equal(en2fr("Depth", TRUE), "Profondeur")
+  options(english = TRUE)
+  expect_equal(fr2en("Profondeur", FALSE), "Depth")
+  expect_equal(fr2en("Profondeur", TRUE), "Depth")
+})

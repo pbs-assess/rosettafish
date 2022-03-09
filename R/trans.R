@@ -1,8 +1,15 @@
 #' @export
 #' @rdname trans
-en2fr <- function(x, translate = TRUE,
+en2fr <- function(x,
+                  translate = TRUE,
                   case = c("none", "sentence", "lower", "upper", "title"),
                   ...) {
+
+  # If the option "french" has a value, override the `translate` argument
+  fr_option <- getOption("french")
+  if(!is.null(fr_option)){
+    translate <- fr_option
+  }
   if (!translate) {
     return(caseify(x, match.arg(case)))
   }
@@ -11,9 +18,16 @@ en2fr <- function(x, translate = TRUE,
 
 #' @export
 #' @rdname trans
-fr2en <- function(x, translate = TRUE,
+fr2en <- function(x,
+                  translate = TRUE,
                   case = c("none", "sentence", "lower", "upper", "title"),
                   ...) {
+
+  # If the option "english" has a value, override the `translate` argument
+  en_option <- getOption("english")
+  if(!is.null(en_option)){
+    translate <- en_option
+  }
   if (!translate) {
     return(caseify(x, match.arg(case)))
   }

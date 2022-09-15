@@ -5,15 +5,13 @@ en2fr <- function(x,
                   case = c("none", "sentence", "lower", "upper", "title"),
                   ...) {
 
-  # If the option "french" has a value, override the `translate` argument
-  fr_option <- getOption("french")
-  if(!is.null(fr_option)){
-    translate <- fr_option
+  if(!is.logical(translate)){
+    stop("`translate` is not a logical", call. = FALSE)
   }
-  if (!translate) {
-    return(caseify(x, match.arg(case)))
+  if(translate){
+    return(trans(x, from = "english", to = "french", case = case, ...))
   }
-  trans(x, from = "english", to = "french", case = case, ...)
+  caseify(x, match.arg(case))
 }
 
 #' @export
@@ -23,15 +21,13 @@ fr2en <- function(x,
                   case = c("none", "sentence", "lower", "upper", "title"),
                   ...) {
 
-  # If the option "english" has a value, override the `translate` argument
-  en_option <- getOption("english")
-  if(!is.null(en_option)){
-    translate <- en_option
+  if(!is.logical(translate)){
+    stop("`translate` is not a logical (TRUE or FALSE)", call. = FALSE)
   }
-  if (!translate) {
-    return(caseify(x, match.arg(case)))
+  if(translate){
+    return(trans(x, from = "french", to = "english", case = case, ...))
   }
-  trans(x, from = "french", to = "english", case = case, ...)
+  caseify(x, match.arg(case))
 }
 
 #' Translate a word or phrase from one language to another

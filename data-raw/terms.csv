@@ -103,8 +103,8 @@ BT,CF
 Buffalo Sculpin,chabot-bison
 Butter Sole,plie à écailles régulières
 by,par
-C O Sole,C O sole
 C-O Sole,C-O sole
+C O Sole,C O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
@@ -330,12 +330,12 @@ Landings,Débarquements
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 Length,Longueur
+Length-weight relationship,Relation longueur-poids
 Length (cm),Longueur (cm)
 Length (m),Longueur (m)
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
-Length-weight relationship,Relation longueur-poids
 Limit reference point,Point de référence limite
 Lingcod,morue-lingue
 Link,Lien
@@ -407,16 +407,17 @@ Not at Risk,Non en péril
 Nov,nov
 November,novembre
 Number,Nombre
+Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
 Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of fish,Nombre de poissons
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
-Number-at-age,Nombre selon l’âge
 Obj,Obj
 Objective,Objectif
 Objectives,Objectifs
 Observation model,Modèle d’observation
+Observed,Observé
 Observed (dots) and estimated (colour),Observé (points) et estimé (couleur)
 Observed adjusted count,Décompte ajusté observé
 Observed annual mean weight,Poids moyen annuel observé
@@ -455,6 +456,7 @@ Petrale Sole,plie de Californie
 Popeye,grenadier cendré
 PRD,DPR
 Pre-COSEWIC Review,Examen pré-COSEPAC
+Predicted,Prévu
 Predicted biomass density (kg/m2),Densité prévue de la biomasse (kg/m2)
 Prediction (depth effects + spatial random effects),Prédiction (effets de profondeur + effets aléatoires spatiaux)
 Prediction (depth effects only),Prédiction (effets de profondeur seulement)
@@ -473,6 +475,7 @@ Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983)
 Proportion,Proportion
 Proportion aged,Proportion âgée de
 Proportion baited hooks,Proportion d’hameçons appâtés
+Proportion mature,Proportion adultes
 Prowfish,zaprora
 Puget Sound Rockfish,sébaste paradeur
 Pygmy Rockfish,sébaste pygmée
@@ -540,6 +543,7 @@ Sector,Secteur
 see caption,voir la légende
 Seine,Senne
 Select MP,Sélectionner la PG
+Selectivity,Sélectivité
 Sep,sep
 September,septembre
 serial correlation,corrélation en série
@@ -566,6 +570,8 @@ Southern (old),Sud (ancienne)
 Southern Rock Sole,fausse limande du Pacifique sud
 Spatial random effects,Effets aléatoires spatiaux
 Spatial random effects only,Effets aléatoires spatiaux seulement
+Spatiotemporal,Spatio-temporel
+Spatiotemporal model,Modèle spatio-temporel
 Spatiotemporal random effects only,Effets aléatoires spatio-temporels seulement
 Spawn index,Indice du frai
 Spawning biomass,Biomasse reproductrice
@@ -641,6 +647,7 @@ TRUE,Vrai
 Twoline Eelpout,lycode à deux lignes
 Type,Type
 Undetermined,Indéterminé
+Unknown,Inconnu
 Unknown/trawl,Inconnu/chalut
 Unsexed,Indéterminé
 Unstandardized,Non normalisée
@@ -661,10 +668,10 @@ Walleye Pollock,goberge
 Wattled Eelpout,lycode tressée
 WCVI,COIV
 Weight,Poids
+Weight-at-age,Poids selon l’âge
 Weight (g),Poids (g)
 Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
-Weight-at-age,Poids selon l’âge
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
 Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches

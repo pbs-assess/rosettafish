@@ -281,6 +281,7 @@ Gwaii Haanas National Marine Conservation Area,Aire marine nationale de conserva
 Haida Gwaii,Haida Gwaii
 Halibut,Flétan
 Harlequin Rockfish,sébaste arlequin
+Harvest control rule,Règle de contrôle des prises
 HBLL Inside North (Hard bottom longline Survey inside north),RPFD INT N (relevé à la palangre sur fond dur dans les eaux intérieures du Nord)
 HBLL Inside South (Hard bottom longline Survey inside south),RPFD INT S (relevé à la palangre sur fond dur dans les eaux intérieures du Sud)
 HBLL OUT S (hard bottom longline survey outside south),RPFD EXT S (relevé à la palangre sur fond dur dans les eaux extérieures du Sud)
@@ -315,6 +316,7 @@ Inside yelloweye rockfish ageing precision,Précision de la détermination de l�
 Instantaneous natural mortality,Mortalité naturelle instantanée
 Integrated Fishery Management Plan,Plan de gestion intégrée des pêches
 Interactions,Interactions
+Intercept,Point d'intersection
 IPHC Report of Assessment and Research Activities,Rapport de la CIFP sur les activités d'évaluation et de recherche
 IPHC survey catch rate,Taux de capture du relevé IPHC
 Jan,jan
@@ -475,7 +477,7 @@ Projection: BC Albers (NAD 1983),Projection : BC Albers (NAD 1983)
 Proportion,Proportion
 Proportion aged,Proportion âgée de
 Proportion baited hooks,Proportion d’hameçons appâtés
-Proportion mature,Proportion adultes
+Proportion mature,Proportion d'individus matures
 Prowfish,zaprora
 Puget Sound Rockfish,sébaste paradeur
 Pygmy Rockfish,sébaste pygmée
@@ -516,6 +518,7 @@ Roe seine fishery,Pêche au hareng rogué à la senne
 RoeGN,RogueFM
 RoeSN,RogueSN
 Role,Rôle
+Root mean square error,Erreur quadratique moyenne
 Rosethorn Rockfish,sébaste rosacé
 Rougheye Blackspotted Rockfish Complex,complexe du sébaste à œil épineux/sébaste à taches noires
 Rougheye/Blackspotted,œil épineux/taches noires
@@ -568,9 +571,11 @@ Source,Source
 Sources of information,Sources de renseignements
 Southern (old),Sud (ancienne)
 Southern Rock Sole,fausse limande du Pacifique sud
+Spatial field,Champ spatial
 Spatial random effects,Effets aléatoires spatiaux
 Spatial random effects only,Effets aléatoires spatiaux seulement
 Spatiotemporal,Spatio-temporel
+Spatiotemporal field,Champ spatio-temporel
 Spatiotemporal model,Modèle spatio-temporel
 Spatiotemporal random effects only,Effets aléatoires spatio-temporels seulement
 Spawn index,Indice du frai

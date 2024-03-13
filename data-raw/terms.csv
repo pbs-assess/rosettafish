@@ -60,6 +60,9 @@ Average F,F moyen
 Average M,M moyen
 Average performance,Rendement moyen
 axis,axe
+B/B[MSY],B/B[RMD]
+B/BMSY,B/BRMD
+B[MSY],B[RMD]
 back transformation,rétrotransformation
 backward elimination,élimination descendante
 Base model,Modèle de base
@@ -148,7 +151,9 @@ Commercial bottom trawl CPUE,PUE chalut de fond commercial
 Commercial catch,Prises commerciales
 Commercial CPUE (kg/hour),CPUE commerciales (kg/heure)
 Commercial H & L CPUE,PUE commercial H & L
+Commercial handline,Ligne à main commerciale
 Commercial hook and line CPUE,PUE des pêches commerciales à l'hameçon et à la ligne
+Commercial longline,Palangre commerciale
 Commercial samples,Échantillons commerciaux
 Commercial specimen counts,Décompte des spécimens du commercial
 Commercial trawl catch per unit effort (CPUE),Captures par unité d’effort (CPUE) du chalutage commercial
@@ -172,6 +177,7 @@ COSEWIC threshold,Seuil du COSEPAC
 Count,Compte
 CPUE,PUE
 Credible interval,Intervalle crédible
+Creel survey,Enquête par interrogation des pêcheurs
 Creel survey: all rockfish,Enquête par interrogation des pêcheurs : ensemble du sébaste
 Creel survey: species specific,Enquête par interrogation des pêcheurs : propre à chaque espèce
 Criterion,Critère
@@ -206,10 +212,12 @@ Distance,Distance
 Distribution,Distribution
 Dive,Plongée
 Dive survey,Relevé de plongée
-Dogfish and Lingcod,aiguillat commun
+Dogfish,Aiguillat commun
+Dogfish and Lingcod,Aiguillat commun et morue-lingue
 Dover Sole,limande sole du Pacifique
 Dusky Rockfish,sébaste cilié
 Dwarf Wrymouth,terrassier nain
+East,Est
 Easting,Abscisse
 Effective harvest rate,Taux de récolte effectif
 Embryos,Des embryons
@@ -231,13 +239,17 @@ Estimated B/B0,B/B0 estimé
 Estimated B/BMSY,B/BRMD estimé
 Estimated relative abundance,Abondance relative estimée
 Eulachon,l'eukalane
+Expected,Prévu
 Expected count,Décompte prévu
 expert judgement,jugement expert
+F/F[MSY],F/F[RMD]
 F/FMSY,F/FRMD
+F[MSY],F[RMD]
 Family,Famille
 FB,CA
 Feb,fev
 February,février
+Fecundity,Fécondité
 Female,Femelle
 Females,Femelles
 Final allocation,Allocation finale
@@ -281,6 +293,8 @@ Gulf Region,Région du Golfe
 Gwaii Haanas National Marine Conservation Area,Aire marine nationale de conservation Gwaii Haanas
 Haida Gwaii,Haida Gwaii
 Halibut,Flétan
+Halibut and sablefish,Flétan et morue charbonnière
+Handline,Ligne à main
 Harlequin Rockfish,sébaste arlequin
 Harvest control rule,Règle de contrôle des prises
 HBLL Inside North (Hard bottom longline Survey inside north),RPFD INT N (relevé à la palangre sur fond dur dans les eaux intérieures du Nord)
@@ -374,9 +388,13 @@ May,mai
 MCMC,MCCM
 Mean,Moyenne
 Mean +ve sets,Moyenne des ensembles +
+Mean age,Âge moyen
 Mean coefficient of variance,Coefficient moyen de variance
 Mean estimate (kg/km^2),Estimation moyenne (kg/km^2)
+Mean length,Longueur moyen
 Mean positive sets,Moyenne des ensembles positifs
+Mean weight,Moyen poids
+Mean weight (kg),Moyen poids (kg)
 Median,Médiane
 Midwater trawl,Chalutage pélagique
 Millions,Millions
@@ -402,8 +420,10 @@ No CPUE,Pas de CPUE
 No fishing,Aucun pêche
 No hook competition,Aucune concurrence à l’égard des hameçons
 No Status,Sans statut
+Nominal,Nominale
 None,Aucun
 Normal,Normale
+North,Nord
 North Pacific Spiny Dogfish,aiguillat commun du Pacifique Nord
 Northing,Ordonnée
 Not at Risk,Non en péril
@@ -456,6 +476,8 @@ Performance metric,Paramètre de rendement
 Performance metric probability,Probabilité de la mesure du rendement
 Performance metrics,Mesures du rendement
 Petrale Sole,plie de Californie
+Piece,Nombre
+Pieces,Nombres
 Popeye,grenadier cendré
 PRD,DPR
 Pre-COSEWIC Review,Examen pré-COSEPAC
@@ -488,6 +510,7 @@ R0 (initial recruitment),R0 (recrutement initial)
 Ragfish,torchon mou
 RCA (Rockfish conservation area),ACS (aire de conservation du sébaste)
 Rebuilding targets,Cibles de reconstruction
+Reconstruction,Reconstitution
 Recreational,Récréative
 Recruitment,Recrutement
 Recruitment deviations,des écarts de recrutement
@@ -500,12 +523,14 @@ Reference point,Point de référence
 Reference points,Points de référence
 Regional Director,Directeur régionale
 Relative,Relative
+Relative age frequency,Fréquence d'âge relative
 Relative biomass,Biomasse relative
 Relative biomass index,Indice de la biomasse relative
 Relative catch rate index,Indice du taux de prises relatif
 Relative count density,Densité relative du décompte
 Relative index of abundance,Indice de l'abondance relative
 Relative length frequency,Fréquence de longueur relative
+Relative value,Valeur relative
 Released,Rejetés
 Released at sea,Rejetés en mer
 Removal reference,Taux d’exploitation de référence
@@ -571,6 +596,7 @@ Snake Prickleback,lompénie-serpent
 SoG,DG
 Source,Source
 Sources of information,Sources de renseignements
+South,Sud
 Southern (old),Sud (ancienne)
 Southern Rock Sole,fausse limande du Pacifique sud
 Spatial field,Champ spatial
@@ -583,6 +609,7 @@ Spatiotemporal random effects only,Effets aléatoires spatio-temporels seulement
 Spawn index,Indice du frai
 Spawning biomass,Biomasse reproductrice
 Spawning biomass production,Production de la biomasse du stock reproducteur
+Spawning depletion,Épuisement reproducteur
 Spawning stock biomass,Biomasse reproductrice
 Special Concern,Espèce préoccupante
 Species at Risk Act Management Plan Series,Série des plans de gestion de la Loi sur les espèces en péril.
@@ -654,6 +681,7 @@ TRUE,Vrai
 Twoline Eelpout,lycode à deux lignes
 Type,Type
 Undetermined,Indéterminé
+Unfished recruitment,Recrutement non exploité
 Unknown,Inconnu
 Unknown/trawl,Inconnu/chalut
 Unsexed,Indéterminé
@@ -679,6 +707,7 @@ Weight-at-age,Poids selon l’âge
 Weight (g),Poids (g)
 Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
+West,Ouest
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
 Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches

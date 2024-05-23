@@ -24,9 +24,12 @@ Age frequencies,Fréquences d'âge
 Age structures,Structure par âge
 Ageing codes,Codes de vieillissement
 Ageing precision,Précision de la détermination de l'âge
+Ages (years),Âge (années)
 Agree on and specify objects,Convenir des objets et les spécifier
 Alaska Skate,raie de l’Alaska
 Aleutian Skate,raie aléoutienne
+All commercial samples,Tous les échantillons commerciaux
+All samples,Tous les échantillons
 alternative hypothesis,hypothèse contraire
 analysis,analyse
 analysis of covariance,analyse de covariance
@@ -96,6 +99,7 @@ Bound,Limite
 bounded,borné
 Bounds,Limites
 "Bounds [low, high]","Limites [inférieure, supérieure]"
+Bridge models group,Groupe de modèles de ponts
 British Columbia,Colombie-Britannique
 Broad Skate,raie large
 Brown Cat Shark,holbiche brune
@@ -140,6 +144,7 @@ cluster analysis,analyse de groupement
 cluster sampling,échantillonnage par groupes
 clustering,groupement
 Coastwide,Ensemble de la côte
+Coastwide synoptic,Synoptique à l'échelle de la côte
 coding,codage
 coefficient,coefficient
 coherence,cohérence
@@ -152,6 +157,7 @@ Commercial H & L CPUE,PUE commercial H & L
 Commercial hook and line CPUE,PUE des pêches commerciales à l'hameçon et à la ligne
 Commercial samples,Échantillons commerciaux
 Commercial specimen counts,Décompte des spécimens du commercial
+Commercial trawl,Chalut commercial
 Commercial trawl catch per unit effort (CPUE),Captures par unité d’effort (CPUE) du chalutage commercial
 Commercial trawl CPUE,PUE chalut commercial
 Common name,Nom commun
@@ -186,6 +192,7 @@ Data,Données
 Data Deficient,Données insuffisantes
 Data Source,Source des données
 Data type,Type de données
+DCPUE,CPUER
 DDM,MLD
 Deacon Rockfish,sébaste Deacon
 Dead,Mort
@@ -203,6 +210,7 @@ Deviation from expected biomass in log space,Écart par rapport à la biomasse p
 DFO,MPO
 DIM,MID
 Discard CPUE,CPUE des rejets
+Discard CPUE Index,Indice de CPUE des rejets
 Discarded,Rejetées
 Distance,Distance
 Distribution,Distribution
@@ -264,6 +272,7 @@ FMSY,FRMD
 Freezer trawler,Chalutier congélateur
 Freezer trawlers,Chalutiers congélateurs
 Frequency,Fréquence
+FT COMM,COMM CC
 Full standardization,Normalisation complète
 Full standardization minus interactions,Normalisation complète mois les interactions
 Gear,Engin
@@ -293,6 +302,8 @@ HBLL OUT S (hard bottom longline survey outside south),RPFD EXT S (relevé à la
 HBLL OUT survey biomass,Biomasse du relevé HBLL OUT
 Healthy zone,Zone saine
 Hecate Strait,le détroit d’Hecate
+Hecate Strait Multispecies Assemblage Survey,Enquête sur les assemblages multispécifiques dans le détroit d'Hécate
+Hecate Strait Synoptic Survey,Étude synoptique du détroit d'Hécate
 Hecate Strait/Queen Charlotte Sound Sponge Reef Closures,Fermeture des récifs d'éponges siliceuses du détroit d'Hecate et du détroit de la Reine Charlotte
 Herring,hareng
 HG,HG
@@ -314,6 +325,8 @@ Immature,Immatures
 Implementation error model,Modèle d’erreur de mise en œuvre
 In press,Sous presse
 Index,Indice
+Index (1000 t),Indice (1000 t)
+Index (kg/hr),Indice (kg/heure)
 Index of abundance,Indice de l'abondance
 Index ratio,Indice-ratio
 Index target,Indice-cible
@@ -353,6 +366,7 @@ Link,Lien
 Locality,Lieu
 Log of standardized CPUE,Log de CPUE standardisé
 Log recruitment deviations,Log des écarts du recrutement
+Log standardized residual,Résidu normalisé logarithmique
 Longline,Palangre
 Longnose Skate,pocheteau long-nez
 Longspine Thornyhead,sébastolobe à longues épines
@@ -427,6 +441,10 @@ Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
 Number of fish,Nombre de poissons
 Number of hooks returned each year,Nombre d’hameçons récupérés chaque année
+Number of samples,Nombre d'échantillons
+Number of trips,Nombre de voyages
+Number of weights - Female,Nombre de poids - Femelle
+Number of weights - Male,Nombre de poids - Mâle
 Number-at-age,Nombre selon l’âge
 Obj,Obj
 Objective,Objectif
@@ -446,6 +464,7 @@ Order,Ordre
 Original,Version originale
 Other,Autre
 Other fisheries,Autres pêches
+OTHER HS MSA,AUTRES DH MSA
 Pacific Cod,morue du Pacifique
 Pacific Flatnose,antimore à petites écailles
 Pacific Grenadier,grenadier du Pacifique
@@ -499,6 +518,7 @@ QCS,DRC
 QCS Synoptic,Synoptique DRC
 Quebec Region,Région du Québec
 Queen Charlotte Sound,Détroit de la Reine-Charlotte
+Queen Charlotte Sound Synoptic Survey,Enquête synoptique sur le détroit de la Reine-Charlotte
 Quillback Rockfish,sébaste à dos épineux
 R0 (initial recruitment),R0 (recrutement initial)
 Ragfish,torchon mou
@@ -611,6 +631,7 @@ Spinyhead Sculpin,chabot à tête épineuse
 Splitnose Rockfish,bec-de-lièvre
 Spotfin Sculpin,icéline à nageoires tachetées
 Spotted Ratfish,chimère d'Amérique
+SS COMM,COMM CBM
 SSB,BSR
 SSB/Blim,BSR/Blim
 ST AADC (short term average annual Deviation in catch),MAEP CT (moyenne annuelle de l’écart des prises à court terme)
@@ -640,10 +661,14 @@ Survey samples,Échantillons du relevé
 Survey specimen counts,Décompte des spécimens du relevé
 Surveys,Relevés
 SYN HS,SYN DH
+SYN HS (5CD),SYN DH (5CD)
 SYN QCS,SYN DRC
+SYN QCS (5AB),SYN DRC (5AB)
 SYN WCHG,SYN COHG
 SYN WCVI,SYN COIV
+SYN WCVI (3CD),SYN COIV (3CD)
 Synoptic,Synoptique
+Synoptic only,Synoptique uniquement
 Synoptic Survey,Enquête synoptique
 Synoptic survey biomass,Biomasse du relevé synoptique
 Tables,Tableaux
@@ -707,8 +732,10 @@ Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
 Weight-at-age,Poids selon l’âge
 West Coast Haida Gwaii,Côte ouest Haida Gwaii
+West Coast Haida Gwaii Synoptic Survey,Enquête synoptique sur la côte ouest de Haida Gwaii
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver
 West Coast Vancouver Island,Côte ouest de l'île de Vancouver
+West Coast Vancouver Island Synoptic Survey,Enquête synoptique sur la côte ouest de l'île de Vancouver
 Whitebait Smelt,éperlan blanchaille
 Whitebarred Prickleback,lompénie à barres blanches
 Whitespotted Greenling,sourcil à taches blanches
@@ -717,6 +744,7 @@ With depth,Avec profondeur
 Wolf Eel,loup ocellé
 y,a
 Year,Année
+Year sampled,Année de l'échantillonnage
 Years,Années
 Years removed,Années supprimées
 Yelloweye Rockfish,sébastes aux yeux jaunes

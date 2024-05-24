@@ -118,7 +118,9 @@ canonical correlation analysis,analyse des corrélations canoniques
 canonical form,forme canonique
 canonical variate,variable canonique
 Catch,Prise
+Catch (kt),Prise (kt)
 Catch (t),Prise (t)
+Catch (thousand t),Prise (milliers de tonnes)
 Catch rate (fish/effective skate),Taux de prise (poisson/raie réelle)
 Catchability,La capturabilité
 categorical data,variable ordinale
@@ -353,6 +355,7 @@ Label,Étiquette
 Landings,Débarquements
 Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
+latitude,latitude
 Length,Longueur
 Length (cm),Longueur (cm)
 Length (m),Longueur (m)
@@ -479,6 +482,7 @@ Pacific Scientific Advice Review Committee (PSARC) assessment,Évaluation du Com
 Pacific Sleeper Shark,laimargue du Pacifique
 Pacific Staghorn Sculpin,chabot armé
 Pacific Tomcod,poulamon du Pacifique
+Package,Paquet
 Page,Page
 Parameter,Paramètre
 Parameter value,Valeur du paramètre
@@ -718,6 +722,7 @@ UTMs East (100km),MTU est (100 km)
 UTMs West (100km),MTU ouest (100 km)
 Value,Valeur
 Vermilion Rockfish,sébaste vermillon
+Version,Version
 Vessel,Navire
 Vulnerable biomass,Biomasse vulnerable
 Walleye Pollock,goberge
@@ -744,6 +749,7 @@ With depth,Avec profondeur
 Wolf Eel,loup ocellé
 y,a
 Year,Année
+Year range,Fourchette d'années
 Year sampled,Année de l'échantillonnage
 Years,Années
 Years removed,Années supprimées

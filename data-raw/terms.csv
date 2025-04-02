@@ -107,8 +107,8 @@ BT,CF
 Buffalo Sculpin,chabot-bison
 Butter Sole,plie à écailles régulières
 by,par
-C O Sole,C O sole
 C-O Sole,C-O sole
+C O Sole,C O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
@@ -357,12 +357,12 @@ Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 latitude,latitude
 Length,Longueur
+Length-weight relationship,Relation longueur-poids
 Length (cm),Longueur (cm)
 Length (m),Longueur (m)
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
-Length-weight relationship,Relation longueur-poids
 Limit reference point,Point de référence limite
 Lingcod,morue-lingue
 Link,Lien
@@ -410,6 +410,7 @@ Millions,Millions
 Min,Min
 Minimum,Minimum
 Minimum performance,Performances minimales
+Model,Modèle
 Models,Modèles
 Month,Mois
 MP,PG
@@ -439,6 +440,7 @@ Not at Risk,Non en péril
 Nov,nov
 November,novembre
 Number,Nombre
+Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
 Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
@@ -448,7 +450,6 @@ Number of samples,Nombre d'échantillons
 Number of trips,Nombre de voyages
 Number of weights - Female,Nombre de poids - Femelle
 Number of weights - Male,Nombre de poids - Mâle
-Number-at-age,Nombre selon l’âge
 Obj,Obj
 Objective,Objectif
 Objectives,Objectifs
@@ -732,10 +733,10 @@ WCHG Synoptic,Synoptique COHG
 WCVI,COIV
 WCVI Synoptic,Synoptique COIV
 Weight,Poids
+Weight-at-age,Poids selon l’âge
 Weight (g),Poids (g)
 Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
-Weight-at-age,Poids selon l’âge
 West Coast Haida Gwaii,Côte ouest Haida Gwaii
 West Coast Haida Gwaii Synoptic Survey,Enquête synoptique sur la côte ouest de Haida Gwaii
 West Coast of Vancouver Island,Côte Ouest de l’île de Vancouver

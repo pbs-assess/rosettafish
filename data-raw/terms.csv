@@ -61,12 +61,14 @@ AVE,MOY
 Average Annual Variability,Variabilité annuelle moyenne
 average deviation,écart moyen
 Average F,F moyen
+Average fishing mortality,Mortalité par pêche moyenne
 Average M,M moyen
+Average natural mortality,Mortalité naturelle moyenne
 Average performance,Rendement moyen
 axis,axe
-B[MSY],B[RMD]
 B/B[MSY],B/B[RMD]
 B/BMSY,B/BRMD
+B[MSY],B[RMD]
 back transformation,rétrotransformation
 backward elimination,élimination descendante
 Base model,Modèle de base
@@ -112,8 +114,8 @@ BT,CF
 Buffalo Sculpin,chabot-bison
 Butter Sole,plie à écailles régulières
 by,par
-C O Sole,C O sole
 C-O Sole,C-O sole
+C O Sole,C O sole
 Cabezon,chabot marbré
 California Grenadier,grenadier de Californie
 Canary Rockfish,sébaste canari
@@ -155,6 +157,7 @@ Coastwide synoptic,Synoptique à l'échelle de la côte
 coding,codage
 coefficient,coefficient
 coherence,cohérence
+Cohort,Cohorte
 collinearity,colinéarité
 Commercial,Commercial
 Commercial bottom trawl CPUE,PUE chalut de fond commercial
@@ -258,9 +261,9 @@ Expected,Prévu
 Expected count,Décompte prévu
 expert judgement,jugement expert
 Exploitation rate,Le taux d'exploitation
-F[MSY],F[RMD]
 F/F[MSY],F/F[RMD]
 F/FMSY,F/FRMD
+F[MSY],F[RMD]
 Family,Famille
 FB,CA
 Feb,fev
@@ -281,6 +284,7 @@ Fishing events excluded due to Privacy Act,Activités de pêche exclues en raiso
 fishing gear,engin peche
 Fishing mortality,Mortalité par pêche
 Fit,ajusté
+Fitted value,Valeurs ajustées
 Fixed,Fixe
 Flathead Sole,balai du Japon
 Fleet,Flotte
@@ -375,12 +379,12 @@ Last Research Document,Plus récent document de recherche
 Last Science Advisory Report,Dernier avis scientifique
 latitude,latitude
 Length,Longueur
+Length-weight relationship,Relation longueur-poids
 Length (cm),Longueur (cm)
 Length (m),Longueur (m)
 Length at 50% maturity,Longueur à50% maturité
 Length at maturity,Longueur à maturité
 Length frequencies,Fréquences de longueur
-Length-weight relationship,Relation longueur-poids
 Limit reference point,Point de référence limite
 Lingcod,morue-lingue
 Link,Lien
@@ -432,6 +436,7 @@ Millions,Millions
 Min,Min
 Minimum,Minimum
 Minimum performance,Performances minimales
+Model,Modèle
 Models,Modèles
 Month,Mois
 MP,PG
@@ -464,6 +469,7 @@ Not at Risk,Non en péril
 Nov,nov
 November,novembre
 Number,Nombre
+Number-at-age,Nombre selon l’âge
 Number at age,Nombre selon l’âge
 Number estimated,Nombre estimé
 Number of age-2 recruits,Nombre de recrues d’âge 2
@@ -473,7 +479,6 @@ Number of samples,Nombre d'échantillons
 Number of trips,Nombre de voyages
 Number of weights - Female,Nombre de poids - Femelle
 Number of weights - Male,Nombre de poids - Mâle
-Number-at-age,Nombre selon l’âge
 Obj,Obj
 Objective,Objectif
 Objectives,Objectifs
@@ -673,6 +678,7 @@ SSB/Blim,BSR/Blim
 ST AADC (short term average annual Deviation in catch),MAEP CT (moyenne annuelle de l’écart des prises à court terme)
 Standardization,Normalisation
 Standardized,Normalisée
+Standardized residuals,Résidus normalisés
 Starry Flounder,flet étoilé
 Start year,Année de début
 Steepness,La pente
@@ -766,10 +772,10 @@ WCHG Synoptic,Synoptique COHG
 WCVI,COIV
 WCVI Synoptic,Synoptique COIV
 Weight,Poids
+Weight-at-age,Poids selon l’âge
 Weight (g),Poids (g)
 Weight (kg),Poids (kg)
 Weight at age,Poids selon l’âge
-Weight-at-age,Poids selon l’âge
 West,Ouest
 West Coast Haida Gwaii,Côte ouest Haida Gwaii
 West Coast Haida Gwaii Synoptic Survey,Enquête synoptique sur la côte ouest de Haida Gwaii

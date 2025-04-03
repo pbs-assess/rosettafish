@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/pbs-assess/rosettafish/workflows/R-CMD-check/badge.svg)](https://github.com/pbs-assess/rosettafish/actions)
+[![R-CMD-check](https://github.com/nafc-assess/rosettafish/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nafc-assess/rosettafish/actions/workflows/R-CMD-check.yaml)
 [![Coverage
 status](https://codecov.io/gh/pbs-assess/rosettafish/branch/master/graph/badge.svg)](https://codecov.io/github/pbs-assess/rosettafish?branch=master)
 <!-- badges: end -->
@@ -127,9 +127,9 @@ the package immediately, follow the above instructions to add your terms
 and then open `data-raw/make-dictionary.R` and source it in R. This
 will:
 
--   sort the `data-raw/terms.csv` dictionary file alphabetically
--   stop you if there are any duplicates (fix them!)
--   save the data into the package data so it can be used
+- sort the `data-raw/terms.csv` dictionary file alphabetically
+- stop you if there are any duplicates (fix them!)
+- save the data into the package data so it can be used
 
 After sourcing this file, you can reinstall the package to use it. For
 example, with your working directory set to the rosettafish folder:
@@ -138,7 +138,7 @@ example, with your working directory set to the rosettafish folder:
 devtools::install(quick = TRUE, dependencies = FALSE)
 ```
 
-Or open the project in RStudio and run Build &gt; Install and Restart.
+Or open the project in RStudio and run Build \> Install and Restart.
 
 You will need to restart any other R sessions to be able to use the
 newly installed package.

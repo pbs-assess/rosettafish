@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 # rosettafish
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/pbs-assess/rosettafish/workflows/R-CMD-check/badge.svg)](https://github.com/pbs-assess/rosettafish/actions)
+[![R-CMD-check](https://github.com/nafc-assess/rosettafish/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nafc-assess/rosettafish/actions/workflows/R-CMD-check.yaml)
 [![Coverage status](https://codecov.io/gh/pbs-assess/rosettafish/branch/master/graph/badge.svg)](https://codecov.io/github/pbs-assess/rosettafish?branch=master)
 <!-- badges: end -->
 

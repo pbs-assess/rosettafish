@@ -44,7 +44,7 @@ Description: 'rosettafish' translates fish- and
     using the instructions in the README.md file.
 License: GPL (>=2)
 Depends:
-    R (>= 3.3.0)
+    R (>= 3.5)
 Suggests:
     covr,
     knitr,

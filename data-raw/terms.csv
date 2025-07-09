@@ -39,6 +39,8 @@ anisotropic,anisotrope
 anisotropy,anisotropie
 Annual mean weight,Poids moyen annuel
 Apr,avr
+Apr-Jun,avril-juin
+Apr-May,avril-mai
 April,Avril
 Area,Zone
 Area 10,Zone 10
@@ -98,6 +100,7 @@ Blue Shark,requin bleu
 Bluntnose Sixgill Shark,requin griset
 BMSY,BRMD
 Bocaccio,sébaste bocace
+Body condition index (scaled),Indice d'état corporel (mis à l'échelle)
 Bonferroni correction,correction de Bonferroni
 bootstrap,bootstrap
 Both sexes,les deux sexes
@@ -173,6 +176,11 @@ Commercial trawl,Chalut commercial
 Commercial trawl catch per unit effort (CPUE),Captures par unité d’effort (CPUE) du chalutage commercial
 Commercial trawl CPUE,PUE chalut commercial
 Common name,Nom commun
+Condition,État corporel
+Condition factor,Facteur d'état corporel
+Condition index,Indice d'état corporel
+Condition index (log scale),Indice d'état corporel (échelle log)
+Condition index (scaled),Indice d'état corporel (mis à l'échelle)
 Conf.,Conf.
 Conf.high,Conf.sup.
 Conf.low,Conf.inf.
@@ -181,6 +189,9 @@ Confidence interval,Intervalle de confiance
 conM,MC
 Conservation,Conservation
 Constant catch,Prises constantes
+Copepods - large (VI shelf),Copépodes - grands (plateau VI)
+Copepods - medium (VI shelf),Copépodes - moyen (plateau VI)
+Copepods - small (VI shelf),Copépodes - petits (plateau VI)
 Copper Rockfish,sébaste cuivré
 Correlation,Corrélation
 correlogram,corrélogramme
@@ -215,6 +226,8 @@ Decline,déclin
 Deepsea Sole,plie de profondeur
 Definition,Définition
 Density,Densité
+Density (kg/ha),Densité (kg/ha)
+Density-agnostic,Indépendant de la densité
 Depletion,Déplétion
 Depth,Profondeur
 Description,Description
@@ -257,6 +270,7 @@ Estimated B/B0,B/B0 estimé
 Estimated B/BMSY,B/BRMD estimé
 Estimated relative abundance,Abondance relative estimée
 Eulachon,l'eukalane
+Excluding density-dependence,Hors dépendance à la densité
 Expected,Prévu
 Expected count,Décompte prévu
 expert judgement,jugement expert
@@ -271,6 +285,7 @@ Feb,fev
 February,février
 Fecundity,Fécondité
 Female,Femelle
+Female condition,État corporel féminin
 Females,Femelles
 Figure,Figure
 Final allocation,Allocation finale
@@ -331,6 +346,8 @@ Hecate Strait Multispecies Assemblage Survey,Enquête sur les assemblages multis
 Hecate Strait Synoptic Survey,Étude synoptique du détroit d'Hécate
 Hecate Strait/Queen Charlotte Sound Sponge Reef Closures,Fermeture des récifs d'éponges siliceuses du détroit d'Hecate et du détroit de la Reine Charlotte
 Herring,hareng
+Herring recruitment,Hareng (recrutement)
+Herring SSB,Hareng (BSR)
 HG,HG
 High HBLL CV (coefficient of variation),CV (coefficient de variation) élevé du RPFD
 Higher M,M plus élevée
@@ -346,13 +363,16 @@ HS Multi,multi-espèces DH
 HS Multispecies Assemblage,Assemblage multi-espèces DH
 HS Synoptic,Synoptique DH
 IFMP,PGIP
-Immature,Immatures
+Immature,Immature
+Immature condition,État corporel immature
+Immatures,Immatures
 Implementation error model,Modèle d’erreur de mise en œuvre
 In press,Sous presse
 Index,Indice
 Index (1000 t),Indice (1000 t)
 Index (kg/hr),Indice (kg/heure)
 Index of abundance,Indice de l'abondance
+Index of total biomass,Indice de la biomasse totale
 Index ratio,Indice-ratio
 Index target,Indice-cible
 Index value,Valeur de l’indice
@@ -367,11 +387,14 @@ Intercept,Point d'intersection
 IPHC Report of Assessment and Research Activities,Rapport de la CIFP sur les activités d'évaluation et de recherche
 IPHC survey catch rate,Taux de capture du relevé IPHC
 Jan,jan
+Jan-Mar,janv-mars
 January,janvier
 Jul,juil
 July,juillet
 Jun,juin
+Jun-Dec,juin-déc
 June,juin
+Juvenile,Juvénile
 Kelp Greenling,sourcil de varech
 kg/hour,kg/heure
 Label,Étiquette
@@ -405,6 +428,7 @@ LRR,TEL
 M increasing,M croissante
 Male,Mâle
 Male and female,Mâle et femelle
+Male condition,État corporel masculin
 Males,Mâles
 Management advice,Conseil en matière de gestion
 Management procedure,Procédure de gestion
@@ -413,6 +437,9 @@ Mar,mar
 March,mars
 Maritimes Region,Région des Maritimes
 Mature,Matures
+Mature females,Femelles matures
+Mature males,Mâles matures
+Matures,Matures
 Maturing,En maturation
 Maturity,Maturité
 Maturity frequencies,Fréquences de maturité
@@ -469,6 +496,10 @@ Northing,Ordonnée
 Not at Risk,Non en péril
 Nov,nov
 November,novembre
+NPGO,OGPN
+NPGO (2 yrs prior or Jan-Mar),OGPN (2 ans avant ou janv-mars)
+NPGO (2 yrs prior),OGPN (2 ans avant)
+NPGO (Jan-Mar),OGPN (janv-mars)
 Number,Nombre
 Number at age,Nombre selon l’âge
 Number estimated,Nombre estimé
@@ -517,11 +548,17 @@ Package,Paquet
 Page,Page
 Parameter,Paramètre
 Parameter value,Valeur du paramètre
+PDO,ODP
+PDO (Apr-Jun),ODP (avril-juin)
+PDO (Jan-Mar),ODP (janv-mars)
 Pearly Prickleback,stichée perlée
+Pelagic,Pélagique
 Performance metric,Paramètre de rendement
 Performance metric probability,Probabilité de la mesure du rendement
 Performance metrics,Mesures du rendement
 Petrale Sole,plie de Californie
+Phytoplankton,Phytoplancton
+Phytoplankton (Apr-May),Phytoplancton (avril-mai)
 Piece,Nombre
 Pieces,Nombres
 Popeye,grenadier cendré
@@ -618,6 +655,30 @@ Science Branch,Secteur des sciences
 Scientific name,Nom scientifique
 Scott Islands Marine National Wildlife Area,Réserve nationale de faune en milieu marin des îles Scott
 SD,ET
+Sea floor O2,O2 des fonds marins
+Sea floor O2 (Apr-Jun),O2 du fonds marins (avril-juin)
+Sea floor O2 (Jan-Mar),O2 du fonds marins (janv-mars)
+Sea floor O2 (Jun-Dec),O2 du fonds marins (juin-déc)
+Sea floor salinity,Salinité du fond marin
+Sea floor salinity (Apr-Jun),Salinité du fond marin (avril-juin)
+Sea floor salinity (Jan-Mar),Salinité du fond marin (janv-mars)
+Sea floor salinity (Jun-Dec),Salinité du fond marin (juin-déc)
+Sea floor temperature,Température du fond marin
+Sea floor temperature (Apr-Jun),T° du fond marin (avril-juin)
+Sea floor temperature (Jan-Mar),T° du fond marin (janv-mars)
+Sea floor temperature (Jun-Dec),T° du fond marin (juin-déc)
+Seafloor O2,O2 des fonds marins
+Seafloor O2 (Apr-Jun),O2 des fonds marins (avril-juin)
+Seafloor O2 (Jan-Mar),O2 des fonds marins (janv-mars)
+Seafloor O2 (Jun-Dec),O2 des fonds marins (juin-déc)
+Seafloor salinity,Salinité du fond marin
+Seafloor salinity (Apr-Jun),Salinité du fond marin (avril-juin)
+Seafloor salinity (Jan-Mar),Salinité du fond marin (janv-mars)
+Seafloor salinity (Jun-Dec),Salinité du fond marin (juin-déc)
+Seafloor temperature,Température du fond marin
+Seafloor temperature (Apr-Jun),T° du fond marin (avril-juin)
+Seafloor temperature (Jan-Mar),T° du fond marin (janv-mars)
+Seafloor temperature (Jun-Dec),T° du fond marin (juin-déc)
 Secondary age (years),Âge secondaire (ans)
 Section,Section
 Sector,Secteur
@@ -643,6 +704,7 @@ Silvergray Rockfish,sébaste argenté
 Simulated data,Données simulées
 Slender Sole,plie mince
 Slim Sculpin,chabot élancé
+Slope,Pente
 Smootheye Poacher,agone à nageoire coupée
 Snake Prickleback,lompénie-serpent
 SoG,DG
@@ -659,6 +721,7 @@ Spatiotemporal field,Champ spatio-temporel
 Spatiotemporal model,Modèle spatio-temporel
 Spatiotemporal random effects only,Effets aléatoires spatio-temporels seulement
 Spawn index,Indice du frai
+Spawning,Frai
 Spawning biomass,Biomasse reproductrice
 Spawning Biomass (thousand t),Biomasse reproductrice (milliers de t)
 Spawning biomass production,Production de la biomasse du stock reproducteur
@@ -670,15 +733,21 @@ Species at Risk Act Recovery Strategy,Série de programmes de rétablissement de
 Species code,Code d'espèce
 Spent,Vides
 Spinyhead Sculpin,chabot à tête épineuse
+Split by sex and maturity,Fractionnés par sexe et maturité
 Splitnose Rockfish,bec-de-lièvre
 Spotfin Sculpin,icéline à nageoires tachetées
 Spotted Ratfish,chimère d'Amérique
 SS COMM,COMM CBM
 SSB,BSR
 SSB/Blim,BSR/Blim
+SST,TSM
+SST (Apr-Jun),TSM (avril-juin)
+SST (Apr-May),TSM (avril-mai)
 ST AADC (short term average annual Deviation in catch),MAEP CT (moyenne annuelle de l’écart des prises à court terme)
 Standardization,Normalisation
 Standardized,Normalisée
+Standardized annual values,Valeurs annuelles standardisées
+Standardized index,Indice standardisé
 Standardized residuals,Résidus normalisés
 Starry Flounder,flet étoilé
 Start year,Année de début
@@ -688,7 +757,12 @@ Strait of Georgia,Détroit de Georgie
 Strait of Georgia/Howe Sound Sponge Reef Closures,Fermeture des pêches dans les récifs d'éponges du détroit de Georgie et de la baie Howe
 Stripetail Rockfish,sébaste à queue rayée
 Sturgeon Poacher,agone-esturgeon
+Sum of split indices,Somme des indices fractionnés
 Surface,Surface
+Surface O2,O2 de surface
+Surface O2 (Apr-May),O2 de surface (avril-mai)
+Surface salinity,Salinité de surface
+Surface salinity (Apr-May),Salinité de surface (avril-mai)
 Surface survey,Relevé en surface
 Surplus production,Production excédentaire
 Survey,Relevé
@@ -762,6 +836,7 @@ Uterine Eggs,Oeufs utérins
 UTMs East (100km),MTU est (100 km)
 UTMs West (100km),MTU ouest (100 km)
 Value,Valeur
+Variable,Variable
 Vermilion Rockfish,sébaste vermillon
 Version,Version
 Vessel,Navire

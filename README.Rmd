@@ -36,8 +36,8 @@ The package has a built-in .csv file of English-French translations of common te
 You can install rosettafish with:
 
 ```{r, eval = FALSE}
-# install.packages("devtools")
-devtools::install_github("pbs-assess/rosettafish")
+# install.packages("pak")
+pak::pak("pbs-assess/rosettafish")
 ```
 
 ## Examples

@@ -39,8 +39,8 @@ terms using the instructions below.
 You can install rosettafish with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("pbs-assess/rosettafish")
+# install.packages("pak")
+pak::pak("pbs-assess/rosettafish")
 ```
 
 ## Examples
@@ -68,13 +68,13 @@ make_plot <- function(french = FALSE) {
 make_plot()
 ```
 
-<img src="man/figures/README-func-figs-1.png" width="70%" />
+<img src="man/figures/README-func-figs-1.png" alt="" width="70%" />
 
 ``` r
 make_plot(french = TRUE)
 ```
 
-<img src="man/figures/README-func-figs-2.png" width="70%" />
+<img src="man/figures/README-func-figs-2.png" alt="" width="70%" />
 
 ``` r
 english <- TRUE
@@ -83,7 +83,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
   ylab(fr2en("Biomasse", english))
 ```
 
-<img src="man/figures/README-gg-figs-1.png" width="70%" />
+<img src="man/figures/README-gg-figs-1.png" alt="" width="70%" />
 
 ``` r
 ggplot(df, aes(years, biomass)) + geom_line() +
@@ -91,7 +91,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
   ylab(trans("Biomass", from = "english", to = c("english", "french")))
 ```
 
-<img src="man/figures/README-gg-figs-both-1.png" width="70%" />
+<img src="man/figures/README-gg-figs-both-1.png" alt="" width="70%" />
 
 ## Updating the list of translated scientific terms
 

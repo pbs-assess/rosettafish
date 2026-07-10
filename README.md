@@ -103,7 +103,7 @@ ggplot(df, aes(years, biomass)) + geom_line() +
     format or the French accents will be destroyed. [Help with UTF-8
     file encoding and
     RStudio](https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding).
-3.  Source the file data/make-dictionary.R to include data in the
+3.  Source the file data-raw/make-dictionary.R to include data in the
     package (see the more detailed instructions in the next section).
 4.  Push to GitHub and submit a pull request.
 
